@@ -9,7 +9,9 @@ public class HungerManager : MonoBehaviour
 
     public float hunger;
     public float maxHunger = 100f;
-    public float foodRefillPerSec = 3f;
+    public float foodRefill = 10f;
+    public float hungerPerAct = 10f;
+    public float foodReserves = 3f;
 
     void Start()
     {
@@ -19,13 +21,24 @@ public class HungerManager : MonoBehaviour
     void Update()
     {
         hungerbar.value = hunger;
+;
+        if (Input.GetKeyUp(KeyCode.Q))
+        {
+            Debug.Log("ActionHaveHungry");
+            hunger -= hungerPerAct;
+        }
 
-        hunger -= 1f * Time.deltaTime;
-
-        if (Input.GetKeyUp(KeyCode.L))
+        if (Input.GetKeyUp(KeyCode.L) && foodReserves > 0f)
         {
             Debug.Log("Food!");
-            hunger += foodRefillPerSec * Time.deltaTime;
+            foodReserves -= 1f;
+            hunger += foodRefill;
+            hunger = Mathf.Clamp(hunger, 0f, maxHunger);
         }
-    }
+
+        if (hunger <= 0)
+        {
+            Debug.Log("starving");
+        }
+    } 
 }

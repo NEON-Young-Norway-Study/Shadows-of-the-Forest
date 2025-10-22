@@ -223,9 +223,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HungerManager
   hungerbar: {fileID: 144039011}
-  hunger: 0
+  hunger: 70
   maxHunger: 100
-  foodRefillPerSec: 3
+  foodRefill: 10
+  hungerPerAct: 10
+  foodReserves: 10
 --- !u!1 &956548364
 GameObject:
   m_ObjectHideFlags: 0
