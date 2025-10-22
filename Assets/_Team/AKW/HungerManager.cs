@@ -24,6 +24,7 @@ public class HungerManager : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.L))
         {
+            Debug.Log("Food!");
             hunger += foodRefillPerSec * Time.deltaTime;
         }
     }
