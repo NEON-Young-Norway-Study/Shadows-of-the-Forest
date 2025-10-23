@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class MultibleEndingsManager : MonoBehaviour
 {
-    [SerializeField] private HungerManager hungerManager;
+    [SerializeField] private HungerManager hungerManager; // refference the script
 
     public Image EndingDisplay;
 
