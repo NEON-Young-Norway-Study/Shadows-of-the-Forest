@@ -7,7 +7,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("GameSceneName"); // replace with the acual scene whene thats added
+        SceneManager.LoadScene("Overworld_Prototype"); // replace with the acual scene whene thats added
     }
 
     public void Options()
