@@ -104,8 +104,25 @@ public class ClawCharge : MonoBehaviour
         float dropDistance = Mathf.Lerp(minDropDistance, maxDropDistance, chargePercent);
 
         Vector3 targetPosition = transform.position + Vector3.down * dropDistance;
+        //transform.position = targetPosition;
+
+        StartCoroutine(MoveClawToPosition(targetPosition));
+    }
+
+    private IEnumerator MoveClawToPosition(Vector3 targetPosition)
+    {
+        float duration = 0.2f; // adjust for speed
+        Vector3 startPosition = transform.position;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            transform.position = Vector3.Lerp(startPosition, targetPosition, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
         transform.position = targetPosition;
-        
     }
 }
 

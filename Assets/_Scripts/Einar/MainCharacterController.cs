@@ -19,6 +19,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject front;
     [SerializeField] GameObject back;
     [SerializeField] GameObject side;
+
+    [Header("Arm references")]
+    [SerializeField] GameObject front_left_arm;
+    [SerializeField] GameObject front_right_arm;
+
+    [SerializeField] GameObject back_left_arm;
+    [SerializeField] GameObject back_right_arm;
+
+    [SerializeField] GameObject idle_arms;
+
+
     //[SerializeField] GameObject leftSide;
     //[SerializeField] GameObject rightSide;
 
@@ -123,6 +134,8 @@ public class PlayerMovement : MonoBehaviour
                     front.SetActive(false);
                     side.SetActive(false);
                     back.SetActive(true);
+                    back_left_arm.SetActive(true);
+                    back_right_arm.SetActive(true);
                     animator.SetInteger("Direction", 0); // Forward (z)
                 }
                 else
@@ -130,7 +143,9 @@ public class PlayerMovement : MonoBehaviour
                     side.SetActive(false);
                     back.SetActive(false);
                     front.SetActive(true);
-
+                    front_right_arm.SetActive(true);
+                    front_left_arm.SetActive(true);
+                    idle_arms.SetActive(false);
                     animator.SetInteger("Direction", 1); // Backward (-z)
                 }
             }
@@ -160,7 +175,12 @@ public class PlayerMovement : MonoBehaviour
             // Not moving
             back.SetActive(false);
             side.SetActive(false);
+            back_left_arm.SetActive(false);
+            back_right_arm.SetActive(false);
+            front_right_arm.SetActive(false);
+            front_left_arm.SetActive(false);
             front.SetActive(true);
+            idle_arms.SetActive(true);
             animator.SetInteger("Direction", -1); // Idle or no direction
         }
     }
