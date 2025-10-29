@@ -15,6 +15,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float verticalVelocity;
     [SerializeField] float gravity = -9.81f;
 
+    [SerializeField] GameObject front;
+    [SerializeField] GameObject back;
+    [SerializeField] GameObject leftSide;
+    [SerializeField] GameObject rightSide;
+
     //Animator
     [SerializeField] Animator animator;
 
@@ -85,9 +90,54 @@ public class PlayerMovement : MonoBehaviour
         _characterController.Move(move * Time.deltaTime);
 
         // Determine if player is moving
-        bool isMoving = moveInput.magnitude > 0.1f; // threshold to avoid slight input noise
+        bool isMoving = moveInput.magnitude > 0.1f;
 
         // Set animator parameter
-        animator.SetBool("isMoving", isMoving);
+        if (animator.GetBool("isMoving") != isMoving)
+        {
+            animator.SetBool("isMoving", isMoving);
+            Debug.Log("isMoving: " + isMoving);
+        }
+
+        if (isMoving)
+        {
+            // Determine the direction
+            Vector3 direction = move.normalized;
+
+            // Determine the dominant axis
+            float absX = Mathf.Abs(direction.x);
+            float absZ = Mathf.Abs(direction.z);
+
+            // Set parameters based on direction
+            if (absZ > absX)
+            {
+                // Moving forward or backward
+                if (direction.z > 0)
+                {
+                    animator.SetInteger("Direction", 0); // Forward (z)
+                }
+                else
+                {
+                    animator.SetInteger("Direction", 1); // Backward (-z)
+                }
+            }
+            else
+            {
+                // Moving left or right
+                if (direction.x > 0)
+                {
+                    animator.SetInteger("Direction", 2); // Right (x)
+                }
+                else
+                {
+                    animator.SetInteger("Direction", 3); // Left (-x)
+                }
+            }
+        }
+        else
+        {
+            // Not moving
+            animator.SetInteger("Direction", -1); // Idle or no direction
+        }
     }
 }

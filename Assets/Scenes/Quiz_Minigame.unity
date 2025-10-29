@@ -546,6 +546,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 868156987740101875, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Honey
+      objectReference: {fileID: 0}
+    - target: {fileID: 882798174076949676, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Trees
+      objectReference: {fileID: 0}
     - target: {fileID: 1098082670938475358, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -554,6 +562,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 1617497100264467634, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 1760653255392033706, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Spring
+      objectReference: {fileID: 0}
     - target: {fileID: 1791005105054733566, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -574,6 +590,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: exitSchool
       objectReference: {fileID: 0}
+    - target: {fileID: 2862102150904906921, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: What is poisonous to bears?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033819728636883325, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Winter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3210310459201851935, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255504265218054659, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459485677222844096, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Summer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538764762243862435, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3580003930691229477, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -582,9 +622,33 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 4163904934386458814, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: All the time
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591342653105918877, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: What do bears like to eat?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591342653105918877, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4925034486403361792, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_Name
       value: QuizCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4925034486403361792, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033356907653895275, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: When do bears hibernate?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435704967394511826, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Salmon
       objectReference: {fileID: 0}
     - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_Pivot.x
@@ -670,18 +734,50 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Chocolate
+      objectReference: {fileID: 0}
+    - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_fontSize
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352383206374556293, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Salmon
+      objectReference: {fileID: 0}
     - target: {fileID: 6586856847160447162, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 6761239927512950528, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Poison
+      objectReference: {fileID: 0}
+    - target: {fileID: 7069518668629826131, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7149503973696193068, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 8158609032392971984, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8226306950779348728, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 8260204281152903209, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_text
+      value: Blueberries
+      objectReference: {fileID: 0}
     - target: {fileID: 8551261620309474570, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
