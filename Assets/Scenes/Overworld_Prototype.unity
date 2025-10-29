@@ -1633,11 +1633,16 @@ MonoBehaviour:
   jumpForce: 3
   verticalVelocity: 0
   gravity: -9.81
-  front: {fileID: 0}
-  back: {fileID: 0}
-  leftSide: {fileID: 0}
-  rightSide: {fileID: 0}
+  front: {fileID: 1665406139}
+  back: {fileID: 1665406138}
+  side: {fileID: 1665406137}
   animator: {fileID: 1420269573}
+  sprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!143 &1420269576
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2286,6 +2291,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2279659378111582317, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279659378111582317, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279659378111582317, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279659378111582317, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279659378111582317, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5075158486497055394, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2319,6 +2344,21 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1420269575}
   m_SourcePrefab: {fileID: 100100000, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+--- !u!1 &1665406137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5075158486497055394, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+  m_PrefabInstance: {fileID: 1665406136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1665406138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9073968337502374164, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+  m_PrefabInstance: {fileID: 1665406136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1665406139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7275862293128069355, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+  m_PrefabInstance: {fileID: 1665406136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1863944674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3150,9 +3190,9 @@ MonoBehaviour:
   gravity: -9.81
   front: {fileID: 0}
   back: {fileID: 0}
-  leftSide: {fileID: 0}
-  rightSide: {fileID: 0}
+  side: {fileID: 0}
   animator: {fileID: 8459220786349825408}
+  sprites: []
 --- !u!212 &4317293077900639652
 SpriteRenderer:
   m_ObjectHideFlags: 0

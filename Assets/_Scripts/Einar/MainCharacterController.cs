@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,17 +18,22 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] GameObject front;
     [SerializeField] GameObject back;
-    [SerializeField] GameObject leftSide;
-    [SerializeField] GameObject rightSide;
+    [SerializeField] GameObject side;
+    //[SerializeField] GameObject leftSide;
+    //[SerializeField] GameObject rightSide;
 
     //Animator
     [SerializeField] Animator animator;
+
+    //[SerializeField] Sprite[] sprites;
+    //private SpriteRenderer spriteRenderer;
 
 
     private void Awake()
     {
 
         _characterController = GetComponent<CharacterController>();
+        //spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     //private void OnEnable()
@@ -114,22 +120,37 @@ public class PlayerMovement : MonoBehaviour
                 // Moving forward or backward
                 if (direction.z > 0)
                 {
+                    front.SetActive(false);
+                    side.SetActive(false);
+                    back.SetActive(true);
                     animator.SetInteger("Direction", 0); // Forward (z)
                 }
                 else
                 {
+                    side.SetActive(false);
+                    back.SetActive(false);
+                    front.SetActive(true);
+
                     animator.SetInteger("Direction", 1); // Backward (-z)
                 }
             }
             else
             {
                 // Moving left or right
+                back.SetActive(false);
+                front.SetActive(false);
+                side.SetActive(true);
                 if (direction.x > 0)
                 {
+                    //spriteRenderer.sprite = sprites[index];
+                    //spriteRenderer.flipX = false;
+                    side.transform.rotation = Quaternion.Euler(0, 180, 0);
                     animator.SetInteger("Direction", 2); // Right (x)
                 }
                 else
                 {
+                    side.transform.rotation = Quaternion.Euler(0, 0, 0);
+                    //spriteRenderer.flipX = true;
                     animator.SetInteger("Direction", 3); // Left (-x)
                 }
             }
@@ -137,6 +158,9 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             // Not moving
+            back.SetActive(false);
+            side.SetActive(false);
+            front.SetActive(true);
             animator.SetInteger("Direction", -1); // Idle or no direction
         }
     }
