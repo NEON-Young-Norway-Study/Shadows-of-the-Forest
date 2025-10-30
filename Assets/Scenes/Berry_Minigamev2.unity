@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7419261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8348583682669925709, guid: 3886cc943401903498d792427e7518ae, type: 3}
+  m_PrefabInstance: {fileID: 1258709710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &10970267
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +214,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &149059352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8348583682669925709, guid: 3886cc943401903498d792427e7518ae, type: 3}
+  m_PrefabInstance: {fileID: 5909644310319497280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &165576724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2182542327647035761, guid: 772f9803edf4e5448a74d5a45548e90b, type: 3}
+  m_PrefabInstance: {fileID: 419397735}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &184779836
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,13 +248,20 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184779836}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e57a86b4acaeab478013834da56de7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BerryManager
-  berryPrefab: {fileID: 759397768}
-  spawnPoint: {x: 0, y: 5, z: 0}
+  berries:
+  - {fileID: 759397768}
+  - {fileID: 1693251632}
+  - {fileID: 165576724}
+  - {fileID: 149059352}
+  - {fileID: 7419261}
+  topPosition: {x: 0, y: 0, z: 0}
+  fallDuration: 1
+  fallTargetPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &184779838
 Transform:
   m_ObjectHideFlags: 0
@@ -1277,6 +1299,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1693251632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2182542327647035761, guid: 772f9803edf4e5448a74d5a45548e90b, type: 3}
+  m_PrefabInstance: {fileID: 2072538232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1792094059
 GameObject:
   m_ObjectHideFlags: 0

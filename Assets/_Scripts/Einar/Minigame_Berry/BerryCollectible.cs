@@ -28,6 +28,6 @@ public class BerryCollectible : MonoBehaviour
 
     private void StoreBerry()
     {
-        BerryManager.AddBerry(gameObject);
+        //BerryManager.AddBerry(gameObject);
     }
 }

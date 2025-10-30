@@ -4,38 +4,52 @@ using UnityEngine;
 
 public class BerryManager : MonoBehaviour
 {
-    public static List<GameObject> collectedBerries = new List<GameObject>();
-    public GameObject berryPrefab;
-    public Vector3 spawnPoint;
+    public List<GameObject> berries; // List of berries to fall
+    public Vector3 topPosition; // Starting position at the top of the screen
+    public float fallDuration = 1.0f; // How long each berry takes to fall
+    public Vector3 fallTargetPosition; // Where berries will land
 
-    public static BerryManager Instance;
+    private bool allBerriesCollected = false;
 
-    void Awake()
+    void Update()
     {
-        Instance = this;
-    }
-
-    public static void AddBerry(GameObject berry)
-    {
-        collectedBerries.Add(berry);
-        if (collectedBerries.Count == 5)
+        // You need to set allBerriesCollected to true when all 5 berries are collected
+        if (AreAllBerriesCollected() && !allBerriesCollected)
         {
-            Instance.StartCoroutine(Instance.SpawnBerriesWithDelay());
+            allBerriesCollected = true;
+            StartCoroutine(BerryFallSequence());
         }
     }
 
-    public IEnumerator SpawnBerriesWithDelay()
+    bool AreAllBerriesCollected()
     {
-        for (int i = 0; i < collectedBerries.Count; i++)
+        // Implement your own logic to check if all berries are collected
+        // For example, if berries list contains all collected berries
+        return berries.Count == 5; // or your own condition
+    }
+
+    IEnumerator BerryFallSequence()
+    {
+        foreach (GameObject berry in berries)
         {
-            GameObject newBerry = Instantiate(berryPrefab, spawnPoint, Quaternion.identity);
-            BerryMovement movementScript = newBerry.GetComponent<BerryMovement>();
-            if (movementScript != null)
+            // Move berry to the top position
+            berry.transform.position = topPosition;
+
+            // Animate fall
+            float elapsedTime = 0f;
+            Vector3 startPos = topPosition;
+            Vector3 endPos = fallTargetPosition;
+
+            while (elapsedTime < fallDuration)
             {
-                movementScript.enabled = true;
+                berry.transform.position = Vector3.Lerp(startPos, endPos, (elapsedTime / fallDuration));
+                elapsedTime += Time.deltaTime;
+                yield return null;
             }
+            berry.transform.position = endPos;
+
+            // Wait 1 second before next berry
             yield return new WaitForSeconds(1f);
         }
-        collectedBerries.Clear();
     }
 }
