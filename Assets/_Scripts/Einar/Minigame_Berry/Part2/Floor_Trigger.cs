@@ -9,5 +9,9 @@ public class Floor_Trigger : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        else
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

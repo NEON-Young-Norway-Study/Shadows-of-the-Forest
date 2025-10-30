@@ -20,6 +20,7 @@ public class BerryBasket : MonoBehaviour
             Destroy(other.gameObject);
             if (counter == 3)
             {
+                Cursor.visible = true;
                 SceneController.Instance.LoadScene(targetSceneName);
             }
         }

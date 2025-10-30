@@ -20,19 +20,22 @@ public class BerrySpawnManager : MonoBehaviour
     {
         while (spawnQueue.Count > 0)
         {
+            float randomZRotation = Random.Range(0f, 360f);
+            Quaternion rotation = Quaternion.Euler(0, 0, randomZRotation);
+
             GameObject prefab = spawnQueue.Dequeue();
-            GameObject obj = Instantiate(prefab, transform.position, Quaternion.identity);
-            StartCoroutine(MoveObject(obj));
+            GameObject obj = Instantiate(prefab, transform.position, rotation);
+            //StartCoroutine(MoveObject(obj));
             yield return new WaitForSeconds(spawnInterval);
         }
     }
 
-    IEnumerator MoveObject(GameObject obj)
-    {
-        while (obj != null)
-        {
-            obj.transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
-            yield return null;
-        }
-    }
+    //IEnumerator MoveObject(GameObject obj)
+    //{
+    //    while (obj != null)
+    //    {
+    //        obj.transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+    //        yield return null;
+    //    }
+    //}
 }
