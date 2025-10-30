@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Salmon
   - Poison
+  - Berry
   layers:
   - Default
   - TransparentFX
