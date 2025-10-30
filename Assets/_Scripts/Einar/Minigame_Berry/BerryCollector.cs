@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class BerryCollector : MonoBehaviour
 {
     [SerializeField] private Transform bucketTransform;
+    [SerializeField] float counter;
+    [SerializeField] private string targetSceneName;
 
     public void OnClickAction(InputAction.CallbackContext context)
     {
@@ -26,6 +29,11 @@ public class BerryCollector : MonoBehaviour
                 {
                     collectible.bucketTransform = this.bucketTransform;
                     collectible.Collect();
+                    counter++;
+                    if (counter == 5)
+                    {
+                        SceneController.Instance.LoadScene(targetSceneName);
+                    }
                 }
             }
             else

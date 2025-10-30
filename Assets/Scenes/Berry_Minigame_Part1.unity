@@ -240,7 +240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &184779837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,6 +503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BerryCollector
   bucketTransform: {fileID: 248973823}
+  counter: 0
+  targetSceneName: Berry_Minigame_Part2
 --- !u!114 &388378599
 MonoBehaviour:
   m_ObjectHideFlags: 0

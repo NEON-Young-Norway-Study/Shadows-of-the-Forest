@@ -5,7 +5,6 @@ public class BerryCollectible : MonoBehaviour
     public float slideSpeed = 5f;     // Speed of sliding towards bucket
     private bool isSliding = false;
 
-    // This will be assigned dynamically
     public Transform bucketTransform;
 
     public void Collect()

@@ -1709,7 +1709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7eb1ea982f5f494c89e15ed485a8948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTriggerArea
-  targetSceneName: _TestSceneAKW
+  targetSceneName: Berry_Minigame_Part1
 --- !u!65 &1422907839
 BoxCollider:
   m_ObjectHideFlags: 0
