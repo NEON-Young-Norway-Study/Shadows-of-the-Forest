@@ -57,69 +57,13 @@ public class ClawCharge_Impossible : MonoBehaviour
         if (!isCharging || !isClawActive) return;
         if (isCharging)
         {
-            //PerformClawDrop();
+            PerformClawDrop();
             chargeTime = 0f;
             isCharging = false;
             if (chargeBar != null)
                 chargeBar.value = 0f;
-            StartCoroutine(HandleClawDropWithDelay());
+            StartCoroutine(ResetClawPositionAfterDelay(0.5f));
         }
-    }
-
-    private IEnumerator HandleClawDropWithDelay()
-    {
-        // Generate a random delay, for example between 0.2 and 0.5 seconds
-        float minDelay = 0.2f;
-        float maxDelay = 0.5f;
-        float delay = UnityEngine.Random.Range(minDelay, maxDelay);
-
-        yield return new WaitForSeconds(delay);
-
-        PerformClawDrop();
-
-        // Reset claw position after drop
-        //yield return StartCoroutine(ResetClawPositionAfterDelay(0.5f));
-    }
-
-
-    private void Update()
-    {
-        if (isCharging)
-        {
-            chargeTime += Time.deltaTime;
-            if (chargeTime > maxChargeTime)
-                chargeTime = maxChargeTime;
-            if (chargeBar != null)
-                chargeBar.value = chargeTime / maxChargeTime;
-
-        }
-    }
-
-    private void PerformClawDrop()
-    {
-        float chargePercent = chargeTime / maxChargeTime;
-        float dropDistance = Mathf.Lerp(minDropDistance, maxDropDistance, chargePercent);
-
-        Vector3 targetPosition = transform.position + Vector3.down * dropDistance;
-        //transform.position = targetPosition;
-        StartCoroutine(ResetClawPositionAfterDelay(0.5f));
-        StartCoroutine(MoveClawToPosition(targetPosition));
-    }
-
-    private IEnumerator MoveClawToPosition(Vector3 targetPosition)
-    {
-        float duration = 0.2f; // adjust for speed
-        Vector3 startPosition = transform.position;
-        float elapsed = 0f;
-
-        while (elapsed < duration)
-        {
-            transform.position = Vector3.Lerp(startPosition, targetPosition, elapsed / duration);
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
-
-        transform.position = targetPosition;
     }
 
     private IEnumerator ResetClawPositionAfterDelay(float delay)
@@ -139,5 +83,46 @@ public class ClawCharge_Impossible : MonoBehaviour
         }
 
         transform.position = originalPosition;
+    }
+
+    private void Update()
+    {
+        if (isCharging)
+        {
+            chargeTime += Time.deltaTime;
+            if (chargeTime > maxChargeTime)
+                chargeTime = maxChargeTime;
+            if (chargeBar != null)
+                chargeBar.value = chargeTime / maxChargeTime;
+
+        }
+    }
+
+    private void PerformClawDrop()
+    {
+        float chargePercent = chargeTime / maxChargeTime;
+        float dropDistance = Mathf.Lerp(minDropDistance, maxDropDistance, chargePercent);
+
+        Vector3 randomDirection = new Vector3(Random.Range(-2f, 2f), -2, 0);
+        Vector3 targetPosition = transform.position + randomDirection * dropDistance;
+        //transform.position = targetPosition;
+
+        StartCoroutine(MoveClawToPosition(targetPosition));
+    }
+
+    private IEnumerator MoveClawToPosition(Vector3 targetPosition)
+    {
+        float duration = 0.2f; // adjust for speed
+        Vector3 startPosition = transform.position;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            transform.position = Vector3.Lerp(startPosition, targetPosition, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = targetPosition;
     }
 }

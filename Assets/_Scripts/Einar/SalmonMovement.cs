@@ -3,7 +3,7 @@ using UnityEngine;
 public class SalmonMovement : MonoBehaviour
 {
 
-    [SerializeField] float speed;
+    private float speed;
     private int direction;
 
     private bool isStuck = false;
