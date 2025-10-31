@@ -8,7 +8,7 @@ public class PauseMeny : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        pauseMenyUI.SetActive(false);
+        isPaused = false;
     }
 
     // Update is called once per frame
@@ -27,15 +27,36 @@ public class PauseMeny : MonoBehaviour
         }
     }
 
-    public void PauseGame()
+    private void PauseGame()
     {
         pauseMenyUI.SetActive(true);
         Time.timeScale = 0f;
+        isPaused = true;
     }
-    
-    public void ResumeGame()
+
+    private void ResumeGame()
     {
         pauseMenyUI.SetActive(false);
         Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void ResumeGameButton()
+    {
+        ResumeGame();
+    }
+
+    public void MainMenuButton()
+    {
+        Debug.Log("Loading Main Menu...");
+        Time.timeScale = 1f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitGameButton()
+    {
+        Debug.Log("Quitting game...");
+        UnityEditor.EditorApplication.isPlaying = false; // Only works in the editor
+        Application.Quit();
     }
 }
