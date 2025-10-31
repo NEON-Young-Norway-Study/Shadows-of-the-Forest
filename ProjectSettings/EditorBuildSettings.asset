@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Overworld_Prototype.unity
     guid: b036e755228d54844b871a65a1d06966
   - enabled: 1
-    path: Assets/Scenes/Quiz_Minigame.unity
+    path: Assets/Scenes/QuizMinigame/Quiz_Minigame.unity
     guid: 52434cfeae3fa744f832e959f4c412bd
   - enabled: 1
-    path: Assets/Scenes/Salmon_Minigame.unity
+    path: Assets/Scenes/Salmon_Minigame/Salmon_Minigame.unity
     guid: 76f8815e1b45e3a47b637a6bb59347f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
