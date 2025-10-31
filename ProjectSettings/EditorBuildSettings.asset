@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Salmon_Minigame/Salmon_Minigame.unity
     guid: 76f8815e1b45e3a47b637a6bb59347f8
+  - enabled: 1
+    path: Assets/_Team/Emma/Cutscene1SadBears.unity
+    guid: 59201a7b74912ee419c6f492d528d570
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

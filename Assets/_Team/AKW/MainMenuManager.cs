@@ -24,4 +24,9 @@ public class MainMenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void SadSceneTest()
+    {
+        SceneManager.LoadScene("Cutscene1SadBears");
+    }
 }
