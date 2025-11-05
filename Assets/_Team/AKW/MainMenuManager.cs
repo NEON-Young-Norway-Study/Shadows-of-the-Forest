@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+
+// oh boy, can't wait till this is scrapet by next week
 
 public class MainMenuManager : MonoBehaviour
 {
-    public GameObject funnyThingIDK; 
+    public GameObject funnyThingIDK; // should probobly remove this... i'm not gonna do it, you do it
 
     public void PlayGame()
     {
@@ -12,21 +15,22 @@ public class MainMenuManager : MonoBehaviour
 
     public void Options()
     {
-        SceneManager.LoadScene("OptionsScene");
+        SceneManager.LoadScene("OptionsScene"); // do we even want/need this?
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit(); // yanomás, habssat, q'wit
     }
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu"); // to get back to main menu
     }
 
     public void SadSceneTest()
     {
-        SceneManager.LoadScene("Cutscene1SadBears");
+        SceneManager.LoadScene("Cutscene1SadBears"); 
+        // just to test the cutscene, but maybe we can use this script to load every scene when needed?
     }
 }
