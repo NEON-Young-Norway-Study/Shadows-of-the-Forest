@@ -5,6 +5,7 @@ public class BerryBasket : MonoBehaviour
 {
     [SerializeField] private string targetSceneName;
     [SerializeField] float counter;
+    [SerializeField] float maxCollected;
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object has the tag "Poisonous"
@@ -18,7 +19,7 @@ public class BerryBasket : MonoBehaviour
         {
             counter++;
             Destroy(other.gameObject);
-            if (counter == 3)
+            if (counter == maxCollected)
             {
                 Cursor.visible = true;
                 SceneController.Instance.LoadScene(targetSceneName);

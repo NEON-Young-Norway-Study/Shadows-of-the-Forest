@@ -504,7 +504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BerryCollector
   bucketTransform: {fileID: 248973823}
   counter: 0
-  targetSceneName: Berry_Minigame_Part2
+  targetSceneName: Berry_1_Part2
 --- !u!114 &388378599
 MonoBehaviour:
   m_ObjectHideFlags: 0

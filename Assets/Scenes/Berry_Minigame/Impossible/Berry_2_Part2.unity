@@ -564,12 +564,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   prefabs:
-  - {fileID: 8984981956004912700, guid: 8f02ef3d2948ed844b4743f0957ef527, type: 3}
-  - {fileID: 2286215122837995522, guid: cd5624b99658fbf41bf21545e90771ab, type: 3}
-  - {fileID: 8984981956004912700, guid: 8f02ef3d2948ed844b4743f0957ef527, type: 3}
-  - {fileID: 2286215122837995522, guid: cd5624b99658fbf41bf21545e90771ab, type: 3}
-  - {fileID: 8984981956004912700, guid: 8f02ef3d2948ed844b4743f0957ef527, type: 3}
-  spawnInterval: 1.5
+  - {fileID: 6522180839531255531, guid: bccd0067a600d3e41b2c8eea1bbbe3d6, type: 3}
+  - {fileID: 978684853672201988, guid: a1e37b34dff3879499798ebc723edc30, type: 3}
+  - {fileID: 6522180839531255531, guid: bccd0067a600d3e41b2c8eea1bbbe3d6, type: 3}
+  - {fileID: 978684853672201988, guid: a1e37b34dff3879499798ebc723edc30, type: 3}
+  - {fileID: 978684853672201988, guid: a1e37b34dff3879499798ebc723edc30, type: 3}
+  - {fileID: 6522180839531255531, guid: bccd0067a600d3e41b2c8eea1bbbe3d6, type: 3}
+  - {fileID: 978684853672201988, guid: a1e37b34dff3879499798ebc723edc30, type: 3}
+  - {fileID: 6522180839531255531, guid: bccd0067a600d3e41b2c8eea1bbbe3d6, type: 3}
+  - {fileID: 978684853672201988, guid: a1e37b34dff3879499798ebc723edc30, type: 3}
+  - {fileID: 6522180839531255531, guid: bccd0067a600d3e41b2c8eea1bbbe3d6, type: 3}
+  spawnInterval: 0.2
   moveSpeed: 2
 --- !u!1 &1873510486
 GameObject:
@@ -677,6 +682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BerryBasket
   targetSceneName: Overworld_Prototype
   counter: 0
+  maxCollected: 0
 --- !u!61 &1873510490
 BoxCollider2D:
   m_ObjectHideFlags: 0

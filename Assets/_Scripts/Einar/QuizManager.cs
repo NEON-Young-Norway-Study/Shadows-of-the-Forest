@@ -5,6 +5,10 @@ public class QuizManager : MonoBehaviour
 {
     [SerializeField] GameObject[] questions;
     [SerializeField] GameObject loseScreen;
+    [SerializeField] private string targetSceneName;
+    [SerializeField] private string schoolKey;
+    [SerializeField] private string homeKey;
+    [SerializeField] private string finishedSchoolKey;
 
     int currentQuestion;
 
@@ -39,7 +43,10 @@ public class QuizManager : MonoBehaviour
 
     public void exitSchool()
     {
-        SceneController.Instance.LoadScene("Overworld_Prototype");
+        PlayerPrefs.DeleteKey(schoolKey);
+        PlayerPrefs.SetString(finishedSchoolKey, "true");
+        PlayerPrefs.SetString(homeKey, "true");
+        SceneController.Instance.LoadScene(targetSceneName);
     }
 
     //public void LoadSceneByName(string Overworld_Prototype)

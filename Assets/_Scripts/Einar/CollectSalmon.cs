@@ -4,6 +4,12 @@ public class CollectSalmon : MonoBehaviour
 {
     [SerializeField] TMP_Text counterText;
     private int salmonCount = 0;
+
+    [SerializeField] private string salmonKey;
+    [SerializeField] private string requiredKey;
+    [SerializeField] private string finishedSalmonKey;
+
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered with: " + other.gameObject.name);
@@ -22,7 +28,11 @@ public class CollectSalmon : MonoBehaviour
         counterText.text = "Salmon caught: " + salmonCount.ToString();
         if (salmonCount == 10)
         {
-            SceneController.Instance.LoadScene("Overworld_Prototype");
+            PlayerPrefs.DeleteKey(salmonKey);
+            PlayerPrefs.SetString(requiredKey, "true");
+            PlayerPrefs.SetString(finishedSalmonKey, "true");
+            PlayerPrefs.Save();
+            SceneController.Instance.LoadScene("Overworld_1");
         }
     }
 }

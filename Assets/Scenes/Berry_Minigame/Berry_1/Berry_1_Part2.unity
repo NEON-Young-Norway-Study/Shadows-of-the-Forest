@@ -677,6 +677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BerryBasket
   targetSceneName: Overworld_Prototype
   counter: 0
+  maxCollected: 3
 --- !u!61 &1873510490
 BoxCollider2D:
   m_ObjectHideFlags: 0

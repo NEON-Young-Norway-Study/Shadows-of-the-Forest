@@ -152,6 +152,8 @@ MonoBehaviour:
   spawnInterval: 3
   spawnRangeY: 5
   spawnX: 0
+  minSpeed: 20
+  maxSpeed: 40
 --- !u!4 &8924135
 Transform:
   m_ObjectHideFlags: 0
@@ -594,6 +596,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectSalmon
   counterText: {fileID: 2090774996}
+  salmonKey: Salmon_1
+  requiredKey: School_1
+  finishedSalmonKey: Salmon_1_Finished
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0
