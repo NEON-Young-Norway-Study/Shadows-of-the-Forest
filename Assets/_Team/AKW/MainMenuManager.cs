@@ -8,6 +8,16 @@ public class MainMenuManager : MonoBehaviour
 {
     public GameObject funnyThingIDK; // should probobly remove this... i'm not gonna do it, you do it
 
+
+    // For copy-pasteing to add new scene to load on function
+    /*
+    public void nameFunction()
+    {
+        SceneManager.LoadScene("name of scene");
+    }
+    */
+
+
     public void PlayGame()
     {
         SceneManager.LoadScene("Overworld_Prototype"); // replace with the acual scene whene thats added
