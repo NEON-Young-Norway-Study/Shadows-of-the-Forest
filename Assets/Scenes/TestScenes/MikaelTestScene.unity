@@ -1876,6 +1876,7 @@ MonoBehaviour:
   - This is a test
   - Cool test
   textSpeed: 0.1
+  playerMovement: {fileID: 1370060005}
 --- !u!1 &1809743656
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] string[] dialogueLines;
     [SerializeField] private float textSpeed = 0.05f;
+    [SerializeField] private MonoBehaviour playerMovement;
 
     private int lineIndex;
 
@@ -36,6 +37,11 @@ public class DialogueSystem : MonoBehaviour
 
     void StartDialogue()
     {
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = false;
+        }
+
         lineIndex = 0;
         StartCoroutine(TypeLine());
     }
@@ -48,7 +54,7 @@ public class DialogueSystem : MonoBehaviour
             yield return new WaitForSeconds(textSpeed);
         }
     }
-    
+
     void nextLine()
     {
         if (lineIndex < dialogueLines.Length - 1)
@@ -59,7 +65,17 @@ public class DialogueSystem : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            EndDialogue();
+        }
+    }
+    
+    void EndDialogue()
+    {
+        gameObject.SetActive(false);
+
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
         }
     }
 }

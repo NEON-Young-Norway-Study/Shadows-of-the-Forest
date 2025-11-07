@@ -64,7 +64,6 @@ public class PauseMeny : MonoBehaviour
     public void QuitGameButton()
     {
         Debug.Log("Quitting game...");
-        // UnityEditor.EditorApplication.isPlaying = false; // Only works in the editor
         Application.Quit();
     }
 }
