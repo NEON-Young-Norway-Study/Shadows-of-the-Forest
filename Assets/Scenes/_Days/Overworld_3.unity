@@ -716,6 +716,18 @@ PrefabInstance:
       value: Home_3
       objectReference: {fileID: 0}
     - target: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6963403
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6963403
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
@@ -733,7 +745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8994340811512224332, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: m_Size.z
-      value: 0.21253872
+      value: 0.36999536
       objectReference: {fileID: 0}
     - target: {fileID: 8994340811512224332, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: m_Center.x
@@ -741,12 +753,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8994340811512224332, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: m_Center.z
-      value: 0.9213939
+      value: 0.84266555
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 166151597565443367, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 615725490}
   m_SourcePrefab: {fileID: 100100000, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
 --- !u!1 &358734576
 GameObject:
@@ -991,6 +1006,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &615725487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 166151597565443367, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
+  m_PrefabInstance: {fileID: 219374296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &615725490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615725487}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.7338398, y: 2.381084, z: 1.0559409}
+  m_Center: {x: -5.793054, y: 2.4618337, z: 0.55692315}
 --- !u!1 &621515639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,6 +1079,34 @@ PrefabInstance:
     - target: {fileID: 68572911645418227, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
       propertyPath: m_Name
       value: School
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202841766476563090, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Size.z
+      value: 0.4739117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202841766476563090, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Center.x
+      value: 0.03094138
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202841766476563090, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Center.y
+      value: -0.06197368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202841766476563090, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Center.z
+      value: -0.5131388
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613748339473918518, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613748339473918518, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 5613748339473918518, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6150943
       objectReference: {fileID: 0}
     - target: {fileID: 5613748339473918518, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
       propertyPath: m_SortingOrder
@@ -1118,8 +1187,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8916170140525556896, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 647687553}
   m_SourcePrefab: {fileID: 100100000, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+--- !u!1 &647687552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8916170140525556896, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
+  m_PrefabInstance: {fileID: 647687551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &647687553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647687552}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.5336869, y: 1.9901178, z: 0.82374614}
+  m_Center: {x: 5.366239, y: -2.2881496, z: 0.40962452}
 --- !u!1 &660121985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,7 +1881,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3ec7abc1708f7ad4899681d41e6d99b1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6150943, g: 0.6150943, b: 0.6150943, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

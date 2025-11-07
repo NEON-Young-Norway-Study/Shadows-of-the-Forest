@@ -546,6 +546,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectSalmon
   counterText: {fileID: 2090774996}
+  salmonKey: 
+  requiredKey: 
+  finishedSalmonKey: 
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,19 +1591,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6810138717351194382, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: maxSpeed
-      value: 2
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6810138717351194382, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: minSpeed
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6810138717351194382, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: salmonPrefab
       value: 
-      objectReference: {fileID: 3208414738467999103, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
+      objectReference: {fileID: 2225887149256742232, guid: ad4e8ddd66133084c9cb6444b60faf8b, type: 3}
     - target: {fileID: 6810138717351194382, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: spawnInterval
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7838243996298998483, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: m_LocalPosition.x
