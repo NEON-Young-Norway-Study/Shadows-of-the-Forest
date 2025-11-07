@@ -33,9 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Quiz_Minigame/Quiz_2/Quiz_2.unity
     guid: 8b711a003ea218d4d998fe4bbf0c585f
   - enabled: 1
-    path: Assets/Scenes/Home/Home_2.unity
-    guid: 050d71cb5c69657408848dd8d9f04d29
-  - enabled: 1
     path: Assets/Scenes/CutScenes/Cutscene_1.unity
     guid: 92815c16aed604941a78a6bf6d71a96f
   - enabled: 1
@@ -47,18 +44,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz_Minigame/Quiz_3/Quiz_3.unity
     guid: ad7a07ac4bbbf854eb66450de9fe0675
-  - enabled: 0
-    path: Assets/Scenes/_Days/Prototype/Overworld_1_Old.unity
-    guid: b036e755228d54844b871a65a1d06966
-  - enabled: 0
-    path: Assets/Scenes/Berry_Minigame/Impossible/Berry_2_Part1.unity
-    guid: 93248aee0e7225b448792b4d3ac4f473
-  - enabled: 0
-    path: Assets/Scenes/Berry_Minigame/Impossible/Berry_2_Part2.unity
-    guid: f81897d6ece7548479a92be251efbed3
   - enabled: 1
-    path: Assets/_Team/Emma/Cutscene1SadBears.unity
-    guid: 59201a7b74912ee419c6f492d528d570
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    path: Assets/Scenes/Home/Home_2.unity
+    guid: 050d71cb5c69657408848dd8d9f04d29
+  - enabled: 1
+    path: Assets/_Team/AKW/OptionsScene.unity
+    guid: af5e408f70e15a14fa59e30f43be29db
+  - enabled: 1
+    path: Assets/_Team/AKW/TestScene.unity
+    guid: 3efdbb06ce86b4c46b82fd7be4f33a1e
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
