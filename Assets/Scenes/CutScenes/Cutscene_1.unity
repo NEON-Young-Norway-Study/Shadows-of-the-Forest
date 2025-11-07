@@ -477,11 +477,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 887420505}
   dialogueLines:
-  - i'm sorry my child
+  - I'm sorry my child
   - your father, he
-  - its the chocolate
-  - He ate it all
-  - Happy Birthday Einar
+  - he...
+  - He is not with us anymore...
   textSpeed: 0.1
   playerMovement: {fileID: 0}
 --- !u!114 &563545014
@@ -542,6 +541,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -328.8744}
   m_SizeDelta: {x: -200, y: -857.7488}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &797970454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5059530965616987002, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_Name
+      value: SceneController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.3834
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.75483
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
 --- !u!1 &887420504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,3 +1169,4 @@ SceneRoots:
   - {fileID: 120181334}
   - {fileID: 1399664756}
   - {fileID: 1194532457}
+  - {fileID: 797970454}

@@ -686,7 +686,6 @@ GameObject:
   - component: {fileID: 765116240}
   - component: {fileID: 765116242}
   - component: {fileID: 765116244}
-  - component: {fileID: 765116243}
   - component: {fileID: 765116245}
   m_Layer: 0
   m_Name: BearClaw
@@ -788,33 +787,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.4, y: 5.8123593, z: 2.7877364}
-  m_Center: {x: 0, y: -0.29382062, z: -0.10460639}
---- !u!143 &765116243
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765116239}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 6.4
-  m_Radius: 3.2
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.5465107, y: 2.1815243, z: 2.7877364}
+  m_Center: {x: 0.007704735, y: 0.5054369, z: -0.10460639}
 --- !u!114 &765116244
 MonoBehaviour:
   m_ObjectHideFlags: 0
