@@ -675,9 +675,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268083dd71b12544192541d472777c4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BerryBasket
-  targetSceneName: Overworld_Prototype
+  targetSceneName: Overworld_2
   counter: 0
   maxCollected: 3
+  berryKey: Berry_2
+  requiredKey: School_2
+  finishedBerryKey: Berry_2_Finished
 --- !u!61 &1873510490
 BoxCollider2D:
   m_ObjectHideFlags: 0

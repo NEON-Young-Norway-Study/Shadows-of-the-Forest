@@ -440,52 +440,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &987719649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 987719650}
-  - component: {fileID: 987719651}
-  m_Layer: 0
-  m_Name: SetSceneAndPref
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &987719650
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987719649}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.52821, y: 0, z: 5.55614}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &987719651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987719649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ec1844b4e729624da290a740c9d1a7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleSceneTrigger
-  targetSceneName: Overworld_2
-  key: Berry_2
 --- !u!1 &1098202986
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,10 +795,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 987719651}
-        m_TargetAssemblyTypeName: SetSceneAndPrefs, Assembly-CSharp
-        m_MethodName: loadSceneAndSetPlayerPref
-        m_Mode: 1
+      - m_Target: {fileID: 2836090065556042793, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -968,63 +922,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817744313}
   m_CullTransparentMesh: 1
---- !u!1001 &1995950458
-PrefabInstance:
+--- !u!1 &1905847397
+GameObject:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905847398}
+  - component: {fileID: 1905847399}
+  m_Layer: 0
+  m_Name: SetSceneAndPlayerPref
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1905847398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905847397}
   serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5059530965616987002, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_Name
-      value: SceneController
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.26721
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.19447
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697142864116359314, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.82083, y: 0, z: -2.51997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1905847399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905847397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1844b4e729624da290a740c9d1a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SetSceneAndPrefs
+  targetSceneName: 
+  key: 
 --- !u!1 &2016121937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,5 +1055,4 @@ SceneRoots:
   - {fileID: 944622745}
   - {fileID: 792828927}
   - {fileID: 2016121940}
-  - {fileID: 987719650}
-  - {fileID: 1995950458}
+  - {fileID: 1905847398}
