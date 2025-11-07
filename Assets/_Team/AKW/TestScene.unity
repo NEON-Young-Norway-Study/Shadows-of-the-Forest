@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1380639585588889935, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.67
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 1380639585588889935, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -251,21 +251,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3966320556985221430, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.003144443
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966320556985221430, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.8788902
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966320556985221430, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: im evil SkullBush
+      value: I'm evil SkullBush
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: fight me
+      value: I may be traped in this scene for now
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
-      value: you know what
+      value: But you'll slip up eventualy
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[3]'
-      value: D'wanna
+      value: Then i'll show them...
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
