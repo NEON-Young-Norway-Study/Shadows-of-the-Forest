@@ -7,6 +7,20 @@ public class PauseMeny : MonoBehaviour
     [SerializeField] private MonoBehaviour playerMovement;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+
+        // Prevent duplicates if another PauseMeny exists
+        var existingMenus = Object.FindObjectsByType<PauseMeny>(FindObjectsSortMode.None);
+        if (existingMenus.Length > 1)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
     void Start()
     {
         isPaused = false;
