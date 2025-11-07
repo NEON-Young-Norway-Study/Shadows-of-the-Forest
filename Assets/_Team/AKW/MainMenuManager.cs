@@ -44,4 +44,9 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene("Cutscene1SadBears"); 
         // just to test the cutscene, but maybe we can use this script to load every scene when needed?
     }
+
+    public void TheForbiddenScene()
+    {
+        SceneManager.LoadScene("TestScene");
+    }
 }
