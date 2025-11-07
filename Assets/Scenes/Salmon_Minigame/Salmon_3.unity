@@ -546,6 +546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectSalmon
   counterText: {fileID: 2090774996}
+  maxSalmonCount: 9999
   targetSceneName: Overworld_3
   salmonKey: 
   requiredKey: 

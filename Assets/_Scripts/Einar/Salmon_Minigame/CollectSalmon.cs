@@ -4,6 +4,7 @@ public class CollectSalmon : MonoBehaviour
 {
     [SerializeField] TMP_Text counterText;
     private int salmonCount = 0;
+    [SerializeField] int maxSalmonCount;
 
     [SerializeField] private string targetSceneName;
 
@@ -28,7 +29,7 @@ public class CollectSalmon : MonoBehaviour
     {
         Debug.Log("Updating counter text: " + salmonCount);
         counterText.text = "Salmon caught: " + salmonCount.ToString();
-        if (salmonCount == 10)
+        if (salmonCount == maxSalmonCount)
         {
             PlayerPrefs.DeleteKey(salmonKey);
             PlayerPrefs.SetString(requiredKey, "true");
