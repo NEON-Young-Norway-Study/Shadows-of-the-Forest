@@ -3,7 +3,8 @@ using UnityEngine;
 public class PauseMeny : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenyUI;
-    [SerializeField] static bool isPaused;
+    [SerializeField] bool isPaused;
+    [SerializeField] private MonoBehaviour playerMovement;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,6 +33,11 @@ public class PauseMeny : MonoBehaviour
         pauseMenyUI.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = false; 
+        }
     }
 
     private void ResumeGame()
@@ -39,12 +45,14 @@ public class PauseMeny : MonoBehaviour
         pauseMenyUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
     }
 
-    public void ResumeGameButton()
-    {
-        ResumeGame();
-    }
+    public void ResumeGameButton() => ResumeGame();
 
     public void MainMenuButton()
     {
