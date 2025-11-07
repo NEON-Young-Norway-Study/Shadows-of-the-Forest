@@ -6,20 +6,56 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Team/AKW/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 7a8e7a721cb3bd1428237ed271c4c421
   - enabled: 1
-    path: Assets/_Team/AKW/OptionsScene.unity
-    guid: af5e408f70e15a14fa59e30f43be29db
+    path: Assets/Scenes/_Days/Overworld_1.unity
+    guid: 1faf782a28fd7ae4d8f761f4727cbcda
   - enabled: 1
-    path: Assets/Scenes/Overworld_Prototype.unity
-    guid: b036e755228d54844b871a65a1d06966
+    path: Assets/Scenes/Salmon_Minigame/Salmon_1.unity
+    guid: 76f8815e1b45e3a47b637a6bb59347f8
   - enabled: 1
-    path: Assets/Scenes/QuizMinigame/Quiz_Minigame.unity
+    path: Assets/Scenes/Quiz_Minigame/Quiz_1/Quiz_1.unity
     guid: 52434cfeae3fa744f832e959f4c412bd
   - enabled: 1
-    path: Assets/Scenes/Salmon_Minigame/Salmon_Minigame.unity
-    guid: 76f8815e1b45e3a47b637a6bb59347f8
+    path: Assets/Scenes/Home/Home_1.unity
+    guid: 7450cfb5c275792418a81ee2a8e869db
+  - enabled: 1
+    path: Assets/Scenes/_Days/Overworld_2.unity
+    guid: fff9d4af93ace914db5cc2aaec5904ab
+  - enabled: 1
+    path: Assets/Scenes/Berry_Minigame/Berry_2/Berry_2_Part1.unity
+    guid: 98c421bf9bab94a4ca6fdc497ba3afa6
+  - enabled: 1
+    path: Assets/Scenes/Berry_Minigame/Berry_2/Berry_2_Part2.unity
+    guid: 8abae0f5a4e9a144db686b01d5ca26fa
+  - enabled: 1
+    path: Assets/Scenes/Quiz_Minigame/Quiz_2/Quiz_2.unity
+    guid: 8b711a003ea218d4d998fe4bbf0c585f
+  - enabled: 1
+    path: Assets/Scenes/Home/Home_2.unity
+    guid: 050d71cb5c69657408848dd8d9f04d29
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Cutscene_1.unity
+    guid: 92815c16aed604941a78a6bf6d71a96f
+  - enabled: 1
+    path: Assets/Scenes/_Days/Overworld_3.unity
+    guid: 21d487c14ac023a4eb5c3f45acdb75af
+  - enabled: 1
+    path: Assets/Scenes/Salmon_Minigame/Salmon_3.unity
+    guid: 3d196df00fe71134d871cbb738431540
+  - enabled: 1
+    path: Assets/Scenes/Quiz_Minigame/Quiz_3/Quiz_3.unity
+    guid: ad7a07ac4bbbf854eb66450de9fe0675
+  - enabled: 0
+    path: Assets/Scenes/_Days/Prototype/Overworld_1_Old.unity
+    guid: b036e755228d54844b871a65a1d06966
+  - enabled: 0
+    path: Assets/Scenes/Berry_Minigame/Impossible/Berry_2_Part1.unity
+    guid: 93248aee0e7225b448792b4d3ac4f473
+  - enabled: 0
+    path: Assets/Scenes/Berry_Minigame/Impossible/Berry_2_Part2.unity
+    guid: f81897d6ece7548479a92be251efbed3
   - enabled: 1
     path: Assets/_Team/Emma/Cutscene1SadBears.unity
     guid: 59201a7b74912ee419c6f492d528d570
