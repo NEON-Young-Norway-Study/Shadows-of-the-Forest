@@ -5,6 +5,8 @@ public class CollectSalmon : MonoBehaviour
     [SerializeField] TMP_Text counterText;
     private int salmonCount = 0;
 
+    [SerializeField] private string targetSceneName;
+
     [SerializeField] private string salmonKey;
     [SerializeField] private string requiredKey;
     [SerializeField] private string finishedSalmonKey;
@@ -32,7 +34,7 @@ public class CollectSalmon : MonoBehaviour
             PlayerPrefs.SetString(requiredKey, "true");
             PlayerPrefs.SetString(finishedSalmonKey, "true");
             PlayerPrefs.Save();
-            SceneController.Instance.LoadScene("Overworld_1");
+            SceneController.Instance.LoadScene(targetSceneName);
         }
     }
 }
