@@ -106,7 +106,7 @@ public partial class @SalmonControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""c43a4e9e-a13e-4c8e-a8f2-c024eda68def"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
