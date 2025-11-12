@@ -1794,7 +1794,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1469570795}
   m_SourcePrefab: {fileID: 100100000, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
 --- !u!4 &805231986 stripped
 Transform:
@@ -2102,6 +2105,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
   m_PrefabInstance: {fileID: 868668786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &947002440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+  m_PrefabInstance: {fileID: 1045950762}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &957341235
 GameObject:
@@ -3191,6 +3199,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 805231985}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1469570795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469570792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d101fffebf94d4c4088ab1e8dea31f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Temp_Playerpref_Trigger
+  key: Salmon_1
 --- !u!1 &1680971632
 GameObject:
   m_ObjectHideFlags: 0
@@ -3461,9 +3482,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aff2c7dea538342978ee8bdc76c37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialog_Prefs
-  dialog_trigger_1: {fileID: 855825842}
-  dialog_trigger_2: {fileID: 1315387962}
-  dialog_trigger_3: {fileID: 1315387962}
+  afterMinigameTriggers:
+  - {fileID: 1315387962}
+  afterSchoolTriggers:
+  - {fileID: 1004244087}
+  startOfDayTriggers:
+  - {fileID: 947002440}
+  - {fileID: 855825842}
   foodMinigame_Finished: Salmon_1_Finished
   school_Finished: School_1_Finished
 --- !u!1001 &1773490170
@@ -3578,19 +3603,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 8107063927985076688}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1775611538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855825842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d101fffebf94d4c4088ab1e8dea31f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Temp_Playerpref_Trigger
-  key: Salmon_1
 --- !u!1001 &1817442236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6075,10 +6087,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1775611538}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
 --- !u!95 &8139735006340929243
 Animator:

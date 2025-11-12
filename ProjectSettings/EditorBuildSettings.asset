@@ -56,5 +56,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndOfDemo.unity
     guid: 32586e988337077469291e50538686b5
+  - enabled: 1
+    path: Assets/Scenes/Salmon_Minigame/Salmon_T1.unity
+    guid: a8810156d2716b14fb5c54430ede584c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
