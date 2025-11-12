@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 
 //made by Mikael
-//added fetures by Andreas
+//added features by Andreas
 
 public class TriggerController : MonoBehaviour
 {
