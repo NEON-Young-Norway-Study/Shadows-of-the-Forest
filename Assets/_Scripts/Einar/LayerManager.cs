@@ -3,21 +3,27 @@ using UnityEngine;
 
 public class LayerManager : MonoBehaviour
 {
-    public Transform player;
-    public List<SpriteRenderer> obstacles;
+    [SerializeField]
+    private Transform mainCharacter; // Assign your main character's transform in inspector
 
-    public string defaultSortingLayerName = "Default";
+    [SerializeField]
+    private List<SpriteRenderer> objectsInScene; // List of objects to modify
 
     void Update()
     {
-        foreach (var obstacle in obstacles)
+        foreach (SpriteRenderer sprite in objectsInScene)
         {
-            if (obstacle.transform.position.z > player.position.z)
+            if (sprite != null && mainCharacter != null)
             {
-                //change to "Default" layer if not already
-                if (obstacle.sortingLayerName != defaultSortingLayerName)
+                if (sprite.transform.position.z > mainCharacter.position.z)
                 {
-                    obstacle.sortingLayerName = defaultSortingLayerName;
+                    // Sprite is in front
+                    sprite.sortingOrder = -100;
+                }
+                else
+                {
+                    // Sprite is behind
+                    sprite.sortingOrder = 100;
                 }
             }
         }
