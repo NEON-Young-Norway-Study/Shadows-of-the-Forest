@@ -8,12 +8,14 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] string[] dialogueLines;
     [SerializeField] private float textSpeed = 0.05f;
     [SerializeField] private MonoBehaviour playerMovement;
+    [SerializeField] private NPCMovement npc;
 
     private int lineIndex;
 
     void Start()
     {
         dialogueText.text = string.Empty;
+        npc = Object.FindFirstObjectByType<NPCMovement>();
         StartDialogue();
     }
 
@@ -74,6 +76,11 @@ public class DialogueSystem : MonoBehaviour
         if (playerMovement != null)
         {
             playerMovement.enabled = true;
+        }
+
+        if (npc != null)
+        {
+            npc.MoveToNextCheckpoint();
         }
     }
 }

@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 //made by Mikael
@@ -16,6 +17,7 @@ public class TriggerController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Player entered trigger area");
             playerInside = true;
 
             if (!isNeedOfInteraction)
@@ -29,6 +31,7 @@ public class TriggerController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Player exited trigger area");
             playerInside = false;
         }
     }

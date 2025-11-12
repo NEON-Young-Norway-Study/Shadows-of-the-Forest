@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMeny : MonoBehaviour
 {
@@ -8,17 +9,47 @@ public class PauseMeny : MonoBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    void Awake()
+   void Awake()
     {
         DontDestroyOnLoad(gameObject);
 
-        // Prevent duplicates if another PauseMeny exists
-        var existingMenus = Object.FindObjectsByType<PauseMeny>(FindObjectsSortMode.None);
+        // prevent duplicates
+        var existingMenus = FindObjectsByType<PauseMeny>(FindObjectsSortMode.None);
         if (existingMenus.Length > 1)
         {
             Destroy(gameObject);
+            return;
+        }
+
+        // auto-assign player when the game starts
+        AssignPlayer();
+
+        // reassign player whenever a new scene loads
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        AssignPlayer();
+    }
+
+    void AssignPlayer()
+    {
+        if (playerMovement == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                playerMovement = player.GetComponent<PlayerMovement>();
+            }
         }
     }
+
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
 
 
     void Start()
