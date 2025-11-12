@@ -49,4 +49,9 @@ public class MainMenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("TestScene");
     }
+
+    public void T1()
+    {
+        SceneManager.LoadScene("Overworld_T1");
+    }
 }
