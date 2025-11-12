@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2935611112946436403}
   m_Layer: 0
-  m_Name: Home
+  m_Name: Home_SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8031525460455537686}
   m_Layer: 0
-  m_Name: Dock
+  m_Name: Dock_SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1777984286280749538}
   m_Layer: 0
-  m_Name: School
+  m_Name: School_SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1996349683566571417}
   m_Layer: 0
-  m_Name: Bush
+  m_Name: Bush_SP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

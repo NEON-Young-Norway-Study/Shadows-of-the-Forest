@@ -848,11 +848,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 615725490}
   m_SourcePrefab: {fileID: 100100000, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
---- !u!4 &219374297 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4147441087865418850, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
-  m_PrefabInstance: {fileID: 219374296}
-  m_PrefabAsset: {fileID: 0}
 --- !u!212 &219374298 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
@@ -1015,7 +1010,7 @@ PrefabInstance:
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: defaultSpawnPoint
       value: 
-      objectReference: {fileID: 219374297}
+      objectReference: {fileID: 1755844326}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_Finished
       value: Salmon_3_Finished
@@ -1023,11 +1018,11 @@ PrefabInstance:
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_SpawnPoint
       value: 
-      objectReference: {fileID: 1773490171}
+      objectReference: {fileID: 1755844325}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: schoolMinigame_SpawnPoint
       value: 
-      objectReference: {fileID: 647687554}
+      objectReference: {fileID: 1755844324}
     - target: {fileID: 5882382813827866524, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: m_Name
       value: SpawnPointManager
@@ -1394,11 +1389,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.5336869, y: 1.9901178, z: 0.19626321}
   m_Center: {x: 5.366239, y: -2.2881496, z: 0.09588305}
---- !u!4 &647687554 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8486984763428141613, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
-  m_PrefabInstance: {fileID: 647687551}
-  m_PrefabAsset: {fileID: 0}
 --- !u!212 &647687555 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 5613748339473918518, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
@@ -2798,6 +2788,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+--- !u!4 &1755844324 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1777984286280749538, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+  m_PrefabInstance: {fileID: 1755844323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1755844325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8031525460455537686, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+  m_PrefabInstance: {fileID: 1755844323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1755844326 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2935611112946436403, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+  m_PrefabInstance: {fileID: 1755844323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1773490170
 PrefabInstance:
   m_ObjectHideFlags: 0
