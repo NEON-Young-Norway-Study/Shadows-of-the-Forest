@@ -860,7 +860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 1315387962}
   - {fileID: 1469570792}
 --- !u!1 &340702177 stripped
 GameObject:
@@ -1961,6 +1960,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &855825842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+  m_PrefabInstance: {fileID: 8107063927985076688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &868668786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2595,6 +2599,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1740842479}
   - {fileID: 1775611535}
   - {fileID: 805231986}
   - {fileID: 1315387963}
@@ -3336,6 +3341,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692350833}
   m_CullTransparentMesh: 1
+--- !u!1 &1740842478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740842479}
+  - component: {fileID: 1740842480}
+  m_Layer: 0
+  m_Name: DialogueMananger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740842479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740842478}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.60762, y: 0.3, z: -4.75691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1224287366}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740842480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740842478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57aff2c7dea538342978ee8bdc76c37b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog_Prefs
+  dialog_trigger_1: {fileID: 855825842}
+  dialog_trigger_2: {fileID: 1315387962}
+  dialog_trigger_3: {fileID: 1315387962}
+  foodMinigame_Finished: Salmon_1_Finished
+  school_Finished: School_1_Finished
 --- !u!1001 &1773490170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3448,6 +3502,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 8107063927985076688}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775611538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855825842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d101fffebf94d4c4088ab1e8dea31f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Temp_Playerpref_Trigger
+  key: Salmon_1
 --- !u!1001 &1817442236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3518,7 +3585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4738462333886303797, guid: c4a17f0c3874fcb4c8cb66a2f8986873, type: 3}
       propertyPath: targetSceneName
-      value: Salmon_1
+      value: Salmon_T1
       objectReference: {fileID: 0}
     - target: {fileID: 8710267796837698265, guid: c4a17f0c3874fcb4c8cb66a2f8986873, type: 3}
       propertyPath: m_Name
@@ -5932,7 +5999,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1775611538}
   m_SourcePrefab: {fileID: 100100000, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
 --- !u!95 &8139735006340929243
 Animator:
