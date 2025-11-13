@@ -10,6 +10,8 @@ public class ClawCharge_Impossible : MonoBehaviour
     [SerializeField] float maxChargeTime = 2f;
     [SerializeField] float minDropDistance = 2f;
     [SerializeField] float maxDropDistance = 10f;
+    [SerializeField] private AudioClip clawDropSound;
+
     private Vector3 originalPosition;
 
     private bool isCharging = false;
@@ -58,6 +60,9 @@ public class ClawCharge_Impossible : MonoBehaviour
         if (isCharging)
         {
             PerformClawDrop();
+
+            SoundEffectManager.Instance.PlaySoundFXClip(clawDropSound, transform, 0.2f);
+
             chargeTime = 0f;
             isCharging = false;
             if (chargeBar != null)

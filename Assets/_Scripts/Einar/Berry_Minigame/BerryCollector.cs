@@ -7,6 +7,8 @@ public class BerryCollector : MonoBehaviour
     [SerializeField] float counter;
     [SerializeField] float maxCollect;
     [SerializeField] private string targetSceneName;
+    [SerializeField] private AudioClip berryPickingSound;
+
 
     public void OnClickAction(InputAction.CallbackContext context)
     {
@@ -25,6 +27,9 @@ public class BerryCollector : MonoBehaviour
             {
                 Debug.Log("Hit collider: " + collider.gameObject.name);
                 var collectible = collider.GetComponent<BerryCollectible>();
+
+                SoundEffectManager.Instance.PlaySoundFXClip(berryPickingSound, transform, 0.2f);
+
                 if (collectible != null)
                 {
                     collectible.bucketTransform = this.bucketTransform;
