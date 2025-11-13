@@ -484,8 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec1844b4e729624da290a740c9d1a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleSceneTrigger
-  targetSceneName: Overworld_1
-  key: Berry_T100
+  targetSceneName: Overworld_3
+  key: Salmon_3
 --- !u!1 &1098202986
 GameObject:
   m_ObjectHideFlags: 0

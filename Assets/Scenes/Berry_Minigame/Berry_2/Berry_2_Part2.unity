@@ -135,6 +135,14 @@ PrefabInstance:
       propertyPath: bearClaw
       value: 
       objectReference: {fileID: 404289970}
+    - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
+      propertyPath: berryKey
+      value: Berry_T
+      objectReference: {fileID: 0}
+    - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
+      propertyPath: finishedBerryKey
+      value: Berry_T_Finished
+      objectReference: {fileID: 0}
     - target: {fileID: 791222875829705798, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: m_Sprite
       value: 

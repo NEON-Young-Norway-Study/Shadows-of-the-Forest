@@ -475,7 +475,7 @@ PrefabInstance:
       objectReference: {fileID: 531625373}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: targetSceneName
-      value: Overworld_2
+      value: Overworld_T2
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: finishedSchoolKey
