@@ -16,6 +16,7 @@ public class DadMovement : MonoBehaviour
     [SerializeField] float verticalVelocity;
     [SerializeField] float gravity = -9.81f;
 
+    [Header("Body part references")]
     [SerializeField] GameObject front;
     [SerializeField] GameObject back;
     [SerializeField] GameObject side;
