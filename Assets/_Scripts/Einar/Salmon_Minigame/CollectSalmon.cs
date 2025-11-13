@@ -12,7 +12,10 @@ public class CollectSalmon : MonoBehaviour
     [SerializeField] private string requiredKey;
     [SerializeField] private string finishedSalmonKey;
 
-
+    private void Start()
+    {
+        counterText.text = "Salmon caught: " + salmonCount.ToString() + "/" + maxSalmonCount.ToString();
+    }
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered with: " + other.gameObject.name);
@@ -28,7 +31,7 @@ public class CollectSalmon : MonoBehaviour
     private void UpdateCounterText()
     {
         Debug.Log("Updating counter text: " + salmonCount);
-        counterText.text = "Salmon caught: " + salmonCount.ToString();
+        counterText.text = "Salmon caught: " + salmonCount.ToString() +"/" + maxSalmonCount.ToString();
         if (salmonCount == maxSalmonCount)
         {
             PlayerPrefs.DeleteKey(salmonKey);
