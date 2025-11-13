@@ -1080,8 +1080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec1844b4e729624da290a740c9d1a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetSceneAndPrefs
-  targetSceneName: Overworld_4
-  key: Berry_4
+  targetSceneName: Overworld_5
+  key: Salmon_5
 --- !u!1 &2016121937
 GameObject:
   m_ObjectHideFlags: 0
