@@ -821,9 +821,9 @@ MonoBehaviour:
   counterText: {fileID: 2090774996}
   maxSalmonCount: 3
   targetSceneName: Overworld_T1
-  salmonKey: Salmon_1
-  requiredKey: School_1
-  finishedSalmonKey: Salmon_1_Finished
+  salmonKey: Salmon_T
+  requiredKey: School_T
+  finishedSalmonKey: Salmon_T_Finished
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +971,7 @@ MonoBehaviour:
   maxChargeTime: 2
   minDropDistance: 2
   maxDropDistance: 20
+  clawDropSound: {fileID: 8300000, guid: bead55919dc1541eeb76928e16720493, type: 3}
   chargeBar: {fileID: 81473551}
 --- !u!54 &765116245
 Rigidbody:
@@ -1737,6 +1738,63 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1001 &1953820057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2605086053886619508, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_Name
+      value: SFX_Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.2465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.09933
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
 --- !u!1 &1961326642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,3 +2023,4 @@ SceneRoots:
   - {fileID: 81439133}
   - {fileID: 893495950}
   - {fileID: 383350612}
+  - {fileID: 1953820057}
