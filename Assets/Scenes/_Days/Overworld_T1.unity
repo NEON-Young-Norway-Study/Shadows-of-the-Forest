@@ -835,25 +835,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 1469570792}
---- !u!1 &340702177 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8957421122969044751, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
-  m_PrefabInstance: {fileID: 1323019169}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &340702182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340702177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate:
-  - {fileID: 0}
 --- !u!1 &358734576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,7 +1268,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 564678333}
   m_SourcePrefab: {fileID: 100100000, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
 --- !u!4 &564678331 stripped
 Transform:
@@ -1299,6 +1283,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 564678330}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &564678333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564678332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d101fffebf94d4c4088ab1e8dea31f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Temp_Playerpref_Trigger
+  key: Berry_2
 --- !u!1 &615725487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 166151597565443367, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
@@ -3248,10 +3245,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8957421122969044751, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 340702182}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
 --- !u!1 &1407544030
 GameObject:
@@ -3825,7 +3819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3703779421079760926, guid: 0bfc75be5e06e9c4e9933fd6fdcb4eb6, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5680409989263849418, guid: 0bfc75be5e06e9c4e9933fd6fdcb4eb6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3913,7 +3907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7eb1ea982f5f494c89e15ed485a8948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTriggerArea
-  targetSceneName: Berry_2_Part1
+  targetSceneName: Berry_T_Part1
   lockedText: {fileID: 0}
   finishedText: {fileID: 1692350833}
   requiredKey: Berry_2
@@ -4367,35 +4361,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8957421122969044751, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1865296342}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
 --- !u!224 &1865296340 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
   m_PrefabInstance: {fileID: 1865296339}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1865296341 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8957421122969044751, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
-  m_PrefabInstance: {fileID: 1865296339}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1865296342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865296341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate:
-  - {fileID: 0}
 --- !u!1 &1865296343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
@@ -4499,12 +4471,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1045950763}
-  - {fileID: 1775611535}
-  - {fileID: 805231986}
-  - {fileID: 1315387963}
   - {fileID: 559496670}
+  - {fileID: 1775611535}
   - {fileID: 868668787}
+  - {fileID: 805231986}
   - {fileID: 1993973246}
+  - {fileID: 1315387963}
   - {fileID: 1447675094}
   m_Father: {fileID: 1224287366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
