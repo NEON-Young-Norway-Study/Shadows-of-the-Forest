@@ -549,9 +549,9 @@ MonoBehaviour:
   counterText: {fileID: 2090774996}
   maxSalmonCount: 99999
   targetSceneName: Overworld_3
-  salmonKey: 
-  requiredKey: 
-  finishedSalmonKey: 
+  salmonKey: Salmon_3
+  requiredKey: School_3
+  finishedSalmonKey: Salmon_3_Finished
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,9 +1050,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1490732632}
-        m_TargetAssemblyTypeName: SetSceneAndPrefs, Assembly-CSharp
-        m_MethodName: loadSceneAndSetPlayerPref
+      - m_Target: {fileID: 647065097}
+        m_TargetAssemblyTypeName: CollectSalmon, Assembly-CSharp
+        m_MethodName: GiveUpSalmonMinigame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -11,13 +11,19 @@ public class BerryBasket : MonoBehaviour
     [SerializeField] private string berryKey;
     [SerializeField] private string requiredKey;
     [SerializeField] private string finishedBerryKey;
+
+    [SerializeField] GameObject canvas;
+    [SerializeField] GameObject bearClaw;
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object has the tag "Poisonous"
         if (other.CompareTag("Poison"))
         {
             // Reset the scene
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            bearClaw.SetActive(false);
+            Cursor.visible = true;
+            canvas.SetActive(true);
+            SceneController.Instance.FreezeTime();
         }
         // Optional: handle good berries or other objects
         else if (other.CompareTag("Berry"))
@@ -32,7 +38,6 @@ public class BerryBasket : MonoBehaviour
                 PlayerPrefs.Save();
 
                 Cursor.visible = true;
-                SceneController.Instance.LoadScene(targetSceneName);
             }
         }
     }

@@ -38,4 +38,13 @@ public class CollectSalmon : MonoBehaviour
             SceneController.Instance.LoadScene(targetSceneName);
         }
     }
+
+    public void GiveUpSalmonMinigame()
+    {
+            PlayerPrefs.DeleteKey(salmonKey);
+            PlayerPrefs.SetString(requiredKey, "true");
+            PlayerPrefs.SetString(finishedSalmonKey, "true");
+            PlayerPrefs.Save();
+            SceneController.Instance.LoadScene(targetSceneName);
+    }
 }

@@ -5,6 +5,7 @@ public class BerryCollector : MonoBehaviour
 {
     [SerializeField] private Transform bucketTransform;
     [SerializeField] float counter;
+    [SerializeField] float maxCollect;
     [SerializeField] private string targetSceneName;
 
     public void OnClickAction(InputAction.CallbackContext context)
@@ -29,7 +30,7 @@ public class BerryCollector : MonoBehaviour
                     collectible.bucketTransform = this.bucketTransform;
                     collectible.Collect();
                     counter++;
-                    if (counter == 5)
+                    if (counter == maxCollect)
                     {
                         SceneController.Instance.LoadScene(targetSceneName);
                     }

@@ -4,6 +4,7 @@ public class SetSceneAndPrefs : MonoBehaviour
 {
     [SerializeField] private string targetSceneName;
     [SerializeField] private string key;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

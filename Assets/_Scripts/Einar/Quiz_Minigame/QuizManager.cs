@@ -41,6 +41,16 @@ public class QuizManager : MonoBehaviour
         loseScreen.SetActive(false);
     }
 
+    public void NextQuestion()
+    {
+        questions[currentQuestion].SetActive(false);
+
+        currentQuestion++;
+        questions[currentQuestion].SetActive(true);
+
+        loseScreen.SetActive(false);
+    }
+
     public void exitSchool()
     {
         PlayerPrefs.DeleteKey(schoolKey);

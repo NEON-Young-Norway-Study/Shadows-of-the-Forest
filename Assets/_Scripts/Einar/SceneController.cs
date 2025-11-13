@@ -23,4 +23,19 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void FreezeTime()
+    {
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeTime()
+    {
+        Time.timeScale = 1f;
+    }
+
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
