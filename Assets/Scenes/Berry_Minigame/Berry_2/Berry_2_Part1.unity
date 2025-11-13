@@ -199,9 +199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BerryCollector
   bucketTransform: {fileID: 248973823}
   counter: 0
-  maxCollect: 0
+  maxCollect: 5
   targetSceneName: Berry_2_Part2
-  berryPickingSound: {fileID: 8300000, guid: d85bd3c09a3f74e6e92e8d5b4ea71add, type: 3}
+  berryPickingSound: {fileID: 8300000, guid: 38cc833c8a45a92429eba4cf5cdbee98, type: 3}
 --- !u!114 &388378599
 MonoBehaviour:
   m_ObjectHideFlags: 0
