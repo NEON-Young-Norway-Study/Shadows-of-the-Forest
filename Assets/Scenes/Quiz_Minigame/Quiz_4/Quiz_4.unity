@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 529945788997163148, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextQuestion
+      value: Retry
       objectReference: {fileID: 0}
     - target: {fileID: 800777007912559042, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -568,11 +568,11 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 868156987740101875, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Uuuhmm..
+      value: 17 cm
       objectReference: {fileID: 0}
     - target: {fileID: 882798174076949676, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Maybe.. gray?
+      value: Lynx lynx
       objectReference: {fileID: 0}
     - target: {fileID: 1098082670938475358, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -580,7 +580,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 1098082670938475358, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 1609797648424667100, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -588,11 +588,11 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 1617497100264467634, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Wasn't it Black?
+      value: Ursus maritimus
       objectReference: {fileID: 0}
     - target: {fileID: 1760653255392033706, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Sun bear
+      value: 500 kg
       objectReference: {fileID: 0}
     - target: {fileID: 1791005105054733566, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -604,7 +604,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 1860234104684868230, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 2671996737794091172, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -620,11 +620,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2862102150904906921, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: What sgjt is qtsry for bgoffx?
+      value: 'Sun bears have the longest claws of any bear. They also have the longest
+        tongues, what is the maximum length of their tongues? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2862102150904906921, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3033819728636883325, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Sloth bear
+      value: 350 kg
       objectReference: {fileID: 0}
     - target: {fileID: 3210310459201851935, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_IsActive
@@ -636,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3459485677222844096, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: maybe, pandas..
+      value: 600 kg
       objectReference: {fileID: 0}
     - target: {fileID: 3538764762243862435, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_IsActive
@@ -648,7 +653,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 3580003930691229477, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
+      value: CorrectAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 3628040969250649854, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -656,11 +661,11 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 4163904934386458814, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Spectacled bear?
+      value: 750 kg
       objectReference: {fileID: 0}
     - target: {fileID: 4591342653105918877, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: What color is a polar bear?
+      value: What is the latin name of grizzly bears?
       objectReference: {fileID: 0}
     - target: {fileID: 4591342653105918877, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -676,7 +681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5033356907653895275, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: What bear species hibernate?
+      value: What is the average weight of a male polar bear?
       objectReference: {fileID: 0}
     - target: {fileID: 5033356907653895275, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -684,7 +689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5435704967394511826, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Huh?
+      value: 31 cm
       objectReference: {fileID: 0}
     - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_Pivot.x
@@ -776,7 +781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Salmons
+      value: 25 cm
       objectReference: {fileID: 0}
     - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_fontSize
@@ -788,11 +793,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6344998630198999383, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: That is incorrect...
+      value: Sorry, that is incorrect
       objectReference: {fileID: 0}
     - target: {fileID: 6352383206374556293, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Brown, I think..
+      value: Ursus arctos horribilis
       objectReference: {fileID: 0}
     - target: {fileID: 6586856847160447162, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -804,7 +809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6761239927512950528, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: I dont remember.
+      value: Phascolarctos cinereus
       objectReference: {fileID: 0}
     - target: {fileID: 7069518668629826131, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_IsActive
@@ -814,13 +819,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1610851177}
+    - target: {fileID: 7149503973696193068, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CorrectAnswer
+      objectReference: {fileID: 0}
     - target: {fileID: 7240265086087449914, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Next question
+      value: Retry
       objectReference: {fileID: 0}
     - target: {fileID: 7770031890402917103, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: Im sorry, but you did not pass the test...
+      value: You made it! Good for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830530196153043880, guid: 22c33eba455539b46953da9c37179764, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -131
       objectReference: {fileID: 0}
     - target: {fileID: 8158609032392971984, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_IsActive
@@ -832,7 +845,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 8260204281152903209, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: So tired
+      value: 42 cm
       objectReference: {fileID: 0}
     - target: {fileID: 8551261620309474570, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -840,7 +853,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 8551261620309474570, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
