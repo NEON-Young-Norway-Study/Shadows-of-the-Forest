@@ -6,6 +6,20 @@ public class SoundEffectManager : MonoBehaviour
 
     [SerializeField] private AudioSource soundFXObject;
     bool mute = true;
+    public static SoundEffectManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private IEnumerator Start()
     {
@@ -39,4 +53,6 @@ public class SoundEffectManager : MonoBehaviour
             Destroy(audioSource.gameObject, clipLength);
         }
     }
+    //[SerializeField] private AudioClip SFXname;
+    //SoundEffectManager.Instance.PlaySoundFXClip(SFXname, transform, 1f);
 }
