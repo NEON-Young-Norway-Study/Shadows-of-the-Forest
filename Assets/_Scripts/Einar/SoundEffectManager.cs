@@ -37,7 +37,7 @@ public class SoundEffectManager : MonoBehaviour
         //assign audioClip
         audioSource.clip = audioClip;
         //assign volume
-        //audioSource.volume = SoundManager.instance.SFXVolumeWithMasterVolumeApplied();
+        audioSource.volume = volume;
         //play sound
         audioSource.Play();
         //get length of clip
