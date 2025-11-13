@@ -643,7 +643,7 @@ PrefabInstance:
     - target: {fileID: 8178174360590569059, guid: 6e250bc531e408349b04025a09e05e6f, type: 3}
       propertyPath: 'objectsInScene.Array.data[2]'
       value: 
-      objectReference: {fileID: 1773490174}
+      objectReference: {fileID: 660121987}
     - target: {fileID: 8178174360590569059, guid: 6e250bc531e408349b04025a09e05e6f, type: 3}
       propertyPath: 'objectsInScene.Array.data[3]'
       value: 
@@ -794,11 +794,11 @@ PrefabInstance:
       objectReference: {fileID: 1849566419}
     - target: {fileID: 5665397017720766400, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: requiredKey
-      value: Home_4
+      value: Home_5
       objectReference: {fileID: 0}
     - target: {fileID: 5665397017720766400, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: targetSceneName
-      value: Home_4
+      value: Home_5
       objectReference: {fileID: 0}
     - target: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: m_Color.b
@@ -1005,7 +1005,7 @@ PrefabInstance:
       objectReference: {fileID: 1235005368}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: school_Finished
-      value: School_4_Finished
+      value: School_5_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: defaultSpawnPoint
@@ -1013,7 +1013,7 @@ PrefabInstance:
       objectReference: {fileID: 1755844326}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_Finished
-      value: Berry_4_Finished
+      value: Berry_5_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_SpawnPoint
@@ -1301,7 +1301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994994864041926873, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
       propertyPath: targetSceneName
-      value: Quiz_5
+      value: Graduation_5
       objectReference: {fileID: 0}
     - target: {fileID: 8486984763428141613, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
       propertyPath: m_LocalScale.x
@@ -2817,7 +2817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3703779421079760926, guid: 0bfc75be5e06e9c4e9933fd6fdcb4eb6, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5680409989263849418, guid: 0bfc75be5e06e9c4e9933fd6fdcb4eb6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2910,11 +2910,6 @@ MonoBehaviour:
   finishedText: {fileID: 1692350833}
   requiredKey: Berry_4
   secondaryKey: Berry_4_Finished
---- !u!212 &1773490174 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3191758602199511651, guid: 0bfc75be5e06e9c4e9933fd6fdcb4eb6, type: 3}
-  m_PrefabInstance: {fileID: 1773490170}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1817442236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2925,7 +2920,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2382687361845690291, guid: c4a17f0c3874fcb4c8cb66a2f8986873, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2877213558108013303, guid: c4a17f0c3874fcb4c8cb66a2f8986873, type: 3}
       propertyPath: m_SortingOrder

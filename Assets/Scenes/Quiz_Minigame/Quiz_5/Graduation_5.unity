@@ -463,11 +463,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: homeKey
-      value: Home_3
+      value: Home_5
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: schoolKey
-      value: School_3
+      value: School_5
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: loseScreen
@@ -475,11 +475,11 @@ PrefabInstance:
       objectReference: {fileID: 531625373}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: targetSceneName
-      value: Overworld_3
+      value: Overworld_5
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: finishedSchoolKey
-      value: School_3_Finished
+      value: School_5_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: 'questions.Array.data[0]'
@@ -500,6 +500,10 @@ PrefabInstance:
     - target: {fileID: 3200937360345774205, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: m_Name
       value: QuizManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200937360345774205, guid: d6a5262860e82604193bf0af13cae088, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4906134842809168329, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: m_LocalPosition.x
@@ -637,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3255504265218054659, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3459485677222844096, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
@@ -645,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3538764762243862435, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3580003930691229477, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -829,7 +833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7770031890402917103, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_text
-      value: You made it! Good for you.
+      value: You graduated. Your father would be so proud of you.
       objectReference: {fileID: 0}
     - target: {fileID: 7830530196153043880, guid: 22c33eba455539b46953da9c37179764, type: 3}
       propertyPath: m_AnchoredPosition.y
