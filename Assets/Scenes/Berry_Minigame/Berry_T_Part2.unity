@@ -141,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: requiredKey
-      value: Berry_T
+      value: School_2
       objectReference: {fileID: 0}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: maxCollected
