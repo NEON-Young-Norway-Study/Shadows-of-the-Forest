@@ -38,7 +38,28 @@ public class BerryBasket : MonoBehaviour
                 PlayerPrefs.Save();
 
                 Cursor.visible = true;
+                SceneController.Instance.LoadScene(targetSceneName);
             }
         }
+    }
+
+    public void GiveUpBerryGame()
+    {
+        Cursor.visible = true;
+        PlayerPrefs.DeleteKey(berryKey);
+        PlayerPrefs.SetString(requiredKey, "true");
+        PlayerPrefs.SetString(finishedBerryKey, "true");
+        PlayerPrefs.Save();
+
+        SceneController.Instance.ResumeTime();
+        SceneController.Instance.LoadScene(targetSceneName);
+    }
+
+    public void BerryTouchfloor()
+    {
+        bearClaw.SetActive(false);
+        Cursor.visible = true;
+        canvas.SetActive(true);
+        SceneController.Instance.FreezeTime();
     }
 }
