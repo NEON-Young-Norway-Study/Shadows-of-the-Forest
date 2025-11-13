@@ -463,11 +463,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: homeKey
-      value: Home_3
+      value: Home_4
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: schoolKey
-      value: School_3
+      value: School_4
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: loseScreen
@@ -475,11 +475,11 @@ PrefabInstance:
       objectReference: {fileID: 531625373}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: targetSceneName
-      value: Overworld_3
+      value: Overworld_4
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: finishedSchoolKey
-      value: School_3_Finished
+      value: School_4_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: 'questions.Array.data[0]'

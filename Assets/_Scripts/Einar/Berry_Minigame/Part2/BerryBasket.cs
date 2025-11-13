@@ -25,7 +25,7 @@ public class BerryBasket : MonoBehaviour
             canvas.SetActive(true);
             SceneController.Instance.FreezeTime();
         }
-        // Optional: handle good berries or other objects
+
         else if (other.CompareTag("Berry"))
         {
             counter++;

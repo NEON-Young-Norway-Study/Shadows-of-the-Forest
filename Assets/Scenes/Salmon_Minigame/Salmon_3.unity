@@ -719,6 +719,7 @@ MonoBehaviour:
   maxChargeTime: 2
   minDropDistance: 2
   maxDropDistance: 10
+  clawDropSound: {fileID: 8300000, guid: bead55919dc1541eeb76928e16720493, type: 3}
   chargeBar: {fileID: 81473551}
 --- !u!1 &928259213
 GameObject:
