@@ -50,3 +50,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   loseScreen: {fileID: 0}
+  targetSceneName: 
+  schoolKey: 
+  homeKey: 
+  finishedSchoolKey: 
+  correctSFX: {fileID: 8300000, guid: 753a8fbf4e05fe6428503d0c037d2c4c, type: 3}
+  incorrectSFX: {fileID: 8300000, guid: b320ac0e6200e44458abbc57b7a512ca, type: 3}

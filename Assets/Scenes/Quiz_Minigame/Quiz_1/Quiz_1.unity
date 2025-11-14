@@ -772,6 +772,63 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5918519978223296171, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
   m_PrefabInstance: {fileID: 577176841}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &874459702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2605086053886619508, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_Name
+      value: SFX_Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 869.8924
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2240.4985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608905935221020361, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 310f0f31c52bc8f4e8be3399b30c38db, type: 3}
 --- !u!1 &1264531865
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,9 +936,17 @@ PrefabInstance:
       value: School_T
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
+      propertyPath: correctSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 753a8fbf4e05fe6428503d0c037d2c4c, type: 3}
+    - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: loseScreen
       value: 
       objectReference: {fileID: 577176843}
+    - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
+      propertyPath: incorrectSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: b320ac0e6200e44458abbc57b7a512ca, type: 3}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: targetSceneName
       value: Overworld_T1
@@ -972,3 +1037,4 @@ SceneRoots:
   - {fileID: 577176841}
   - {fileID: 1264531868}
   - {fileID: 3734056957156910849}
+  - {fileID: 874459702}
