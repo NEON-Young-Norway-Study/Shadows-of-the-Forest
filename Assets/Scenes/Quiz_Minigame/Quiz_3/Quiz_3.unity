@@ -119,6 +119,380 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &21676596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 287316964504817720, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 287316964504817720, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CorrectAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 299189379554584536, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 299189379554584536, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 903488432876590675, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: So tired
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293307738418530463, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380219021901236152, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 1380219021901236152, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1427419033921226079, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 1427419033921226079, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542236785793294066, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Huh?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695162244867962183, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 1695162244867962183, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877824492930509392, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.047183514
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877824492930509392, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877824492930509392, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877824492930509392, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 1877824492930509392, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: exitSchool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073893083823455448, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 2073893083823455448, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2208931719858865444, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Name
+      value: New_QuizCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2236536651514176064, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Next question...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469491493198297, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819126591310662641, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Uhm, lets start...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012786718175337219, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 3012786718175337219, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3088794584709315285, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 3088794584709315285, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextQuestion
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156235856794000721, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Maybe.. gray?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404864955315812206, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: What color is a polar bear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474758598995425210, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: What bear species hibernate?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825999032781523374, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 3825999032781523374, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827353182385868285, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Uuuhmm..
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394840535716136378, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -192
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636945094567161705, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Spectacled bear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034714152085601775, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 5034714152085601775, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143336689694141349, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Brown, I think..
+      objectReference: {fileID: 0}
+    - target: {fileID: 5636783402343443214, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 5636783402343443214, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779610713070503110, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: maybe, pandas..
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009056067235913433, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: F
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223792974745469149, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 6223792974745469149, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6236408027808639800, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Sloth bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 6405275399350479355, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Sun bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659954258433146031, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4bb647cbc2f4ec849b1767fb8cd26136, type: 3}
+    - target: {fileID: 6659954258433146031, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.690566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659954258433146031, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.690566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659954258433146031, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.690566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671382209565844037, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909685856563926641, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: I dont remember.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017093627008335980, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: You failed!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244238060760518940, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487366220975131258, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: What sgjt is qtsry for bgoffx?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235962456133461129, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 8235962456133461129, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8537991157264352671, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: That is incorrect...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913102205879846850, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Wasn't it Black?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978920342970038794, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1610851177}
+    - target: {fileID: 8978920342970038794, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103121943352810301, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: Salmons
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3012209909973964147, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372512806}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+--- !u!224 &21676597 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3012209909973964147, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+  m_PrefabInstance: {fileID: 21676596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &21676598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2565363407009931196, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+  m_PrefabInstance: {fileID: 21676596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &21676599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 390033798674199772, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+  m_PrefabInstance: {fileID: 21676596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &21676600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1293307738418530463, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+  m_PrefabInstance: {fileID: 21676596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &21676601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7244238060760518940, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+  m_PrefabInstance: {fileID: 21676596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &21676602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5918519978223296171, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+  m_PrefabInstance: {fileID: 21676596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &75240758
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,16 +585,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &429861879 stripped
+--- !u!1 &372512805
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8158609032392971984, guid: 22c33eba455539b46953da9c37179764, type: 3}
-  m_PrefabInstance: {fileID: 8024280404077005912}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &471137341 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3255504265218054659, guid: 22c33eba455539b46953da9c37179764, type: 3}
-  m_PrefabInstance: {fileID: 8024280404077005912}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372512806}
+  - component: {fileID: 372512808}
+  - component: {fileID: 372512807}
+  m_Layer: 5
+  m_Name: Distorted_Paper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &372512806
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372512805}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 21676597}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &372512807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372512805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f4fe4373d0fda7346bda747e7c706e9d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &372512808
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372512805}
+  m_CullTransparentMesh: 1
 --- !u!1 &499006261
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,16 +787,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &531625373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3210310459201851935, guid: 22c33eba455539b46953da9c37179764, type: 3}
-  m_PrefabInstance: {fileID: 8024280404077005912}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &933983811 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7069518668629826131, guid: 22c33eba455539b46953da9c37179764, type: 3}
-  m_PrefabInstance: {fileID: 8024280404077005912}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1264531865
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,11 +877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d56db8c7756ec4abf290c5b4804a8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuizManager
---- !u!1 &1965255302 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3538764762243862435, guid: 22c33eba455539b46953da9c37179764, type: 3}
-  m_PrefabInstance: {fileID: 8024280404077005912}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3734056957156910849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -472,7 +896,7 @@ PrefabInstance:
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: loseScreen
       value: 
-      objectReference: {fileID: 531625373}
+      objectReference: {fileID: 21676598}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: targetSceneName
       value: Overworld_3
@@ -482,21 +906,29 @@ PrefabInstance:
       value: School_3_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
+      propertyPath: questions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: 'questions.Array.data[0]'
       value: 
-      objectReference: {fileID: 471137341}
+      objectReference: {fileID: 21676602}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: 'questions.Array.data[1]'
       value: 
-      objectReference: {fileID: 429861879}
+      objectReference: {fileID: 21676601}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: 'questions.Array.data[2]'
       value: 
-      objectReference: {fileID: 933983811}
+      objectReference: {fileID: 21676600}
     - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: 'questions.Array.data[3]'
       value: 
-      objectReference: {fileID: 1965255302}
+      objectReference: {fileID: 21676600}
+    - target: {fileID: 104219864390201193, guid: d6a5262860e82604193bf0af13cae088, type: 3}
+      propertyPath: 'questions.Array.data[4]'
+      value: 
+      objectReference: {fileID: 21676599}
     - target: {fileID: 3200937360345774205, guid: d6a5262860e82604193bf0af13cae088, type: 3}
       propertyPath: m_Name
       value: QuizManager
@@ -546,313 +978,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6a5262860e82604193bf0af13cae088, type: 3}
---- !u!1001 &8024280404077005912
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 529945788997163148, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 529945788997163148, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextQuestion
-      objectReference: {fileID: 0}
-    - target: {fileID: 800777007912559042, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 868156987740101875, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Uuuhmm..
-      objectReference: {fileID: 0}
-    - target: {fileID: 882798174076949676, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Maybe.. gray?
-      objectReference: {fileID: 0}
-    - target: {fileID: 1098082670938475358, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 1098082670938475358, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
-      objectReference: {fileID: 0}
-    - target: {fileID: 1609797648424667100, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 1617497100264467634, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Wasn't it Black?
-      objectReference: {fileID: 0}
-    - target: {fileID: 1760653255392033706, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Sun bear
-      objectReference: {fileID: 0}
-    - target: {fileID: 1791005105054733566, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 1860234104684868230, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 1860234104684868230, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
-      objectReference: {fileID: 0}
-    - target: {fileID: 2671996737794091172, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2671996737794091172, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 2671996737794091172, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: exitSchool
-      objectReference: {fileID: 0}
-    - target: {fileID: 2862102150904906921, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: What sgjt is qtsry for bgoffx?
-      objectReference: {fileID: 0}
-    - target: {fileID: 3033819728636883325, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Sloth bear
-      objectReference: {fileID: 0}
-    - target: {fileID: 3210310459201851935, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3255504265218054659, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3459485677222844096, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: maybe, pandas..
-      objectReference: {fileID: 0}
-    - target: {fileID: 3538764762243862435, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3580003930691229477, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 3580003930691229477, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
-      objectReference: {fileID: 0}
-    - target: {fileID: 3628040969250649854, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 4163904934386458814, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Spectacled bear?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4591342653105918877, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: What color is a polar bear?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4591342653105918877, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925034486403361792, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_Name
-      value: QuizCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925034486403361792, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5033356907653895275, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: What bear species hibernate?
-      objectReference: {fileID: 0}
-    - target: {fileID: 5033356907653895275, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435704967394511826, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Huh?
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526370774543059122, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5630682635365545600, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 5912335898351383283, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Go home
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Salmons
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_fontSize
-      value: 37
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319202472346229678, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 37
-      objectReference: {fileID: 0}
-    - target: {fileID: 6344998630198999383, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: That is incorrect...
-      objectReference: {fileID: 0}
-    - target: {fileID: 6352383206374556293, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Brown, I think..
-      objectReference: {fileID: 0}
-    - target: {fileID: 6586856847160447162, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 6586856847160447162, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
-      objectReference: {fileID: 0}
-    - target: {fileID: 6761239927512950528, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: I dont remember.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7069518668629826131, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7149503973696193068, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 7240265086087449914, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Next question
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770031890402917103, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: Im sorry, but you did not pass the test...
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158609032392971984, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8226306950779348728, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 8260204281152903209, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_text
-      value: So tired
-      objectReference: {fileID: 0}
-    - target: {fileID: 8551261620309474570, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1610851177}
-    - target: {fileID: 8551261620309474570, guid: 22c33eba455539b46953da9c37179764, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 22c33eba455539b46953da9c37179764, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 75240761}
   - {fileID: 499006263}
-  - {fileID: 8024280404077005912}
+  - {fileID: 21676596}
   - {fileID: 1264531868}
   - {fileID: 3734056957156910849}
