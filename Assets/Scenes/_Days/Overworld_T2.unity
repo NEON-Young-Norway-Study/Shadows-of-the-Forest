@@ -6979,6 +6979,7 @@ MonoBehaviour:
   startOfDayTriggers:
   - {fileID: 947002440}
   - {fileID: 855825842}
+  - {fileID: 1469570792}
   foodMinigame_Finished: Berry_T_Finished
   school_Finished: School_2_Finished
 --- !u!114 &1752367727
