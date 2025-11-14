@@ -173,15 +173,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5079506059262371030, guid: 92737e4a0d02000428a2c2302a970843, type: 3}
       propertyPath: m_Color.b
-      value: 0.78113204
+      value: 0.668843
       objectReference: {fileID: 0}
     - target: {fileID: 5079506059262371030, guid: 92737e4a0d02000428a2c2302a970843, type: 3}
       propertyPath: m_Color.g
-      value: 0.78113204
+      value: 0.668843
       objectReference: {fileID: 0}
     - target: {fileID: 5079506059262371030, guid: 92737e4a0d02000428a2c2302a970843, type: 3}
       propertyPath: m_Color.r
-      value: 0.78113204
+      value: 0.6830188
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1739,7 +1739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1950046048
 Light:
   m_ObjectHideFlags: 0
