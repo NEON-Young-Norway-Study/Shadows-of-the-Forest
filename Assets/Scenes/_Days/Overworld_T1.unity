@@ -4098,7 +4098,7 @@ Transform:
   m_GameObject: {fileID: 925382795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.49, y: 0, z: 4.28}
+  m_LocalPosition: {x: -20.19, y: 0, z: 4.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7189,7 +7189,7 @@ Transform:
   m_GameObject: {fileID: 1802048498}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.34, y: 0, z: 1.69}
+  m_LocalPosition: {x: -2.47, y: 0, z: 1.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8917,7 +8917,7 @@ MonoBehaviour:
   checkpoints:
   - {fileID: 884725969}
   - {fileID: 1802048499}
-  - {fileID: 0}
+  - {fileID: 925382796}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
