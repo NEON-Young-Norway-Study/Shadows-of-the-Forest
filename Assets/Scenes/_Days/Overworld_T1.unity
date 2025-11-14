@@ -1218,6 +1218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 1469570792}
+  Deactivate: []
 --- !u!1 &358734576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 792671092}
+  Deactivate: []
 --- !u!1 &455226949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
@@ -1744,6 +1746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 792671092}
+  Deactivate: []
 --- !u!1 &491997899 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
@@ -3212,6 +3215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 455226949}
+  Deactivate: []
 --- !u!1 &792671092 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
@@ -3374,6 +3378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 1469570792}
+  Deactivate: []
 --- !u!1001 &805231985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4600,8 +4605,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1918814815}
     m_Modifications:
     - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.72314125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.7088
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6158186
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.57
+      value: -20.892
       objectReference: {fileID: 0}
     - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4609,7 +4626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.73
+      value: 0.2432
       objectReference: {fileID: 0}
     - target: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6238,6 +6255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
   - {fileID: 88698656}
+  Deactivate: []
 --- !u!1 &1628421124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
@@ -8515,6 +8533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate: []
+  Deactivate: []
 --- !u!1 &1993973249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
