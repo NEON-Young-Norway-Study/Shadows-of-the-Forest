@@ -4,6 +4,7 @@ public class ActOnDeactScript : MonoBehaviour
 {
 
     public GameObject[] ThingsToActivate;
+    public GameObject[] Deactivate;
 
 
     private void OnDisable()
@@ -12,7 +13,11 @@ public class ActOnDeactScript : MonoBehaviour
         {
             obj.SetActive(true);
         }
-        //ThingsToActivate.SetActive(true);
+        
+        foreach (GameObject obj in Deactivate)
+        {
+            obj.SetActive(false);
+        }
     }
 
     private void OnEnable()
