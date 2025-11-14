@@ -400,6 +400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dock_background
       objectReference: {fileID: 0}
+    - target: {fileID: 5079506059262371030, guid: 92737e4a0d02000428a2c2302a970843, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7297df96c7c06d345a68bcb83861905c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

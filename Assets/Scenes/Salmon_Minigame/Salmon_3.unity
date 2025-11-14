@@ -461,7 +461,7 @@ MonoBehaviour:
   targetSceneName: Overworld_3
   salmonKey: Salmon_3
   requiredKey: School_3
-  finishedSalmonKey: Sorry,nope
+  finishedSalmonKey: Salmon_3_Finished
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0

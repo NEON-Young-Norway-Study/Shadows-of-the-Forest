@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 0}
+  - {fileID: 1136222014}
   Deactivate: []
 --- !u!1 &205681729 stripped
 GameObject:
@@ -2800,7 +2800,7 @@ MonoBehaviour:
   - {fileID: 1630164940}
   - {fileID: 1021988672}
   foodMinigame_Finished: Salmon_3_Finished
-  school_Finished: 
+  school_Finished: School_3_Finshed
 --- !u!1 &919845096
 GameObject:
   m_ObjectHideFlags: 0
@@ -3747,6 +3747,11 @@ MonoBehaviour:
   ThingsToActivate:
   - {fileID: 205681729}
   Deactivate: []
+--- !u!1 &1056112717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+  m_PrefabInstance: {fileID: 1056112713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070813847
 GameObject:
   m_ObjectHideFlags: 0
@@ -4156,6 +4161,11 @@ MonoBehaviour:
   ThingsToActivate:
   - {fileID: 205681729}
   Deactivate: []
+--- !u!1 &1136222014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+  m_PrefabInstance: {fileID: 1136222010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1146320446
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,9 +5116,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate:
-  - {fileID: 205681729}
+  ThingsToActivate: []
   Deactivate: []
+--- !u!1 &1451160268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+  m_PrefabInstance: {fileID: 1451160264}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1462565333
 GameObject:
   m_ObjectHideFlags: 0
@@ -7272,7 +7286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 0}
+  - {fileID: 1451160268}
   Deactivate: []
 --- !u!1 &2118339019
 GameObject:
@@ -7386,7 +7400,7 @@ PrefabInstance:
     - target: {fileID: 6596266221607256984, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: ObjectToActivate
       value: 
-      objectReference: {fileID: 1776874161}
+      objectReference: {fileID: 1056112717}
     - target: {fileID: 6596266221607256984, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: isNeedOfInteraction
       value: 1
