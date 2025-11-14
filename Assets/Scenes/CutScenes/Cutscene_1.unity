@@ -2112,7 +2112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetSceneAndPrefs
   targetSceneName: Overworld_3
-  key: Salmon_3
+  key: Salmon_0.23
 --- !u!1001 &814374486
 PrefabInstance:
   m_ObjectHideFlags: 0
