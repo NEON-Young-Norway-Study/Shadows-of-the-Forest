@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 33438488}
-  - component: {fileID: 33438489}
   m_Layer: 0
   m_Name: DockCheckpoint
   m_TagString: Untagged
@@ -151,27 +150,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 512387411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &33438489
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 33438487}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &67415377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,7 +3798,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 884725969}
-  - component: {fileID: 884725970}
   m_Layer: 0
   m_Name: SchoolCheckpoint
   m_TagString: Untagged
@@ -3843,27 +3820,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 512387411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &884725970
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884725968}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &925382795
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,7 +3829,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 925382796}
-  - component: {fileID: 925382797}
   m_Layer: 0
   m_Name: HomeCheckpoint
   m_TagString: Untagged
@@ -3896,27 +3851,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 512387411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &925382797
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925382795}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &934682981
 GameObject:
   m_ObjectHideFlags: 0
@@ -4835,7 +4769,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107227601}
-  - component: {fileID: 1107227602}
   m_Layer: 0
   m_Name: BerryCkeckpoint
   m_TagString: Untagged
@@ -4858,27 +4791,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 512387411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1107227602
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107227600}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1116824511
 GameObject:
   m_ObjectHideFlags: 0
@@ -5367,7 +5279,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1238513270}
-  - component: {fileID: 1238513271}
   m_Layer: 0
   m_Name: Bridge2Checkpoint
   m_TagString: Untagged
@@ -5390,27 +5301,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 512387411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1238513271
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238513269}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1250463347
 GameObject:
   m_ObjectHideFlags: 0
@@ -6969,7 +6859,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1802048499}
-  - component: {fileID: 1802048500}
   m_Layer: 0
   m_Name: Bridge1Checkpoint
   m_TagString: Untagged
@@ -6992,27 +6881,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 512387411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1802048500
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802048498}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1812993348
 GameObject:
   m_ObjectHideFlags: 0
@@ -10051,7 +9919,7 @@ CharacterController:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Height: 2
   m_Radius: 0.5
