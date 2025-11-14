@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class ActOnDeactScript : MonoBehaviour
 {
-
+    [Header("Next dialogue or triger")]
     public GameObject[] ThingsToActivate;
+
+    [Header("things to Deactivate")]
     public GameObject[] Deactivate;
 
 
