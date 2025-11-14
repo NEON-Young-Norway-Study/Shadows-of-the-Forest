@@ -10,7 +10,7 @@ public class NotDestroy : MonoBehaviour
     }
     void Start()
     {
-        
+        gameObject.SetActive(false);
     }
 
     // Update is called once per frame
