@@ -1602,7 +1602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate: []
+  ThingsToActivate:
+  - {fileID: 632594571}
   Deactivate: []
 --- !u!114 &943209596
 MonoBehaviour:
@@ -1616,7 +1617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate: []
+  ThingsToActivate:
+  - {fileID: 632594571}
   Deactivate: []
 --- !u!1 &1096404474
 GameObject:
@@ -1751,7 +1753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate: []
+  ThingsToActivate:
+  - {fileID: 632594571}
   Deactivate: []
 --- !u!1 &1205213854
 GameObject:
@@ -2579,7 +2582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate: []
+  ThingsToActivate:
+  - {fileID: 632594571}
   Deactivate: []
 --- !u!1 &1992008219
 GameObject:
