@@ -11,11 +11,17 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private NPCMovement npc;
 
     private int lineIndex;
+    private CharacterController controller;
 
     void Start()
     {
         dialogueText.text = string.Empty;
         npc = Object.FindFirstObjectByType<NPCMovement>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerMovement = player.GetComponent<MainCharacterController>();
+        }
         StartDialogue();
     }
 

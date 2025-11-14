@@ -7,6 +7,7 @@ public class BerryCollectible : MonoBehaviour
 
     public Transform bucketTransform;
 
+
     public void Collect()
     {
         isSliding = true;
@@ -28,5 +29,6 @@ public class BerryCollectible : MonoBehaviour
     private void StoreBerry()
     {
         //BerryManager.AddBerry(gameObject);
+        
     }
 }
