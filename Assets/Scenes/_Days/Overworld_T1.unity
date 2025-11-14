@@ -6168,10 +6168,6 @@ MonoBehaviour:
   - {fileID: 33438488}
   - {fileID: 1802048499}
   - {fileID: 884725969}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   animator: {fileID: 0}
   front: {fileID: 158711087}
   back: {fileID: 158711086}
@@ -6843,10 +6839,6 @@ MonoBehaviour:
   - {fileID: 925382796}
   - {fileID: 1802048499}
   - {fileID: 33438488}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   animator: {fileID: 0}
   front: {fileID: 758248718}
   back: {fileID: 758248717}
@@ -8918,10 +8910,6 @@ MonoBehaviour:
   - {fileID: 884725969}
   - {fileID: 1802048499}
   - {fileID: 925382796}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   animator: {fileID: 0}
   front: {fileID: 374663629}
   back: {fileID: 374663628}
