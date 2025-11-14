@@ -14,7 +14,7 @@ public class PoisonBerry : MonoBehaviour
                 playerAnimator.SetBool("isDead", true);
                 Debug.Log("Play dead");
 
-                PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();
+                MainCharacterController playerMovement = other.GetComponent<MainCharacterController>();
                  if (playerMovement != null)
                     {
                         playerMovement.enabled = false;

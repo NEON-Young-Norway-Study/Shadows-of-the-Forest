@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class MainCharacterController : MonoBehaviour
 {
 
     private InputAction _moveAction, _jumpAction;

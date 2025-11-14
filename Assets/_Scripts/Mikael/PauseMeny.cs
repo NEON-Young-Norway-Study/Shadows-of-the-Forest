@@ -40,7 +40,7 @@ public class PauseMeny : MonoBehaviour
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
-                playerMovement = player.GetComponent<PlayerMovement>();
+                playerMovement = player.GetComponent<MainCharacterController>();
             }
         }
     }

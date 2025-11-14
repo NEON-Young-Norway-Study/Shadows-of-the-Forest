@@ -4178,6 +4178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPointManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5882382813827866524, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8682259105877624803, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5489,6 +5493,30 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3045619103422615845, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 1235005368}
+    - target: {fileID: 3045619103422615845, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: school_Finished
+      value: School_T_Finished
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045619103422615845, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: defaultSpawnPoint
+      value: 
+      objectReference: {fileID: 1983480792}
+    - target: {fileID: 3045619103422615845, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: foodMinigame_Finished
+      value: Salmon_T_Finished
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045619103422615845, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: foodMinigame_SpawnPoint
+      value: 
+      objectReference: {fileID: 1983480791}
+    - target: {fileID: 3045619103422615845, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: schoolMinigame_SpawnPoint
+      value: 
+      objectReference: {fileID: 1983480790}
     - target: {fileID: 4725968712947985219, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_SortingOrder
       value: 3

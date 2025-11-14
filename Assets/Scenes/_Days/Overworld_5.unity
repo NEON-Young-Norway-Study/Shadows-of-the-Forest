@@ -1013,7 +1013,7 @@ PrefabInstance:
       objectReference: {fileID: 1755844326}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_Finished
-      value: Berry_5_Finished
+      value: Salmon_5_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_SpawnPoint
