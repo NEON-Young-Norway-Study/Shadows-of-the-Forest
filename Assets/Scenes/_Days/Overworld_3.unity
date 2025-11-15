@@ -851,7 +851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I'm sorry, who are you?
+      value: Who are you?
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -948,7 +948,7 @@ PrefabInstance:
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0ed5f9061ddb3814cb93a20207c5ff5b, type: 3}
+      objectReference: {fileID: 21300000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3040,7 +3040,7 @@ PrefabInstance:
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0ed5f9061ddb3814cb93a20207c5ff5b, type: 3}
+      objectReference: {fileID: 21300000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4159,7 +4159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 205681729}
+  - {fileID: 2110172147}
   Deactivate: []
 --- !u!1 &1136222014 stripped
 GameObject:
@@ -7254,7 +7254,7 @@ PrefabInstance:
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0ed5f9061ddb3814cb93a20207c5ff5b, type: 3}
+      objectReference: {fileID: 21300000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7288,6 +7288,11 @@ MonoBehaviour:
   ThingsToActivate:
   - {fileID: 1451160268}
   Deactivate: []
+--- !u!1 &2110172147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+  m_PrefabInstance: {fileID: 2110172143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2118339019
 GameObject:
   m_ObjectHideFlags: 0
