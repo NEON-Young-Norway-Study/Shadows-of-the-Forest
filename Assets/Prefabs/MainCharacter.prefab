@@ -1416,6 +1416,7 @@ MonoBehaviour:
   back_left_arm: {fileID: 8112235404629508645}
   back_right_arm: {fileID: 1676421410413879897}
   idle_arms: {fileID: 5917529534435741657}
+  RunningSound: {fileID: 8300000, guid: 6dfea4f11adb14203a3f48b617c769f1, type: 3}
   animator: {fileID: 5269711326317896547}
 --- !u!1 &6322617858870999959
 GameObject:
