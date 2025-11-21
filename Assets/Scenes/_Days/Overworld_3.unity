@@ -6066,6 +6066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1839870273576228603, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e97d1690f2e8d10438ab4033594c5a98, type: 3}
     - target: {fileID: 2294337432319325346, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -6082,6 +6086,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7055727717520417085, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 217ae68589d4cbb4491bb88a720c54bb, type: 3}
     - target: {fileID: 8648615873649995871, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_SortingOrder
       value: 3
