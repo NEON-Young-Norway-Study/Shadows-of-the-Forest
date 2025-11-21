@@ -400,10 +400,9 @@ GameObject:
   m_Component:
   - component: {fileID: 647065096}
   - component: {fileID: 647065095}
-  - component: {fileID: 647065097}
   m_Layer: 0
-  m_Name: CollectTrigger
-  m_TagString: Untagged
+  m_Name: TriggerZone
+  m_TagString: TriggerZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,8 +426,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 18.052475, y: 4.618947, z: 4.8731813}
-  m_Center: {x: -0.11860275, y: -3.2939343, z: -0.21946144}
+  m_Size: {x: 41.547745, y: 14.121992, z: 9.8664665}
+  m_Center: {x: 1.7759781, y: -13.880891, z: -0.5789604}
 --- !u!4 &647065096
 Transform:
   m_ObjectHideFlags: 0
@@ -438,30 +437,12 @@ Transform:
   m_GameObject: {fileID: 647065094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33, y: 13.9, z: 0.08}
+  m_LocalPosition: {x: -33, y: 8.93, z: 0.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &647065097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647065094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dba59ab94844e54428339657502cac94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CollectSalmon
-  counterText: {fileID: 2090774996}
-  maxSalmonCount: 99999
-  targetSceneName: Overworld_3
-  salmonKey: Salmon_3
-  requiredKey: School_3
-  finishedSalmonKey: Salmon_3_Finished
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,9 +627,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 6.4, y: 5.8123593, z: 2.7877364}
   m_Center: {x: 0, y: -0.29382062, z: -0.10460639}
@@ -1024,7 +1005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1081283530
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1089,7 +1070,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 647065097}
+      - m_Target: {fileID: 1416191075}
         m_TargetAssemblyTypeName: CollectSalmon, Assembly-CSharp
         m_MethodName: GiveUpSalmonMinigame
         m_Mode: 1
@@ -1277,6 +1258,56 @@ RectTransform:
   m_AnchoredPosition: {x: -0.28, y: -7.8999996}
   m_SizeDelta: {x: 19.8729, y: 8.2136}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1416191073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1416191074}
+  - component: {fileID: 1416191075}
+  m_Layer: 0
+  m_Name: Real_Collect_Counter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1416191074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416191073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -33.1186, y: 10.60607, z: -0.13946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1416191075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416191073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba59ab94844e54428339657502cac94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollectSalmon
+  counterText: {fileID: 2090774996}
+  maxSalmonCount: 5
+  targetSceneName: Overworld_3
+  salmonKey: Salmon_3
+  requiredKey: School_3
+  finishedSalmonKey: Salmon_3_Finished
 --- !u!1 &1490732630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,7 +1411,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give Up
+  m_text: Give Up?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1516,6 +1547,53 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbf0c805d8545d54bae20c84d53c2972, type: 3}
+--- !u!1 &1655088854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655088855}
+  - component: {fileID: 1655088856}
+  m_Layer: 0
+  m_Name: GO_Activator_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1655088855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655088854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 903.7485, y: 0, z: 4432.4355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655088856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655088854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454c7a4fb38944a449abd465fddd86ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GO_Activator_Manager
+  gameObjectsToActivate:
+  - {fileID: 1081283529}
+  delayInSeconds: 15
 --- !u!1 &1846143628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +2216,10 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6810138717351194382, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
+      propertyPath: spawnRangeY
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810138717351194382, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: salmonPrefab
       value: 
       objectReference: {fileID: 2225887149256742232, guid: ad4e8ddd66133084c9cb6444b60faf8b, type: 3}
@@ -2151,7 +2233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7838243996298998483, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7838243996298998483, guid: 7850edb59adc6d8418bccd48efde64e4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2208,3 +2290,5 @@ SceneRoots:
   - {fileID: 3803008637430013534}
   - {fileID: 981936720}
   - {fileID: 1863818668}
+  - {fileID: 1655088855}
+  - {fileID: 1416191074}

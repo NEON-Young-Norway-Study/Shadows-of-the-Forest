@@ -1765,6 +1765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dad
       objectReference: {fileID: 0}
+    - target: {fileID: 3251480784204916110, guid: 02eb6b6077cd1934cb4f2fb0f4c90e53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5701515516856110207, guid: 02eb6b6077cd1934cb4f2fb0f4c90e53, type: 3}
       propertyPath: m_Center.y
       value: -0.2
@@ -2055,6 +2059,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3819148295243052443, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_CameraType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819148295243052443, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_RendererIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819148295243052443, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5917529534435741657, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2063,6 +2079,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 6129511274836595603, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129511274836595603, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129511274836595603, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8599456324716475526, guid: 28f758325350cc549874c3937e33c71e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2070,7 +2098,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5909063676110139032, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1806661457}
   m_SourcePrefab: {fileID: 100100000, guid: 28f758325350cc549874c3937e33c71e, type: 3}
 --- !u!1 &1665406137 stripped
 GameObject:
@@ -2108,6 +2139,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abd3d5186f5ea4394aa4b6444f402e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMeny
+--- !u!1 &1806661452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5909063676110139032, guid: 28f758325350cc549874c3937e33c71e, type: 3}
+  m_PrefabInstance: {fileID: 1665406136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1806661457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806661452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3cf6fa5d5e619448f94768c731fbe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorEffect_Controller
+  postProcessMaterial: {fileID: 2100000, guid: bd2e7542034a6df4183fa00cbeb25efd, type: 2}
+  strength: 1
 --- !u!1 &1807959111
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,5 +28,15 @@ public class SalmonMovement : MonoBehaviour
             speed = 0;
 
         }
+
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (isStuck && other.CompareTag("TriggerZone"))
+        {
+            transform.parent = other.transform;
+            isStuck = false;
+            speed = 100;
+        }
     }
 }
