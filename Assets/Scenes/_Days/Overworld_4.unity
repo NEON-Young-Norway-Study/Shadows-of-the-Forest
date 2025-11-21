@@ -4405,6 +4405,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513032568}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &527985611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+  m_PrefabInstance: {fileID: 844255808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &533059826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5845,6 +5850,11 @@ PrefabInstance:
 --- !u!4 &667812502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+  m_PrefabInstance: {fileID: 667812501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &667812503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
   m_PrefabInstance: {fileID: 667812501}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &681283814
@@ -7600,6 +7610,22 @@ PrefabInstance:
       propertyPath: 'dialogueLines.Array.data[2]'
       value: "But I\u2019m happy to see you again! How are you doing?"
       objectReference: {fileID: 0}
+    - target: {fileID: 1547674041661155735, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: ThingsToActivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547674041661155735, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: 'ThingsToActivate.Array.data[0]'
+      value: 
+      objectReference: {fileID: 667812503}
+    - target: {fileID: 2371611682842688247, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: ThingsToActivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371611682842688247, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: 'ThingsToActivate.Array.data[0]'
+      value: 
+      objectReference: {fileID: 667812503}
     - target: {fileID: 3238530020753012732, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: optionB
       value: 
@@ -7618,11 +7644,15 @@ PrefabInstance:
       objectReference: {fileID: 844255810}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
       value: "Oh, don\u2019t worry. It might have gotten lost in the mail"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: "But I\u2019m happy to see you again! How are you doing?"
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -7632,6 +7662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueOptions&Paths
       objectReference: {fileID: 0}
+    - target: {fileID: 7458575938730889646, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.2821
@@ -7672,6 +7706,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8238727062201831502, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 791cd325e9da92b41b4ea03d358fe4d5, type: 3}
+    - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 791cd325e9da92b41b4ea03d358fe4d5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7994736022925405306, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -7861,8 +7903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate:
-  - {fileID: 0}
+  ThingsToActivate: []
   Deactivate: []
 --- !u!1 &936208389
 GameObject:
@@ -8899,7 +8940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c40853a06d843614e8b342463dda029b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9686,7 +9727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Name
-      value: Dialogue1P2
+      value: Dialogue1.1P2
       objectReference: {fileID: 0}
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
@@ -9728,7 +9769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 2074995956}
+  - {fileID: 527985611}
   Deactivate: []
 --- !u!1 &1143834187
 GameObject:
@@ -10240,7 +10281,7 @@ PrefabInstance:
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 791cd325e9da92b41b4ea03d358fe4d5, type: 3}
+      objectReference: {fileID: 21300000, guid: 7c29914ba7696d54e8bd480154102db6, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14428,6 +14469,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1996349683566571417, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996349683566571417, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.57
+      objectReference: {fileID: 0}
     - target: {fileID: 4251606571026611882, guid: efcb79206fb891045975b8891388eaf7, type: 3}
       propertyPath: m_Name
       value: SpawnPoints
@@ -14484,7 +14533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1755844325 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8031525460455537686, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1996349683566571417, guid: efcb79206fb891045975b8891388eaf7, type: 3}
   m_PrefabInstance: {fileID: 1755844323}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1755844326 stripped
@@ -16993,11 +17042,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062051266}
   m_CullTransparentMesh: 1
---- !u!1 &2074995956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5385044472286601487, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
-  m_PrefabInstance: {fileID: 844255808}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2075102426
 GameObject:
   m_ObjectHideFlags: 0

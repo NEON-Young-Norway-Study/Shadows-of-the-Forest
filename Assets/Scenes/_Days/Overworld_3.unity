@@ -3789,7 +3789,7 @@ MonoBehaviour:
   - {fileID: 1630164940}
   - {fileID: 1021988672}
   foodMinigame_Finished: Salmon_3_Finished
-  school_Finished: School_3_Finshed
+  school_Finished: School_3_Finished
 --- !u!1 &919845096
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,7 +5394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I'm was a co-worker of your pah
+      value: I was a co-worker of your pah
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
