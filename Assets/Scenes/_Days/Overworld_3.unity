@@ -5071,7 +5071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (I got some fish from the Snake. I should get going to school)
+      value: (I got some fish from the Snake. I should get going to school...)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -25777,7 +25777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (I should go home)
+      value: (I should go home...)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'

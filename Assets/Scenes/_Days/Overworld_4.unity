@@ -1835,7 +1835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1761881207}
   dialogueLines:
-  - Thank you
+  - '"Thank you"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1677326946}
   dialogueLines:
-  - How? How could he leave us!?
+  - '"How? How could he leave us!?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -7067,7 +7067,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1380306448}
   dialogueLines:
   - ...
-  - Could... could you help me sort them again?
+  - '"Could... could you help me sort them again?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -9549,7 +9549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1032287726}
   dialogueLines:
-  - I do? They all look the same
+  - '"I do? They all look the same"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -13622,7 +13622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 454524276}
   dialogueLines:
-  - Of course. You have quite a lot of rotten ones, you can have my batch
+  - '"Of course. You have quite a lot of rotten ones, you can have my batch"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -15488,7 +15488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: I find that hard to believe
+      value: '"I find that hard to believe"'
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
@@ -15496,7 +15496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Why?
+      value: '"Why?"'
       objectReference: {fileID: 0}
     - target: {fileID: 1547674041661155735, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -15544,11 +15544,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I get that. I would be too
+      value: '"I get that. I would be too"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: It will get better
+      value: '"It will get better"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -15572,7 +15572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6471687835304885810, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: The berries seem all good today
+      value: '"The berries seem all good today"'
       objectReference: {fileID: 0}
     - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -19656,15 +19656,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I made one to show support
+      value: '"I made one to show support"'
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "I wanted to leave you be. I didn\u2019t know how to help"
+      value: "\"I wanted to leave you be. I didn\u2019t know how to help\""
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
-      value: "But I\u2019m happy to see you again! How are you doing?"
+      value: "\"But I\u2019m happy to see you again! How are you doing?\""
       objectReference: {fileID: 0}
     - target: {fileID: 1547674041661155735, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -19704,11 +19704,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Oh, don\u2019t worry. It might have gotten lost in the mail"
+      value: "\"Oh, don\u2019t worry. It might have gotten lost in the mail\""
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "But I\u2019m happy to see you again! How are you doing?"
+      value: "\"But I\u2019m happy to see you again! How are you doing?\""
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -20910,11 +20910,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: '*I need to get some berries today...*'
+      value: (I need to get some berries today...)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: ...
+      value: (...)
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -21873,7 +21873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 843613526}
   dialogueLines:
-  - "Don\u2019t worry, I got you. You can have mine"
+  - "\"Don\u2019t worry, I got you. You can have mine\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -24266,8 +24266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1143834189}
   dialogueLines:
-  - Okay, sorry, not the right time for jokes, I see
-  - But your whole bucket seems to be rotten
+  - '"Okay, sorry, not the right time for jokes, I see"'
+  - '"But your whole bucket seems to be rotten"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -24830,7 +24830,7 @@ MonoBehaviour:
   dialogueText: {fileID: 2062051268}
   dialogueLines:
   - ...
-  - "I don\u2019t know what to say, but I\u2019m here to listen"
+  - "\"I don\u2019t know what to say, but I\u2019m here to listen\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -24942,9 +24942,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1695269483}
   dialogueLines:
-  - With time. And you have me!
-  - You have a lot of spoiled berries, here, have mine
-  - "It\u2019s the least I can do"
+  - '"With time. And you have me!"'
+  - '"You have a lot of spoiled berries, here, have mine"'
+  - "\"It\u2019s the least I can do\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -25457,7 +25457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Heya, did you get my card?
+      value: '"Heya, did you get my card?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -26996,7 +26996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (she gave me a bunch of berries. I can now go to school
+      value: (She gave me a bunch of berries. I should head to school)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -27320,8 +27320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 837575498}
   dialogueLines:
-  - "Understandable. Just know that if you want to, I\u2019ll be here to help"
-  - You have a lot of spoiled berries. Here, have my batch
+  - "\"Understandable. Just know that if you want to, I\u2019ll be here to help\""
+  - '"You have a lot of spoiled berries. Here, have my batch"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -27724,7 +27724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1441545561}
   dialogueLines:
-  - "I don\u2019t want to talk about it"
+  - "\"I don\u2019t want to talk about it\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -32519,7 +32519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 24221606}
   dialogueLines:
-  - Thank you... Anyways, the berries... Can you help me sort the rotten ones out?
+  - '"Thank you... Anyways, the berries... Can you help me sort the rotten ones out?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -34046,7 +34046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1873002684}
   dialogueLines:
-  - "You\u2019re joking, right? You have so many rotten ones"
+  - "\"You\u2019re joking, right? You have so many rotten ones\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -34338,7 +34338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1476046606}
   dialogueLines:
-  - "Don\u2019t worry about it"
+  - "\"Don\u2019t worry about it\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -34622,7 +34622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 41767103}
   dialogueLines:
-  - But...
+  - '"But..."'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -35274,7 +35274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 363958168}
   dialogueLines:
-  - Yes, go ahead, take it. I can sort these out and take this batch
+  - '"Yes, go ahead, take it. I can sort these out and take this batch"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -37441,7 +37441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 366037890}
   dialogueLines:
-  - "No buts. Take it! it\u2019ll get you through it"
+  - "\"No buts. Take it! it\u2019ll get you through it\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -39299,7 +39299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 2144915642}
   dialogueLines:
-  - Not funny
+  - '"Not funny"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -39501,7 +39501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1467185957}
   dialogueLines:
-  - Are you sure?
+  - '"Are you sure?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -40506,7 +40506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1844870039}
   dialogueLines:
-  - I am worried, because you are my friend
+  - '"I am worried, because you are my friend"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -41274,8 +41274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 132998545}
   dialogueLines:
-  - "You don\u2019t have to say it if it\u2019s too hard. I can\u2019t imagine this
-    being easy"
+  - "\"You don\u2019t have to say it if it\u2019s too hard. I can\u2019t imagine
+    this being easy\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -43659,7 +43659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1404221760}
   dialogueLines:
-  - How? When?
+  - '"How? When?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -43805,7 +43805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (Guess i'll go home)
+      value: (Time to head home...)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -45071,7 +45071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 163097329}
   dialogueLines:
-  - Are you color blind?
+  - '"Are you color blind?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -45976,7 +45976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1397331243}
   dialogueLines:
-  - Why?
+  - '"Why?"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -47319,8 +47319,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1241996585}
   dialogueLines:
-  - "I\u2019m sad too! But that doesn\u2019t mean I\u2019ll overdose on chocolates,
-    or, or..."
+  - "\"I\u2019m sad too! But that doesn\u2019t mean I\u2019ll overdose on chocolates,
+    or, or...\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -47896,7 +47896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 226260530}
   dialogueLines:
-  - "It doesn\u2019t make sense! Why would he just leave us like that?"
+  - "\"It doesn\u2019t make sense! Why would he just leave us like that?\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
