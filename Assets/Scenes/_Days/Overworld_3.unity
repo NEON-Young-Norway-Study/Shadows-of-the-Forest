@@ -1440,6 +1440,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
   m_PrefabInstance: {fileID: 71475237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &71475239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+  m_PrefabInstance: {fileID: 71475237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &82305729
 GameObject:
   m_ObjectHideFlags: 0
@@ -11155,7 +11160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 1101512309}
+  - {fileID: 71475239}
   Deactivate: []
 --- !u!1 &515219457 stripped
 GameObject:
