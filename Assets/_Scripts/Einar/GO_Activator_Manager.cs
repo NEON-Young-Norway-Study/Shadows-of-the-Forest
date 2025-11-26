@@ -1,4 +1,5 @@
 using UnityEngine;
+using Xasu.HighLevel;
 
 public class GO_Activator_Manager : MonoBehaviour
 {
@@ -33,5 +34,6 @@ public class GO_Activator_Manager : MonoBehaviour
                 obj.SetActive(true);
             }
         }
+        CompletableTracker.Instance.Initialized("GiveUp", CompletableTracker.CompletableType.Race);
     }
 }

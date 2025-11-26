@@ -1,5 +1,7 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using Xasu.HighLevel;
 public class CollectSalmon : MonoBehaviour
 {
     [SerializeField] TMP_Text counterText;
@@ -15,6 +17,8 @@ public class CollectSalmon : MonoBehaviour
     private void Start()
     {
         counterText.text = "Salmon caught: " + salmonCount.ToString() + "/" + maxSalmonCount.ToString();
+        CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
+
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -38,6 +42,7 @@ public class CollectSalmon : MonoBehaviour
             PlayerPrefs.SetString(requiredKey, "true");
             PlayerPrefs.SetString(finishedSalmonKey, "true");
             PlayerPrefs.Save();
+            CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
             SceneController.Instance.LoadScene(targetSceneName);
         }
     }
@@ -49,5 +54,7 @@ public class CollectSalmon : MonoBehaviour
             PlayerPrefs.SetString(finishedSalmonKey, "true");
             PlayerPrefs.Save();
             SceneController.Instance.LoadScene(targetSceneName);
+
+        CompletableTracker.Instance.Completed("GiveUp", CompletableTracker.CompletableType.Race);
     }
 }

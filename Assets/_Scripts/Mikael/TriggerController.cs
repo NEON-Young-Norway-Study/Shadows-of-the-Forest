@@ -1,5 +1,6 @@
 using UnityEditor;
 using UnityEngine;
+using Xasu.HighLevel;
 
 //made by Mikael
 //added features by Andreas
@@ -24,6 +25,7 @@ public class TriggerController : MonoBehaviour
             {
                 ObjectToActivate.SetActive(true);
             }
+            GameObjectTracker.Instance.Interacted(name);
         }
     }
 

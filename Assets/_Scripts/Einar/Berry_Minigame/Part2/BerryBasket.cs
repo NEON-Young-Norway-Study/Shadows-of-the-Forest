@@ -1,6 +1,7 @@
 using System.Data.SqlTypes;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Xasu.HighLevel;
 
 public class BerryBasket : MonoBehaviour
 {
@@ -14,6 +15,12 @@ public class BerryBasket : MonoBehaviour
 
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject bearClaw;
+
+
+    private void Start()
+    {
+        CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object has the tag "Poisonous"
@@ -38,6 +45,7 @@ public class BerryBasket : MonoBehaviour
                 PlayerPrefs.Save();
 
                 Cursor.visible = true;
+                CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
                 SceneController.Instance.LoadScene(targetSceneName);
             }
         }
