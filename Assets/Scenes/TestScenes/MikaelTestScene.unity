@@ -2482,7 +2482,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &707286587
@@ -2647,7 +2647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8486984763428141613, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.85
+      value: -8.56
       objectReference: {fileID: 0}
     - target: {fileID: 8486984763428141613, guid: 90414d52fc85b4a4eb61654df1fb2626, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4783,6 +4783,7 @@ MonoBehaviour:
   - {fileID: 832930265}
   - {fileID: 1308679114}
   - {fileID: 2031147337}
+  - {fileID: 1092812250}
   animator: {fileID: 0}
   front: {fileID: 1167389120}
   back: {fileID: 1167389119}
