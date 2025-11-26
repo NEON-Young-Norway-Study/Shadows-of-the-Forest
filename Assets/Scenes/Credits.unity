@@ -957,8 +957,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Emma Vos: Team lead, Narrative\nEinar Sterten: Lead programmer\nInga Sigurr\xF3s
-    \xDE\xF3risd\xF3ttir: 2D artist\nMikael L\xE6gran: Programmer\nAndreas: "
+  m_text: "Emma Vos: Team Lead, Narrative\nEinar Sterten: Lead Programmer\nInga Sigurr\xF3s
+    \xDE\xF3risd\xF3ttir: 2D Artist\nMikael L\xE6gran: Programmer\nAndreas: "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
