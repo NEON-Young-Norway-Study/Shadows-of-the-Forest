@@ -28780,8 +28780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate:
-  - {fileID: 1469570792}
+  ThingsToActivate: []
   Deactivate: []
 --- !u!1 &1628421124 stripped
 GameObject:
