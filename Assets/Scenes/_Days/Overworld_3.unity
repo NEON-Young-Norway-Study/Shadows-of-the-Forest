@@ -2852,7 +2852,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ambience
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1470335839792226996, guid: 6170c0ec7d2e1478ca8c88bb764e251b, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1470335839792226996, guid: 6170c0ec7d2e1478ca8c88bb764e251b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
