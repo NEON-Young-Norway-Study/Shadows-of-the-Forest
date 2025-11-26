@@ -34647,7 +34647,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1628403347}
     m_Modifications:
     - target: {fileID: 172688218884605305, guid: ada376a72895230499dcf26b3b762e4b, type: 3}
       propertyPath: m_Name
@@ -36334,7 +36334,7 @@ MonoBehaviour:
   startOfDayTriggers:
   - {fileID: 794870905}
   foodMinigame_Finished: Berry_4_Finished
-  school_Finished: School_4_Finshed
+  school_Finished: School_4_Finished
 --- !u!1 &1621473323
 GameObject:
   m_ObjectHideFlags: 0
@@ -36932,6 +36932,7 @@ Transform:
   - {fileID: 844255809}
   - {fileID: 667812502}
   - {fileID: 1204499768}
+  - {fileID: 1542375481}
   m_Father: {fileID: 1989924517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1629987192
@@ -44024,7 +44025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.54405
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -44044,11 +44045,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 17.52278
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.43222
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44065,6 +44066,10 @@ PrefabInstance:
     - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Name
       value: Dialogue1P3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
@@ -44105,8 +44110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate:
-  - {fileID: 0}
+  ThingsToActivate: []
   Deactivate: []
 --- !u!1 &1956321447
 GameObject:
@@ -48129,5 +48133,4 @@ SceneRoots:
   - {fileID: 1440906291}
   - {fileID: 689574752}
   - {fileID: 1989924517}
-  - {fileID: 1542375480}
   - {fileID: 148266782}
