@@ -29,6 +29,9 @@ public class MainCharacterController : MonoBehaviour
 
     [SerializeField] GameObject idle_arms;
 
+    [SerializeField] private AudioSource footstepSource;
+
+
 
     //[SerializeField] GameObject leftSide;
     //[SerializeField] GameObject rightSide;
@@ -108,6 +111,21 @@ public class MainCharacterController : MonoBehaviour
 
         // Determine if player is moving
         bool isMoving = moveInput.magnitude > 0.1f;
+
+        if (isMoving)
+            {
+                if (!footstepSource.isPlaying)
+                {
+                    footstepSource.Play();
+                }
+            }
+        else
+        {
+            if (footstepSource.isPlaying)
+            {
+                footstepSource.Stop();
+            }
+        }
 
         // Set animator parameter
         if (animator.GetBool("isMoving") != isMoving)
