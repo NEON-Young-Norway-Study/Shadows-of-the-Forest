@@ -231,6 +231,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4393391484088029863, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393391484088029863, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393391484088029863, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: textSpeed
       value: 0.01
@@ -1034,6 +1046,8 @@ MonoBehaviour:
   - {fileID: 8984981956004912700, guid: 8f02ef3d2948ed844b4743f0957ef527, type: 3}
   spawnInterval: 2
   moveSpeed: 2
+  minX: 0
+  maxX: 0
 --- !u!1001 &1886886362
 PrefabInstance:
   m_ObjectHideFlags: 0
