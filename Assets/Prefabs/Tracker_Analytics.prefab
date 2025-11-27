@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 619055115663927125}
   - component: {fileID: 7897568878993782858}
+  - component: {fileID: 2729195390272322553}
   m_Layer: 0
   m_Name: Tracker_Analytics
   m_TagString: Untagged
@@ -47,3 +48,15 @@ MonoBehaviour:
   AutoStart: 1
   EnableDebugLogging: 0
   processingLoopTime: 1
+--- !u!114 &2729195390272322553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389363025039805319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05491f2a5e2f2034b82f44e6db42453d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameLogger
