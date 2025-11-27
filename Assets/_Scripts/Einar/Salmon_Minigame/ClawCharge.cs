@@ -35,12 +35,12 @@ public class ClawCharge : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    public void OnEnable()
     {
         inputActions.Enable();
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
         inputActions.Disable();
     }
