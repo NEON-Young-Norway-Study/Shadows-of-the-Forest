@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 887420505}
   dialogueLines:
-  - "There\u2019s no easy way to say this"
+  - "\"There\u2019s no easy way to say this\""
   textSpeed: 0.1
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -1716,7 +1716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 183543309}
   dialogueLines:
-  - '* (My heart sank right there and then, confusion spinning in my mind)'
+  - (My heart sank right there and then, confusion spinning in my mind)
   textSpeed: 0.1
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -3680,9 +3680,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 956989048}
   dialogueLines:
-  - Your father was very sad...
-  - "...this world wasn\u2019t for him"
-  - Sometimes the stars shine brightest after they're gone
+  - '"Your father was very sad..."'
+  - "\"...this world wasn\u2019t for him\""
+  - '"Sometimes the stars shine brightest after they''re gone"'
   textSpeed: 0.1
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -4868,7 +4868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1132361442}
   dialogueLines:
-  - '* (My heart is racing. She never starts like this)'
+  - (My heart is racing. She never starts like this)
   textSpeed: 0.1
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -4980,9 +4980,9 @@ MonoBehaviour:
   dialogueText: {fileID: 286606711}
   dialogueLines:
   - (Two weeks have passed)
-  - '* (The funeral was a moment of realization)'
-  - '* (He looked so peaceful...)'
-  - '* (How will I live without him?)'
+  - (The funeral was a moment of realization)
+  - (He looked so peaceful...)
+  - (How will I live without him?)
   - (Two more weeks passed after the funeral)
   textSpeed: 0.1
   playerMovement: {fileID: 0}
@@ -5259,7 +5259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(Stay quiet)
+  m_text: 'Stay quiet
 
 '
   m_isRightToLeft: 0
@@ -5377,11 +5377,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 6144282025440268112}
   dialogueLines:
-  - Your father was very sad. Remember how to get joy from life?
-  - When we have fresh salmon on the table, and the berry dessert that you love?
-  - "He wasn\u2019t happy with that either"
-  - He lost the vision of life, and he... ended it
-  - He is dead
+  - '"Your father was very sad. Remember how to get joy from life?"'
+  - '"When we have fresh salmon on the table, and the berry dessert that you love?"'
+  - "\"He wasn\u2019t happy with that either\""
+  - '"He lost the vision of life, and he... ended it"'
+  - '"He is dead"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -5782,9 +5782,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 4777040388236327183}
   dialogueLines:
-  - "There is no way this... this isn\u2019t easy..."
-  - Your father... he ended his life
-  - "I\u2019m so sorry. Just know it isn\u2019t your fault"
+  - "\"There is no way this... this isn\u2019t easy...\""
+  - '"Your father... he ended his life"'
+  - "\"I\u2019m so sorry. Just know it isn\u2019t your fault\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
