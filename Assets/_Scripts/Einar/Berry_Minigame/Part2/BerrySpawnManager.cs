@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BerrySpawnManager : MonoBehaviour
 {
-    public List<GameObject> prefabs; // List of prefabs to spawn
-    public float spawnInterval = 1f; // Time between spawns
-    public float moveSpeed = 2f; // Speed at which objects move in -Y
+    public List<GameObject> prefabs; 
+    public float spawnInterval = 1f; 
+    public float moveSpeed = 2f; 
+    [SerializeField] float minX = 0; 
+    [SerializeField] float maxX = 0;  
 
     private Queue<GameObject> spawnQueue;
 
@@ -21,21 +23,16 @@ public class BerrySpawnManager : MonoBehaviour
         while (spawnQueue.Count > 0)
         {
             float randomZRotation = Random.Range(0f, 360f);
+
             Quaternion rotation = Quaternion.Euler(0, 0, randomZRotation);
 
             GameObject prefab = spawnQueue.Dequeue();
-            GameObject obj = Instantiate(prefab, transform.position, rotation);
-            //StartCoroutine(MoveObject(obj));
+
+            float randomX = Random.Range(minX, maxX);
+            Vector3 spawnPosition = new Vector3(randomX, transform.position.y, transform.position.z);
+            GameObject obj = Instantiate(prefab, spawnPosition, rotation);
+
             yield return new WaitForSeconds(spawnInterval);
         }
     }
-
-    //IEnumerator MoveObject(GameObject obj)
-    //{
-    //    while (obj != null)
-    //    {
-    //        obj.transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
-    //        yield return null;
-    //    }
-    //}
 }
