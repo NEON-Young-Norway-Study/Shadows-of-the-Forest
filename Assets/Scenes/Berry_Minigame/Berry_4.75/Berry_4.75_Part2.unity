@@ -733,6 +733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background_Berry_Part2
       objectReference: {fileID: 0}
+    - target: {fileID: 1452327954928103938, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d838f2fca4e6934ab4fbd04c78a0309, type: 3}
     - target: {fileID: 1514272094398823308, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
       propertyPath: m_SortingOrder
       value: -50
@@ -751,7 +755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6822281549257964845, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 6822281549257964845, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1055,11 +1059,11 @@ PrefabInstance:
       objectReference: {fileID: 404289970}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: berryKey
-      value: Berry_4
+      value: Berry_4.75
       objectReference: {fileID: 0}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: requiredKey
-      value: School_4
+      value: School_4.75
       objectReference: {fileID: 0}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: maxCollected
@@ -1067,11 +1071,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: targetSceneName
-      value: Overworld_4
+      value: Overworld_4.75
       objectReference: {fileID: 0}
     - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: finishedBerryKey
-      value: Berry_4_Finished
+      value: Berry_4.75_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 791222875829705798, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: m_Sprite
@@ -1569,10 +1573,10 @@ MonoBehaviour:
   - {fileID: 8984981956004912700, guid: 8f02ef3d2948ed844b4743f0957ef527, type: 3}
   - {fileID: 2286215122837995522, guid: cd5624b99658fbf41bf21545e90771ab, type: 3}
   - {fileID: 8984981956004912700, guid: 8f02ef3d2948ed844b4743f0957ef527, type: 3}
-  spawnInterval: 0.2
+  spawnInterval: 1.5
   moveSpeed: 2
-  minX: 0
-  maxX: 0
+  minX: -5
+  maxX: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

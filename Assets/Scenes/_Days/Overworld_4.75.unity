@@ -5819,11 +5819,11 @@ PrefabInstance:
       objectReference: {fileID: 1849566419}
     - target: {fileID: 5665397017720766400, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: requiredKey
-      value: Home_5
+      value: Home_4.75
       objectReference: {fileID: 0}
     - target: {fileID: 5665397017720766400, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: targetSceneName
-      value: Home_5
+      value: Home_4.75
       objectReference: {fileID: 0}
     - target: {fileID: 8699280770465230512, guid: cd34baf862d51e24cbd2f70240b9f5f0, type: 3}
       propertyPath: m_Sprite
@@ -12175,7 +12175,7 @@ PrefabInstance:
       objectReference: {fileID: 1235005368}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: school_Finished
-      value: School_4_Finished
+      value: School_4.75_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: defaultSpawnPoint
@@ -12183,7 +12183,7 @@ PrefabInstance:
       objectReference: {fileID: 1755844326}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_Finished
-      value: Berry_4_Finished
+      value: Berry_4.75_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_SpawnPoint
@@ -12873,11 +12873,6 @@ PrefabInstance:
 --- !u!4 &561452429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
-  m_PrefabInstance: {fileID: 561452428}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &561452430 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 561452428}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &567652411
@@ -15671,7 +15666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &681283815
 Transform:
   m_ObjectHideFlags: 0
@@ -33800,11 +33795,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6742927892697134483, guid: ada376a72895230499dcf26b3b762e4b, type: 3}
   m_PrefabInstance: {fileID: 1542375480}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1542375482 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 172688218884605305, guid: ada376a72895230499dcf26b3b762e4b, type: 3}
-  m_PrefabInstance: {fileID: 1542375480}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1543220585
 GameObject:
   m_ObjectHideFlags: 0
@@ -35408,15 +35398,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aff2c7dea538342978ee8bdc76c37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialog_Prefs
-  afterMinigameTriggers:
-  - {fileID: 1788474137}
-  - {fileID: 1542375482}
-  afterSchoolTriggers:
-  - {fileID: 561452430}
+  afterMinigameTriggers: []
+  afterSchoolTriggers: []
   startOfDayTriggers:
   - {fileID: 794870905}
-  foodMinigame_Finished: Berry_4_Finished
-  school_Finished: School_4_Finished
+  foodMinigame_Finished: Berry_4.75_Finished
+  school_Finished: School_4.75_Finished
 --- !u!1 &1621473323
 GameObject:
   m_ObjectHideFlags: 0
@@ -35995,7 +35982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1628403347
 Transform:
   m_ObjectHideFlags: 0
@@ -40200,11 +40187,6 @@ PrefabInstance:
 --- !u!4 &1788474136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
-  m_PrefabInstance: {fileID: 1788474135}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1788474137 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 1788474135}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1795906017
