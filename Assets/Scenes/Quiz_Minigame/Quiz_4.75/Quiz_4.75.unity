@@ -529,9 +529,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: WrongAnswer
       objectReference: {fileID: 0}
+    - target: {fileID: 390033798674199772, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 517444002345634160, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -207
+      objectReference: {fileID: 0}
     - target: {fileID: 903488432876590675, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 42 cm
+      value: Queen
       objectReference: {fileID: 0}
     - target: {fileID: 1293307738418530463, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_IsActive
@@ -543,7 +551,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 1380219021901236152, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
+      value: CorrectAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 1427419033921226079, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -555,7 +563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1542236785793294066, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 31 cm
+      value: Cow
       objectReference: {fileID: 0}
     - target: {fileID: 1695162244867962183, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -563,7 +571,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 1695162244867962183, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
+      value: CorrectAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 1877824492930509392, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -579,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 2073893083823455448, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 2208931719858865444, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_Name
@@ -683,15 +691,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3156235856794000721, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: Lynx lynx
+      value: "The Grand \nCanyon"
       objectReference: {fileID: 0}
     - target: {fileID: 3404864955315812206, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: What is the latin name of grizzly bears?
+      value: Where do most spectacled bears live?
       objectReference: {fileID: 0}
     - target: {fileID: 3474758598995425210, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: What is the average weight of a male polar bear?
+      value: What marking distinguishes an Asian black bear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474758598995425210, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_fontSize
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474758598995425210, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 3825999032781523374, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -699,11 +715,11 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 3825999032781523374, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAnswer
+      value: CorrectAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 3827353182385868285, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 17 cm
+      value: Sow
       objectReference: {fileID: 0}
     - target: {fileID: 4394840535716136378, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -711,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4636945094567161705, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 750 kg
+      value: White tail
       objectReference: {fileID: 0}
     - target: {fileID: 5034714152085601775, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -723,7 +739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5143336689694141349, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: Ursus arctos horribilis
+      value: The Himalayas
       objectReference: {fileID: 0}
     - target: {fileID: 5636783402343443214, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -731,11 +747,11 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 5636783402343443214, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 5779610713070503110, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 600 kg
+      value: "White patch on \nthe chest"
       objectReference: {fileID: 0}
     - target: {fileID: 6223792974745469149, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -747,11 +763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6236408027808639800, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 350 kg
+      value: White paws
       objectReference: {fileID: 0}
     - target: {fileID: 6405275399350479355, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 500 kg
+      value: White mask
       objectReference: {fileID: 0}
     - target: {fileID: 6659954258433146031, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_Sprite
@@ -763,7 +779,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6909685856563926641, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: Phascolarctos cinereus
+      value: The Andes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017093627008335980, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
+      propertyPath: m_text
+      value: You completed the final test!
       objectReference: {fileID: 0}
     - target: {fileID: 7244238060760518940, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_IsActive
@@ -771,16 +791,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7487366220975131258, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 'Sun bears have the longest claws of any bear. They also have the longest
-        tongues, what is the maximum length of their tongues? '
+      value: What is a female bear called?
       objectReference: {fileID: 0}
     - target: {fileID: 7487366220975131258, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_fontSize
-      value: 38
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7487366220975131258, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_fontSizeBase
-      value: 38
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 8235962456133461129, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -792,7 +811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8913102205879846850, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: Ursus maritimus
+      value: The Alps
       objectReference: {fileID: 0}
     - target: {fileID: 8978920342970038794, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -800,11 +819,11 @@ PrefabInstance:
       objectReference: {fileID: 1610851177}
     - target: {fileID: 8978920342970038794, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CorrectAnswer
+      value: WrongAnswer
       objectReference: {fileID: 0}
     - target: {fileID: 9103121943352810301, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: 25 cm
+      value: Mare
       objectReference: {fileID: 0}
     - target: {fileID: 9176472173721905253, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_AnchoredPosition.y
