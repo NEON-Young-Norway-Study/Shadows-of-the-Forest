@@ -249,7 +249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 903488432876590675, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
-      value: Artic regions
+      value: Arctic regions
       objectReference: {fileID: 0}
     - target: {fileID: 1293307738418530463, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_IsActive
@@ -619,7 +619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7244238060760518940, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7487366220975131258, guid: f03c178248931e64e96d1810f1bab2b3, type: 3}
       propertyPath: m_text
