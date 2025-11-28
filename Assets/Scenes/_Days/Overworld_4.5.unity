@@ -12173,7 +12173,7 @@ PrefabInstance:
       objectReference: {fileID: 1235005368}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: school_Finished
-      value: School_4_Finished
+      value: School_4.5_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: defaultSpawnPoint
@@ -12181,7 +12181,7 @@ PrefabInstance:
       objectReference: {fileID: 1755844326}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_Finished
-      value: Berry_4_Finished
+      value: Salmon_4.5_Finished
       objectReference: {fileID: 0}
     - target: {fileID: 4556576541039243324, guid: ad08351162dfe974895cd79ac3f256a9, type: 3}
       propertyPath: foodMinigame_SpawnPoint
@@ -20517,7 +20517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (I need to get some berries today...)
+      value: (I catch some salmon today...)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -33798,11 +33798,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6742927892697134483, guid: ada376a72895230499dcf26b3b762e4b, type: 3}
   m_PrefabInstance: {fileID: 1542375480}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1542375482 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 172688218884605305, guid: ada376a72895230499dcf26b3b762e4b, type: 3}
-  m_PrefabInstance: {fileID: 1542375480}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1543220585
 GameObject:
   m_ObjectHideFlags: 0
@@ -35406,15 +35401,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57aff2c7dea538342978ee8bdc76c37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialog_Prefs
-  afterMinigameTriggers:
-  - {fileID: 1788474137}
-  - {fileID: 1542375482}
+  afterMinigameTriggers: []
   afterSchoolTriggers:
   - {fileID: 561452430}
   startOfDayTriggers:
   - {fileID: 794870905}
-  foodMinigame_Finished: Berry_4_Finished
-  school_Finished: School_4_Finished
+  foodMinigame_Finished: Salmon_4.5_Finished
+  school_Finished: School_4.5_Finished
 --- !u!1 &1621473323
 GameObject:
   m_ObjectHideFlags: 0
@@ -39009,7 +39002,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1755844325 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1996349683566571417, guid: efcb79206fb891045975b8891388eaf7, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8031525460455537686, guid: efcb79206fb891045975b8891388eaf7, type: 3}
   m_PrefabInstance: {fileID: 1755844323}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1755844326 stripped
@@ -40198,11 +40191,6 @@ PrefabInstance:
 --- !u!4 &1788474136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
-  m_PrefabInstance: {fileID: 1788474135}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1788474137 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 1788474135}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1795906017
