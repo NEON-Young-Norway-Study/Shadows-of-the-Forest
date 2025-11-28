@@ -15,6 +15,7 @@ public class BerryBasket : MonoBehaviour
 
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject bearClaw;
+    [SerializeField] AudioClip berryCollectSound;
 
 
     private void Start()
@@ -36,6 +37,8 @@ public class BerryBasket : MonoBehaviour
         else if (other.CompareTag("Berry"))
         {
             counter++;
+            SoundEffectManager.Instance.PlaySoundFXClip(berryCollectSound, transform, 1f);
+
             Destroy(other.gameObject);
             if (counter == maxCollected)
             {

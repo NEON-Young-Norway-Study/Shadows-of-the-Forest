@@ -11,6 +11,7 @@ public class ClawCharge_Impossible : MonoBehaviour
     [SerializeField] float minDropDistance = 2f;
     [SerializeField] float maxDropDistance = 10f;
     [SerializeField] private AudioClip clawDropSound;
+    
 
     private Vector3 originalPosition;
 

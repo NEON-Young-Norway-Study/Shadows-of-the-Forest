@@ -1,5 +1,8 @@
 using UnityEngine;
 
+
+
+
 public class SalmonMovement : MonoBehaviour
 {
 
@@ -7,6 +10,9 @@ public class SalmonMovement : MonoBehaviour
     private int direction;
 
     private bool isStuck = false;
+
+    [SerializeField] private AudioClip clawHitSound;
+    [SerializeField] private AudioClip clawDropSound;
 
     public void SetSpeed(float s, int dir)
     {
@@ -24,6 +30,7 @@ public class SalmonMovement : MonoBehaviour
         if (!isStuck && other.CompareTag("Player"))
         {
             transform.parent = other.transform;
+            SoundEffectManager.Instance.PlaySoundFXClip(clawHitSound, transform, 1f);
             isStuck = true;
             speed = 0;
 
@@ -35,6 +42,9 @@ public class SalmonMovement : MonoBehaviour
         if (isStuck && other.CompareTag("TriggerZone"))
         {
             transform.parent = other.transform;
+            
+            SoundEffectManager.Instance.PlaySoundFXClip(clawDropSound, transform, 1f);
+
             isStuck = false;
             speed = 100;
         }

@@ -13,6 +13,7 @@ public class CollectSalmon : MonoBehaviour
     [SerializeField] private string salmonKey;
     [SerializeField] private string requiredKey;
     [SerializeField] private string finishedSalmonKey;
+    [SerializeField] AudioClip salmonCollectSound;
 
     private void Start()
     {
@@ -27,6 +28,7 @@ public class CollectSalmon : MonoBehaviour
         if (other.CompareTag("Salmon"))
         {
             salmonCount++;
+            SoundEffectManager.Instance.PlaySoundFXClip(salmonCollectSound, transform, 1f);
             UpdateCounterText();
             Destroy(other.gameObject);
         }
