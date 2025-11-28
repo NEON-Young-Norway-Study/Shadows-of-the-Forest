@@ -68,6 +68,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e9a2ba3124ce84ea69aeeded08c37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SalmonMovement
+  clawHitSound: {fileID: 8300000, guid: 570f8d28238dc440ca57979c25f33745, type: 3}
+  clawDropSound: {fileID: 8300000, guid: 3587417236f544ec49c9db54f9213f27, type: 3}
 --- !u!54 &5074834883151232586
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -87,7 +87,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1818521581112790588
@@ -233,6 +233,9 @@ MonoBehaviour:
   berryKey: Berry_2
   requiredKey: School_2
   finishedBerryKey: Berry_2_Finished
+  canvas: {fileID: 0}
+  bearClaw: {fileID: 0}
+  berryCollectSound: {fileID: 8300000, guid: b5f4d269e88314306bdea3a5a129c2ef, type: 3}
 --- !u!61 &6986352106879013131
 BoxCollider2D:
   m_ObjectHideFlags: 0

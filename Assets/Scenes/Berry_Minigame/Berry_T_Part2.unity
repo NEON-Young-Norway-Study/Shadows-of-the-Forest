@@ -155,6 +155,10 @@ PrefabInstance:
       propertyPath: finishedBerryKey
       value: Berry_T_Finished
       objectReference: {fileID: 0}
+    - target: {fileID: 104229102997491860, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
+      propertyPath: berryCollectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b5f4d269e88314306bdea3a5a129c2ef, type: 3}
     - target: {fileID: 791222875829705798, guid: 0bf50d195dd21fa46b701c4bf17512c3, type: 3}
       propertyPath: m_Sprite
       value: 
