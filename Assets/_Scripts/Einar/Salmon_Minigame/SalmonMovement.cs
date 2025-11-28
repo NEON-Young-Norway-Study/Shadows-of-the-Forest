@@ -30,7 +30,7 @@ public class SalmonMovement : MonoBehaviour
         if (!isStuck && other.CompareTag("Player"))
         {
             transform.parent = other.transform;
-            SoundEffectManager.Instance.PlaySoundFXClip(clawHitSound, transform, 1f);
+            SoundEffectManager.Instance.PlaySoundFXClip(clawHitSound, transform, 0.3f);
             isStuck = true;
             speed = 0;
 

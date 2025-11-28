@@ -1309,6 +1309,7 @@ MonoBehaviour:
   salmonKey: Salmon_4.5
   requiredKey: School_4.5
   finishedSalmonKey: Salmon_4.5_Finished
+  salmonCollectSound: {fileID: 8300000, guid: b5f4d269e88314306bdea3a5a129c2ef, type: 3}
 --- !u!65 &1416191076
 BoxCollider:
   m_ObjectHideFlags: 0

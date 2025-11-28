@@ -531,6 +531,7 @@ MonoBehaviour:
   salmonKey: Salmon_5
   requiredKey: School_5
   finishedSalmonKey: Salmon_5_Finished
+  salmonCollectSound: {fileID: 8300000, guid: b5f4d269e88314306bdea3a5a129c2ef, type: 3}
 --- !u!1 &728832551
 GameObject:
   m_ObjectHideFlags: 0

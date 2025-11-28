@@ -20,7 +20,7 @@ public class BerryBasket : MonoBehaviour
 
     private void Start()
     {
-        CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
+        //CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -48,7 +48,7 @@ public class BerryBasket : MonoBehaviour
                 PlayerPrefs.Save();
 
                 Cursor.visible = true;
-                CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
+                //CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
                 SceneController.Instance.LoadScene(targetSceneName);
             }
         }

@@ -19,7 +19,7 @@ public class QuizManager : MonoBehaviour
 
     private void Start()
     {
-        CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
+        //CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
     }
 
     public void CorrectAnswer()
@@ -32,8 +32,8 @@ public class QuizManager : MonoBehaviour
             currentQuestion++;
             questions[currentQuestion].SetActive(true);
 
-            AlternativeTracker.Instance.Selected(questions[currentQuestion].name, "correct").WithSuccess(true);
-            CompletableTracker.Instance.Progressed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level, currentQuestion / (float)questions.Length);
+            //AlternativeTracker.Instance.Selected(questions[currentQuestion].name, "correct").WithSuccess(true);
+            //CompletableTracker.Instance.Progressed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level, currentQuestion / (float)questions.Length);
         }
     }
 
@@ -44,7 +44,7 @@ public class QuizManager : MonoBehaviour
 
         loseScreen.SetActive(true);
 
-        AlternativeTracker.Instance.Selected(questions[currentQuestion].name, "wrong").WithSuccess(false);
+        //AlternativeTracker.Instance.Selected(questions[currentQuestion].name, "wrong").WithSuccess(false);
     }
 
     public void Retry()
@@ -56,7 +56,7 @@ public class QuizManager : MonoBehaviour
         questions[currentQuestion].SetActive(true);
 
         loseScreen.SetActive(false);
-        CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(false);
+        //CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(false);
     }
 
     public void NextQuestion()
@@ -75,7 +75,7 @@ public class QuizManager : MonoBehaviour
         PlayerPrefs.SetString(finishedSchoolKey, "true");
         PlayerPrefs.SetString(homeKey, "true");
         SceneController.Instance.LoadScene(targetSceneName);
-        CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
+        //CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
     }
 
     //public void LoadSceneByName(string Overworld_Prototype)

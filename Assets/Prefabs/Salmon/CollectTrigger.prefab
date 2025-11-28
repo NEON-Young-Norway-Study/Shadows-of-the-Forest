@@ -72,3 +72,4 @@ MonoBehaviour:
   salmonKey: Salmon_1
   requiredKey: School_1
   finishedSalmonKey: Salmon_1_Finished
+  salmonCollectSound: {fileID: 8300000, guid: b5f4d269e88314306bdea3a5a129c2ef, type: 3}
