@@ -1346,6 +1346,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1462565334}
     m_Modifications:
+    - target: {fileID: 95722309625545101, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: "I\u2019m sorry for your loss"
@@ -21193,6 +21197,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1462565334}
     m_Modifications:
+    - target: {fileID: 95722309625545101, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: Thank you?
@@ -21239,6 +21247,18 @@ PrefabInstance:
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
       objectReference: {fileID: 214509558}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: '(Stay silent)
@@ -21315,15 +21335,15 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 17.211786
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.612
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7729582468201671736, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.x
@@ -21381,6 +21401,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 802ec4e72bc24f145bcbecb4fe331aa2, type: 3}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -35073,6 +35097,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1462565334}
     m_Modifications:
+    - target: {fileID: 95722309625545101, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
       value: (Stay quiet)
@@ -35093,6 +35121,30 @@ PrefabInstance:
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
       value: "\"You don\u2019t have to do this alone\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2437051161569055668, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -35126,6 +35178,10 @@ PrefabInstance:
       propertyPath: m_text
       value: It was a rough day
       objectReference: {fileID: 0}
+    - target: {fileID: 4478290190015213632, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
       value: DialogueOptions&Paths 2
@@ -35148,15 +35204,15 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     - target: {fileID: 7491166951268662079, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 9.01
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1.3673259
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.5234785
       objectReference: {fileID: 0}
     - target: {fileID: 7729582468201671736, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_LocalScale.x
@@ -35222,6 +35278,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0995abad9bc8d2b40be9ab411fde8734, type: 3}
+    - target: {fileID: 9180860641040518966, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180860641040518966, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180860641040518966, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

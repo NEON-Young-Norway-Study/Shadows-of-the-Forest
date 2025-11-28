@@ -15333,6 +15333,18 @@ PrefabInstance:
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
       objectReference: {fileID: 485936214}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2645040484716923209, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Name
       value: DialogueD1
@@ -15399,15 +15411,15 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 17.211786
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.612
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7729582468201671736, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.x
@@ -15469,6 +15481,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5bcfa4aa93832c144be2e72826b87cc9, type: 3}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -19211,6 +19227,10 @@ PrefabInstance:
       propertyPath: m_text
       value: No?
       objectReference: {fileID: 0}
+    - target: {fileID: 375939175941332531, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 3
@@ -19235,6 +19255,30 @@ PrefabInstance:
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
       objectReference: {fileID: 667812503}
+    - target: {fileID: 2195375471989141981, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195375471989141981, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2371611682842688247, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
       value: 1
@@ -19243,6 +19287,18 @@ PrefabInstance:
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
       objectReference: {fileID: 667812503}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437051161569055668, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3238530020753012732, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: optionB
       value: 
@@ -19275,6 +19331,10 @@ PrefabInstance:
       propertyPath: m_text
       value: What card?
       objectReference: {fileID: 0}
+    - target: {fileID: 4478290190015213632, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Name
       value: DialogueOptions&Paths
@@ -19297,15 +19357,15 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: d706072b295e6fb44b9bfdba2dbfdc67, type: 3}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 17.211786
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.612
       objectReference: {fileID: 0}
     - target: {fileID: 7491166951268662079, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7729582468201671736, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalScale.x
@@ -19321,15 +19381,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.2821
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08006
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.72746
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19363,10 +19423,26 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2cfc7cda7eb6c384c8fcef8359314b02, type: 3}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2cfc7cda7eb6c384c8fcef8359314b02, type: 3}
+    - target: {fileID: 9180860641040518966, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180860641040518966, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180860641040518966, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7994736022925405306, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
