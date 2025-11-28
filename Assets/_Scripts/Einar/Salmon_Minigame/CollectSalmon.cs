@@ -55,6 +55,6 @@ public class CollectSalmon : MonoBehaviour
             PlayerPrefs.Save();
             SceneController.Instance.LoadScene(targetSceneName);
 
-        CompletableTracker.Instance.Completed("GiveUp", CompletableTracker.CompletableType.Race);
+        CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(false);
     }
 }
