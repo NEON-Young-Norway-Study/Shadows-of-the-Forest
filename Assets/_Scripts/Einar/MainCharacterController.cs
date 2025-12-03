@@ -107,6 +107,8 @@ public class MainCharacterController : MonoBehaviour
             side.SetActive(false);
 
             idle_arms.SetActive(true);
+            front_left_arm.SetActive(false);
+            front_right_arm.SetActive(false);
 
             return;
         }
