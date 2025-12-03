@@ -45,12 +45,13 @@ public class DialogueSystem : MonoBehaviour
     {
         if (playerMovement != null)
         {
-            playerMovement.enabled = false;
+            ((MainCharacterController)playerMovement).movementLocked = true;
         }
 
         lineIndex = 0;
         StartCoroutine(TypeLine());
     }
+
 
     IEnumerator TypeLine()
     {
@@ -81,7 +82,7 @@ public class DialogueSystem : MonoBehaviour
 
         if (playerMovement != null)
         {
-            playerMovement.enabled = true;
+            ((MainCharacterController)playerMovement).movementLocked = false;
         }
 
         if (npc != null)
