@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -170.26244, y: -3.7774}
+  m_AnchoredPosition: {x: -170.26244, y: 6}
   m_SizeDelta: {x: 1212.7708, y: 211.7874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3020051737669411326
@@ -163,14 +163,14 @@ RectTransform:
   m_GameObject: {fileID: 2118852128561297449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4393391484088029863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 718, y: -3.7787}
+  m_AnchoredPosition: {x: 718, y: 110}
   m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6888714884306477786
@@ -341,8 +341,8 @@ RectTransform:
   m_GameObject: {fileID: 8957421122969044751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6823900395049799568}
   - {fileID: 2217836307512054643}
@@ -350,7 +350,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -308.5381}
+  m_AnchoredPosition: {x: 0, y: -449}
   m_SizeDelta: {x: -200, y: -817.0762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1565327340288465835
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0.78431374}
+  m_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0.8117647}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
