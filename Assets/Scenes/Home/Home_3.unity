@@ -279,6 +279,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &874763624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 955434421892645702, guid: 455f328cc024a3243b1489613cbe50aa, type: 3}
+  m_PrefabInstance: {fileID: 1649218871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &944622743
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +787,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4600583620349082154, guid: 09a1f46631df2aa40ba41d5cf9e8e00f, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09a1f46631df2aa40ba41d5cf9e8e00f, type: 3}
@@ -1026,7 +1032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
-  ThingsToActivate: []
+  ThingsToActivate:
+  - {fileID: 874763624}
   Deactivate: []
 --- !u!1001 &701511942593888437
 PrefabInstance:
@@ -2432,7 +2439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 792828923}
+  - {fileID: 874763624}
   Deactivate: []
 --- !u!1001 &7454607717937725271
 PrefabInstance:
