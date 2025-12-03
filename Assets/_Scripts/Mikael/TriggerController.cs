@@ -10,7 +10,7 @@ public class TriggerController : MonoBehaviour
     [SerializeField] private GameObject ObjectToActivate;
 
     [Header("Left mouse button is interaction")] 
-    public bool isNeedOfInteraction = false;
+    // public bool isNeedOfInteraction = false;
 
     private bool playerInside = false;
 
@@ -21,10 +21,10 @@ public class TriggerController : MonoBehaviour
             Debug.Log("Player entered trigger area");
             playerInside = true;
 
-            if (!isNeedOfInteraction)
-            {
-                ObjectToActivate.SetActive(true);
-            }
+            // if (!isNeedOfInteraction)
+            // {
+            //     ObjectToActivate.SetActive(true);
+            // }
             GameObjectTracker.Instance.Interacted(name);
         }
     }
@@ -40,10 +40,10 @@ public class TriggerController : MonoBehaviour
 
     private void Update()
     {
-        if (isNeedOfInteraction && playerInside && Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            ObjectToActivate.SetActive(true);
-        }
+        // if (isNeedOfInteraction && playerInside && Input.GetKeyDown(KeyCode.Mouse0))
+        // {
+        //     ObjectToActivate.SetActive(true);
+        // }
     }
 }
 
