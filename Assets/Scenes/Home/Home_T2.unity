@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 955434421892645702, guid: 455f328cc024a3243b1489613cbe50aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1861196320690987326, guid: 455f328cc024a3243b1489613cbe50aa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -229,6 +233,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6472766046359764615, guid: 455f328cc024a3243b1489613cbe50aa, type: 3}
   m_PrefabInstance: {fileID: 129422104}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &129422106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 955434421892645702, guid: 455f328cc024a3243b1489613cbe50aa, type: 3}
+  m_PrefabInstance: {fileID: 129422104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792828923
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &792828924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2434,7 +2443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 792828923}
+  - {fileID: 129422106}
   Deactivate: []
 --- !u!224 &5452234211803773106
 RectTransform:
