@@ -106,6 +106,8 @@ public class MainCharacterController : MonoBehaviour
             back.SetActive(false);
             side.SetActive(false);
 
+            idle_arms.SetActive(true);
+
             return;
         }
 
