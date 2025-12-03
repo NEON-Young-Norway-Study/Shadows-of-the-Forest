@@ -22,9 +22,9 @@ public class TriggerController : MonoBehaviour
             playerInside = true;
 
             // if (!isNeedOfInteraction)
-            // {
-            //     ObjectToActivate.SetActive(true);
-            // }
+            //  {
+            //      ObjectToActivate.SetActive(true);
+            //  }
             GameObjectTracker.Instance.Interacted(name);
         }
     }
@@ -44,6 +44,11 @@ public class TriggerController : MonoBehaviour
         // {
         //     ObjectToActivate.SetActive(true);
         // }
+
+        if (playerInside)
+        {
+            ObjectToActivate.SetActive(true);
+        }
     }
 }
 

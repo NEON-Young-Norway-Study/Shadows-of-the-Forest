@@ -98,6 +98,21 @@ public class MainCharacterController : MonoBehaviour
         if (movementLocked)
         {
             moveInput = Vector2.zero;
+
+            animator.SetBool("isMoving", false);
+            animator.SetInteger("Direction", -1);
+
+            front.SetActive(true);
+            back.SetActive(false);
+            side.SetActive(false);
+
+            return;
+        }
+
+
+        if (movementLocked)
+        {
+            moveInput = Vector2.zero;
             animator.SetBool("isMoving", false);
             return;
         }
