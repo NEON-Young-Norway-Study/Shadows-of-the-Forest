@@ -17,6 +17,15 @@ public class MultiChoiceDialogueScript : MonoBehaviour
     public GameObject DialogueOptionC;
     public GameObject DialogueOptionD;
 
+    [Header("Player Movement Control")]
+    private MainCharacterController playerMovement;
+
+
+
+    void Awake()
+    {
+        playerMovement = Object.FindFirstObjectByType<MainCharacterController>();
+    }
 
     private void Start()
     {
@@ -24,6 +33,8 @@ public class MultiChoiceDialogueScript : MonoBehaviour
         optionB.onClick.AddListener(DialogueSequenceB);
         optionC.onClick.AddListener(DialogueSequenceC);
         optionD.onClick.AddListener(DialogueSequenceD);
+
+        playerMovement.movementLocked = true;
     }
 
     public void DialogueSequenceA()
@@ -31,6 +42,8 @@ public class MultiChoiceDialogueScript : MonoBehaviour
         Debug.Log("Amazing");
         DialogueOptionA.SetActive(true);
         gameObject.SetActive(false);
+
+        playerMovement.movementLocked = false;
     }
 
     public void DialogueSequenceB()
@@ -38,6 +51,8 @@ public class MultiChoiceDialogueScript : MonoBehaviour
         Debug.Log("Bisqut");
         DialogueOptionB.SetActive(true);
         gameObject.SetActive(false);
+
+        playerMovement.movementLocked = false;
     }
 
     public void DialogueSequenceC()
@@ -45,6 +60,8 @@ public class MultiChoiceDialogueScript : MonoBehaviour
         Debug.Log("Coolio");
         DialogueOptionC.SetActive(true);
         gameObject.SetActive(false);
+
+        playerMovement.movementLocked = false;
     }
 
     public void DialogueSequenceD()
@@ -52,5 +69,7 @@ public class MultiChoiceDialogueScript : MonoBehaviour
         Debug.Log("dialogueing 4");
         DialogueOptionD.SetActive(true);
         gameObject.SetActive(false);
+
+        playerMovement.movementLocked = false;
     }
 }

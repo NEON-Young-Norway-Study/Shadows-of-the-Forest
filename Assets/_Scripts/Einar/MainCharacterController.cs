@@ -16,6 +16,8 @@ public class MainCharacterController : MonoBehaviour
     [SerializeField] float verticalVelocity;
     [SerializeField] float gravity = -9.81f;
 
+    public bool movementLocked = false;
+
     [SerializeField] GameObject front;
     [SerializeField] GameObject back;
     [SerializeField] GameObject side;
@@ -92,6 +94,14 @@ public class MainCharacterController : MonoBehaviour
 
     private void Update()
     {
+
+        if (movementLocked)
+        {
+            moveInput = Vector2.zero;
+            animator.SetBool("isMoving", false);
+            return;
+        }
+
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y) * moveSpeed;
 
         // Apply gravity
