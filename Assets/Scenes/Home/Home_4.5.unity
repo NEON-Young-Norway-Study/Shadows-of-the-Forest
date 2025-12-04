@@ -944,11 +944,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_fontSize
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_fontSizeBase
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
@@ -956,7 +956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I have full trust that you will succeed at the exam
+      value: '"I have full trust that you will pass the exam"'
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -992,7 +992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I am glad to hear that!
+      value: '"I am glad to hear that!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -1000,15 +1000,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
-      value: The teacher and I practiced for the exam
+      value: I got help from my teacher today
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_fontSize
-      value: 9
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_fontSizeBase
-      value: 9
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
@@ -1062,6 +1062,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ce0c22b5012533447b2ae3a60ccc3d13, type: 3}
+    - target: {fileID: 8961361866912099134, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1135,11 +1139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Hey honey
+      value: '"Hey honey"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: How has today been?
+      value: '"How was your day?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -1265,7 +1269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Now rest well, you will need all the strength tomorrow
+      value: '"Now rest well. You will need all of your strength tomorrow"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
