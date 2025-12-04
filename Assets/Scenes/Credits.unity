@@ -934,7 +934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -377, y: 112}
+  m_AnchoredPosition: {x: -377, y: 211}
   m_SizeDelta: {x: 1000, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638864435
@@ -958,10 +958,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Emma Vos: Team Lead, Narrative, Artist\nEinar Sterten: Lead Programmer,
-    Designer\nInga Sigurr\xF3s \xDE\xF3risd\xF3ttir: Artist, Art design, Narrative
-    overseer\nMikael L\xE6gran: Programmer, Sound\nAndreas Karbu Wahlv\xE5g: Programer,
-    Artist, Miner narrative, Playtest representetive, Playtest documenter, Playtest
-    technician, Placeholder artist, Consept artist, Bug tester"
+    Game Designer, Vision Keeper\nInga Sigurr\xF3s \xDE\xF3risd\xF3ttir: Artist,
+    Art design, Narrative overseer\nMikael L\xE6gran: Programmer, Sound Design\nAndreas
+    Karbu Wahlv\xE5g: Programer, Artist, Miner narrative, Playtest representetive,
+    Playtest documenter, Playtest technician, Placeholder artist, Consept artist,
+    Bug tester\nLauren Kleinbussink - Narrative support\nAnna Leiler - Mentor"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1026,7 +1027,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -209.87756, w: -317.10098}
+  m_margin: {x: 0, y: 0, z: -769.3468, w: -317.10098}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
