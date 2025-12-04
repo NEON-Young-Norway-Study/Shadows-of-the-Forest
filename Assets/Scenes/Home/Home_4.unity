@@ -3170,12 +3170,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1547674041661155735, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: ThingsToActivate.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1547674041661155735, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
-      objectReference: {fileID: 6338483712257418711, guid: 75329b399dfacc6428acde6ad9e3a2ef, type: 3}
+      objectReference: {fileID: 1800270001}
     - target: {fileID: 2371611682842688247, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: ThingsToActivate.Array.size
       value: 1
