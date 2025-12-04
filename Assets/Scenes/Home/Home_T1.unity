@@ -366,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &792828924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,11 +775,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Next...
+      value: '"What is poisonous to bears?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -1027,14 +1027,14 @@ RectTransform:
   m_GameObject: {fileID: 8515295571996727694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2869980402510278126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 718, y: -3.7787}
+  m_AnchoredPosition: {x: 718, y: 110}
   m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593095971014282496
@@ -1287,8 +1287,8 @@ RectTransform:
   m_GameObject: {fileID: 8645870393032830654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 600892430478193512}
   - {fileID: 1244081337669030053}
@@ -1324,11 +1324,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Now...
+      value: '"When do bears hibernate?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -1482,11 +1482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is completely fine for us to eat
+      value: '"That is completely fine for us to eat"'
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -1530,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is right! even though I am curious how it would taste
+      value: '"That is right! even though I am curious what it would taste like"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -1590,6 +1590,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -1652,7 +1656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 1593095971014282496}
   dialogueLines:
-  - "She\u2019s a natural talent!"
+  - "\"She\u2019s a natural!!\""
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -1693,7 +1697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 3958563596424935208}
   dialogueLines:
-  - She did great at school, and she is quite the catch-er
+  - '"She did great at school, and she is quite the catch-er"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -1822,8 +1826,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Nope, it is in winter silly, that is why we catch so many salmon, and
-        eat loads of berries
+      value: '"Nope, it''s in winter silly! That is why we catch so much salmon,
+        and eat loads of berries"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -1843,7 +1847,7 @@ PrefabInstance:
       objectReference: {fileID: 26901514581241068}
     - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
-      value: All the time
+      value: The whole year
       objectReference: {fileID: 0}
     - target: {fileID: 3238530020753012732, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: DialogueOptionA
@@ -1867,7 +1871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Very well done! That is indeed correct!
+      value: '"Very well done! That is indeed correct!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -1927,6 +1931,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -2043,7 +2051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Now lets get into your homework
+      value: '"Now let''s get into your homework"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -2209,11 +2217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: A bit of practice makes the tests go easier, that is why we have homework
+      value: '"A bit of practice makes tests easier, that is why we have homework"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: What is a bears biggest threat?
+      value: '"What is a bear''s biggest threat?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -2344,12 +2352,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: hahaha, I would win it in a fight with them, but Humans?
+      value: '"Hahaha, I could beat them in a fight, but humans?"'
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: Due to territory loss, and them hunting bears for fur, they are our
-        biggest threat
+      value: '"Due to territory loss, and them hunting us for our fur, they are our
+        biggest threat"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -2389,7 +2397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Very well done!
+      value: '"Very well done!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -2399,9 +2407,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueOptions&Paths
       objectReference: {fileID: 0}
+    - target: {fileID: 5385044472286601487, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
-      value: Wolfs
+      value: Wolves
       objectReference: {fileID: 0}
     - target: {fileID: 6846411022039680536, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
@@ -2450,6 +2462,10 @@ PrefabInstance:
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
@@ -2559,7 +2575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Ew, no
+      value: '"Ew, no!"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -2684,13 +2700,21 @@ PrefabInstance:
       propertyPath: m_text
       value: Yes it was great
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: A very important skill for young bears
+      value: '"A very important skill for young bears"'
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -2718,7 +2742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is really great to hear
+      value: '"That''s great to hear!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -2726,11 +2750,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
-      value: Dad taught me how to fish
+      value: Dad taught me how to fish!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
       value: DialogueOptions&Paths 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7458575938730889646, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Texture
@@ -2780,6 +2820,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 80c179a428d176c4381a3421560c507d, type: 3}
+    - target: {fileID: 8961361866912099134, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2949,7 +2993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: O hi honey bear, welcome home, had a nice day with dad?
+      value: '"Oh hi honey bear, welcome home! Did you have a nice day out with dad?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -3160,8 +3204,8 @@ RectTransform:
   m_GameObject: {fileID: 5301538623607933437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 911687365768821584}
   - {fileID: 8790273231603540908}
@@ -3264,14 +3308,14 @@ RectTransform:
   m_GameObject: {fileID: 1742495140045250029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8457113576056396111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 718, y: -3.7787}
+  m_AnchoredPosition: {x: 718, y: 110}
   m_SizeDelta: {x: 225, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &8909685473248151696
@@ -3308,11 +3352,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: See, that didn't take so long did it?
+      value: '"See, that didn''t take long, did it?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: Now, go to bed. Tomorrow I will teach you how to find and sort berries
+      value: '"Now, go to bed. Tomorrow I will teach you how to find and sort berries"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
