@@ -1181,6 +1181,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5477273664422576884, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: ThingsToActivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5477273664422576884, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
       objectReference: {fileID: 232410159}
