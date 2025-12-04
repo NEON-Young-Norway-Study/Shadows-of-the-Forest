@@ -9,6 +9,8 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private float textSpeed = 0.05f;
     [SerializeField] private MonoBehaviour playerMovement;
     [SerializeField] private NPCMovement npc;
+    [SerializeField] private string sceneToLoad;
+
 
     private int lineIndex;
     private CharacterController controller;
@@ -89,5 +91,22 @@ public class DialogueSystem : MonoBehaviour
         {
             npc.MoveToNextCheckpoint();
         }
+
+        // ✅ Only load a scene if one was assigned
+        if (!string.IsNullOrEmpty(sceneToLoad))
+        {
+            SceneController.Instance.LoadScene(sceneToLoad);
+        }
+        // gameObject.SetActive(false);
+
+        // if (playerMovement != null)
+        // {
+        //     ((MainCharacterController)playerMovement).movementLocked = false;
+        // }
+
+        // if (npc != null)
+        // {
+        //     npc.MoveToNextCheckpoint();
+        // }
     }
 }
