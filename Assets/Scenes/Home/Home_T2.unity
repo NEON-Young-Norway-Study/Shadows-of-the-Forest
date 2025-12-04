@@ -953,7 +953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Now let's enjoy some cake
+      value: '"You deserve some an extra piece of pie"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -1173,11 +1173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Next question...
+      value: '"Next question"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: How many claws does a bear have on a single paw?
+      value: '"How many claws does a bear have on a single paw?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -1308,11 +1308,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That's wrong, we're omnivores
+      value: '"That''s incorrect, we''re omnivores"'
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: That means that we eat meat, plants and other avalable foods, like honey
+      value: '"That means we eat all sorts of things, like berries and honey, but
+        also meat and fish"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -1352,11 +1353,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Correct, we're omnivores
+      value: '"Correct, we''re omnivores"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: That means that we eat meat, plants and other avalable foods, like honey
+      value: '"Omnivores eat all sorts of things, like berries and honey, but also
+        meat and fish"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -1416,6 +1418,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -1494,7 +1500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 7656010482435771221}
   dialogueLines:
-  - Not you too, you have been infected
+  - '"Not you too! You have been infected!"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
@@ -1516,7 +1522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: The correct answer is the Arctic Regions which overlaps the North pole
+      value: '"The correct answer is the Arctic Regions, overlapping the North pole"'
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -1564,7 +1570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Exactly, great job
+      value: '"Exactly, great job!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -1624,6 +1630,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -1823,8 +1833,8 @@ RectTransform:
   m_GameObject: {fileID: 3967202009772357891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4650836131443706285}
   - {fileID: 7852581629161355884}
@@ -1832,8 +1842,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -308.5381}
-  m_SizeDelta: {x: -200, y: -817.0762}
+  m_AnchoredPosition: {x: 0, y: -448.99997}
+  m_SizeDelta: {x: -200, y: -817.0761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3608978643060738289
 MonoBehaviour:
@@ -1864,17 +1874,25 @@ PrefabInstance:
       propertyPath: m_text
       value: (Laugh)
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: O dont give me that, I know your laughing on the inside
+      value: '"Oh dont give me that, I know you''re laughing on the inside"'
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: Your just like your mom, beautiful but no sense of humor
+      value: '"You''re just like your mom. Beautiful, but no sense of humor!"'
       objectReference: {fileID: 0}
     - target: {fileID: 1547674041661155735, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -1894,19 +1912,31 @@ PrefabInstance:
       objectReference: {fileID: 7995259856177490627}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: At least one person has an understanding for great comedy
+      value: '"At least one person has an understanding of great comedy"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: But yes my love, I would love a piece of your cake
+      value: '"But yes my love, I would love a piece of pie"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: '"It''s my favorite, after all!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
       value: (Roll eyes)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
@@ -1960,6 +1990,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 7d59d17e6c6931d40a558a243ac21f09, type: 3}
+    - target: {fileID: 8961361866912099134, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2072,8 +2106,8 @@ RectTransform:
   m_GameObject: {fileID: 3175186885294026568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4674324952904866356}
   - {fileID: 5452234211803773106}
@@ -2081,7 +2115,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -308.5381}
+  m_AnchoredPosition: {x: 0, y: -448.99997}
   m_SizeDelta: {x: -200, y: -817.0762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &4567467508414271676
@@ -2098,7 +2132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I made berry jam pie today, would you like some?
+      value: '"I made berry jam pie today, would you like some?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -2266,11 +2300,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Now, the last question
+      value: '"Last question"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: Where do polar bears live?
+      value: '"Where do polar bears live?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
@@ -2476,13 +2510,21 @@ PrefabInstance:
       propertyPath: m_text
       value: RUDE!
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Hahaha!
+      value: '"Hahaha!"'
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -2510,15 +2552,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Sorry sorry, I know I can be a bit un"bear"able
+      value: '"Sorry sorry, I know I can be a bit un-bearable"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: But yes my love, I would love a piece of your cake my love
+      value: '"But yes my love, I would love a piece of your pie"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
-      value: Dont "bear"ate me
+      value: Dont "bear-ate me
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
@@ -2572,6 +2622,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 7d59d17e6c6931d40a558a243ac21f09, type: 3}
+    - target: {fileID: 8961361866912099134, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2868,7 +2922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: A "bear"y pie
+      value: '"A "bear-y pie?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -3045,11 +3099,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: But first, let's practise some homework
+      value: '"Alright sweetheart, let''s practice for the next school quiz""'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: What type of diet do bears belong to?
+      value: '"What kind of diet do bears eat?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -3225,8 +3279,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Hahaha, maybe next time count your own paw, as each of your fingers
-        has a claw
+      value: '"Hahaha, maybe next time you can count the fingers on your own paw.
+        Each of your five fingers has a claw"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -3270,7 +3324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Very well done, did you secretly count your own paw?
+      value: '"Very well done, did you secretly count them on your own paw?"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
@@ -3330,6 +3384,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -3410,8 +3468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
   dialogueText: {fileID: 3505373854625005518}
   dialogueLines:
-  - I thought I couldn't be prouder of you
-  - But yes my love, I would love a piece of your cake
+  - '"I thought I couldn''t be any more proud of you than I already was"'
+  - '"But yes my love, I would love a piece of your pie"'
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
