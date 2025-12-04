@@ -1005,8 +1005,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945682189370235522}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.17436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1015,7 +1015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.28655, y: 1.67465}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &1244081337669030053
@@ -1296,8 +1296,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -308.5381}
-  m_SizeDelta: {x: -200, y: -817.0762}
+  m_AnchoredPosition: {x: 0, y: -448.99997}
+  m_SizeDelta: {x: -200, y: -817.0761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2882952903315852033
 MonoBehaviour:
@@ -1660,6 +1660,7 @@ MonoBehaviour:
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
+  sceneToLoad: 
 --- !u!223 &3876490015735012830
 Canvas:
   m_ObjectHideFlags: 0
@@ -1701,6 +1702,7 @@ MonoBehaviour:
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
+  sceneToLoad: 
 --- !u!222 &3958459423599539694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3213,8 +3215,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -308.5381}
-  m_SizeDelta: {x: -200, y: -817.0762}
+  m_AnchoredPosition: {x: 0, y: -448.99997}
+  m_SizeDelta: {x: -200, y: -817.0761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8500131175611215127
 MonoBehaviour:
@@ -3325,8 +3327,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5415276966100748430}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.17436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3335,7 +3337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.28655, y: 1.67465}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &9003370702758302672
