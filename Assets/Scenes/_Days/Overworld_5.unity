@@ -34465,6 +34465,7 @@ MonoBehaviour:
   - {fileID: 1491535738}
   startOfDayTriggers:
   - {fileID: 0}
+  - {fileID: 0}
   foodMinigame_Finished: Salmon_5_Finished
   school_Finished: School_5_Finished
 --- !u!1 &2101134610
