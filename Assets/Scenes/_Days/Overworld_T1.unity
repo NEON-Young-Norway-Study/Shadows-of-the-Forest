@@ -659,8 +659,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 0}
+  - {fileID: 1469570792}
   Deactivate: []
+--- !u!1 &17111867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+  m_PrefabInstance: {fileID: 17111863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &22283970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,7 +1746,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Size.x
-      value: 34.5904
+      value: 15.515019
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Size.z
@@ -1749,7 +1754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Center.x
-      value: 15.150929
+      value: 21.731485
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Center.z
@@ -1813,7 +1818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33776,7 +33781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
   ThingsToActivate:
-  - {fileID: 17111865}
+  - {fileID: 17111867}
   Deactivate: []
 --- !u!1 &1888949191 stripped
 GameObject:
