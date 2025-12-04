@@ -628,6 +628,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5477273664422576884, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: ThingsToActivate.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Name
       value: DialogueG.4
@@ -821,6 +825,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5477273664422576884, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: ThingsToActivate.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
@@ -1074,6 +1082,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5477273664422576884, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: ThingsToActivate.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}

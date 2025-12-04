@@ -2545,7 +2545,7 @@ PrefabInstance:
     - target: {fileID: 2371611682842688247, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'ThingsToActivate.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7995259856177490627}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 2
