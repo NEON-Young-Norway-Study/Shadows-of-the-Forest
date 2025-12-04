@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 1565327340288465835}
   - component: {fileID: 6101492120264783065}
   - component: {fileID: 4654630718448193217}
+  - component: {fileID: 5477273664422576884}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -412,3 +413,18 @@ MonoBehaviour:
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
+--- !u!114 &5477273664422576884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957421122969044751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01dc6c5dca81b0046aaef0cdfaba36a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ActOnDeactScript
+  ThingsToActivate:
+  - {fileID: 0}
+  Deactivate: []
