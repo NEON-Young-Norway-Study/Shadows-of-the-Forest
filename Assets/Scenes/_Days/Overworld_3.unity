@@ -34803,7 +34803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
@@ -34811,11 +34811,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "\"Why don\u2019t you come to me tomorrow, and I\u2019ll help you with
-        your homework\""
+      value: "\"Why don\u2019t you come to me when you feel ready?\""
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
+      value: '"I can help you with your homework"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
       value: "\"You don\u2019t have to do this alone\""
       objectReference: {fileID: 0}
     - target: {fileID: 2195375471989141981, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
