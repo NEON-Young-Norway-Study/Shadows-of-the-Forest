@@ -31012,7 +31012,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6495295387268866830, guid: da6789fa763bf0e4fb2cbc0d6fe61593, type: 3}
       propertyPath: m_text
-      value: 
+      value: Dawn
       objectReference: {fileID: 0}
     - target: {fileID: 6584104991068862824, guid: da6789fa763bf0e4fb2cbc0d6fe61593, type: 3}
       propertyPath: m_Pivot.x

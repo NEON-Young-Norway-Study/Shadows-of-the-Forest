@@ -432,7 +432,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6495295387268866830, guid: da6789fa763bf0e4fb2cbc0d6fe61593, type: 3}
       propertyPath: m_text
-      value: 
+      value: Dawn...
       objectReference: {fileID: 0}
     - target: {fileID: 6584104991068862824, guid: da6789fa763bf0e4fb2cbc0d6fe61593, type: 3}
       propertyPath: m_Pivot.x
@@ -18081,7 +18081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (I need to get some salmon...)
+      value: (I need to catch some salmons...)
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
