@@ -18491,6 +18491,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6452224478442403170, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
   m_PrefabInstance: {fileID: 794870903}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &794870905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8542256672120597735, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+  m_PrefabInstance: {fileID: 794870903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &795739201
 GameObject:
   m_ObjectHideFlags: 0
@@ -36378,6 +36383,7 @@ MonoBehaviour:
   - {fileID: 1145209408}
   - {fileID: 158085930}
   - {fileID: 987015468}
+  - {fileID: 794870905}
   foodMinigame_Finished: Berry_4.75_Finished
   school_Finished: School_4.75_Finished
 --- !u!1 &1621473323
