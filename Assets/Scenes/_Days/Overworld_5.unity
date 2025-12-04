@@ -2547,11 +2547,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Hey! We did it!
+      value: '"Hey! We did it!"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: Congratulations on the award! You deserved it!
+      value: '"Congratulations on the award! You deserved it!"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -6991,7 +6991,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Size.x
-      value: 11.598446
+      value: 9.632261
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Size.z
@@ -6999,7 +6999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Center.x
-      value: 3.6549587
+      value: 2.6718688
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Center.z
@@ -9350,7 +9350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &535658983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19178,16 +19178,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Big congratulations to you, sweetheart! I am so proud of you!
+      value: '"Big congratulations to you, sweetheart! I am so proud of you!"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: There is cake and fresh berry juice inside
+      value: '"There is cake and fresh berry juice inside"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
-      value: When you are ready, head inside and we will have a little celebration
-        for your dad
+      value: '"When you are ready, head inside and we will have a little celebration
+        for your dad"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -19231,7 +19231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.83181
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19239,19 +19239,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 3.54983
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -19272,6 +19272,10 @@ PrefabInstance:
     - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Name
       value: Dialogue2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958884501853978428, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5969943398005017856, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Sprite
@@ -34576,12 +34580,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Great job on graduatin\u2019, kid"
+      value: "\"Great job on graduatin\u2019, kid\""
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "You\u2019ve come a long way. Ain\u2019t nothin\u2019 stoppin\u2019
-        ya now"
+      value: "\"You\u2019ve come a long way. Ain\u2019t nothin\u2019 stoppin\u2019
+        ya now\""
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
