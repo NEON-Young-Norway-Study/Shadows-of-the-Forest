@@ -252,7 +252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &792828924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2480,6 +2480,7 @@ MonoBehaviour:
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
+  sceneToLoad: 
 --- !u!1 &5511411373771148995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,6 +3059,7 @@ MonoBehaviour:
   textSpeed: 0.05
   playerMovement: {fileID: 0}
   npc: {fileID: 0}
+  sceneToLoad: 
 --- !u!1 &7144000244012968210
 GameObject:
   m_ObjectHideFlags: 0
