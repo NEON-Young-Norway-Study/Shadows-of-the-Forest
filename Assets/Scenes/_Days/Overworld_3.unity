@@ -432,7 +432,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6495295387268866830, guid: da6789fa763bf0e4fb2cbc0d6fe61593, type: 3}
       propertyPath: m_text
-      value: Dawn...
+      value: 2 weeks after the funeral...
       objectReference: {fileID: 0}
     - target: {fileID: 6584104991068862824, guid: da6789fa763bf0e4fb2cbc0d6fe61593, type: 3}
       propertyPath: m_Pivot.x
@@ -11488,7 +11488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &535658983
 MonoBehaviour:
   m_ObjectHideFlags: 0

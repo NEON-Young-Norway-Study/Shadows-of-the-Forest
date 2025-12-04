@@ -557,6 +557,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background_Berry_Part2
       objectReference: {fileID: 0}
+    - target: {fileID: 1452327954928103938, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4be2c2676fd1e1f4899c5ddf7f23d4bb, type: 3}
+    - target: {fileID: 1514272094398823308, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 723d57cbc5678e74dbc3b6462e0776a6, type: 3}
+    - target: {fileID: 1514272094398823308, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
+      propertyPath: m_Color.b
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514272094398823308, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514272094398823308, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
+      propertyPath: m_Color.r
+      value: 0.735849
+      objectReference: {fileID: 0}
     - target: {fileID: 1514272094398823308, guid: afcaa07c989aaca42a6fa22ed3971240, type: 3}
       propertyPath: m_SortingOrder
       value: -50
