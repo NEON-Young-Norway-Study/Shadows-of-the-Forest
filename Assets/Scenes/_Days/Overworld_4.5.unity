@@ -2519,7 +2519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: (I need to catch some salmons today...)
+      value: (I need to catch some salmon today...)
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -8972,7 +8972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: The final test of this school year is tomorrow! Are you excited?
+      value: '"The final test of this school year is tomorrow! Are you excited?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -9209,11 +9209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Now the last question
+      value: '"Now the last question"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: What is a female bear called?
+      value: '"What is a female bear called?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
@@ -12753,7 +12753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Ay, kid\u2026 ya look a bit outta sorts today"
+      value: "\"Ay, kid\u2026 ya look a bit outta sorts today\""
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -18944,17 +18944,25 @@ PrefabInstance:
       propertyPath: m_text
       value: "I\u2019m just tired"
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Heh, I get that. Some days yer brain just says \u2018nope"
+      value: "\"Heh, I get that. Some days yer brain just says \u2018nope\""
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "Just do what ya can today. That\u2019s enough, kid"
+      value: "\"Just do what ya can today. That\u2019s enough, kid\""
       objectReference: {fileID: 0}
     - target: {fileID: 1547674041661155735, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -18978,15 +18986,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Mm. Tired\u2019s normal. Heal\u2019n takes energy, ya know"
+      value: "\"Mm. Tired\u2019s normal. Heal\u2019n takes energy, ya know\""
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "Don\u2019t go pushin\u2019 yerself too hard, ya ain\u2019t a machine"
+      value: "\"Don\u2019t go pushin\u2019 yerself too hard, ya ain\u2019t a machine\""
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
-      value: "I don\u2019t wanna think today"
+      value: "I don\u2019t want to think today"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
@@ -19639,7 +19655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Where do most spectacled bears live?
+      value: '"Where do most spectacled bears live?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -20230,13 +20246,21 @@ PrefabInstance:
       propertyPath: m_text
       value: The Himalayas
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is incorrect, most of them live in the Andes Mountains
+      value: '"That is incorrect. Most of them live in the Andes Mountains"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -20258,6 +20282,14 @@ PrefabInstance:
       propertyPath: m_text
       value: The Andes
       objectReference: {fileID: 0}
+    - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 3238530020753012732, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: DialogueOptionA
       value: 
@@ -20276,11 +20308,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is correct! Very well done
+      value: '"That is correct! Very well done"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: The Grand Canyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Name
@@ -20289,6 +20329,14 @@ PrefabInstance:
     - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: The Alps
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6846411022039680536, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
@@ -20336,6 +20384,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -20923,7 +20975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Anyhow, if ya need me, give a holler. I\u2019m \u2019round"
+      value: "\"Anyhow, if ya need me, give a holler. I\u2019m \u2019round\""
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -24629,11 +24681,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Next question
+      value: '"Next question"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: What marking distinguishes an Asian black bear?
+      value: '"What marking distinguishes an Asian black bear?"'
       objectReference: {fileID: 0}
     - target: {fileID: 4660038567173388748, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: m_Pivot.x
@@ -26123,13 +26175,21 @@ PrefabInstance:
       propertyPath: m_text
       value: YES!
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Don\u2019t worry, let\u2019s go over the materials one more time"
+      value: "\"Don\u2019t worry, let\u2019s go over the materials one more time\""
       objectReference: {fileID: 0}
     - target: {fileID: 615626891299080976, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -26157,7 +26217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That's the spirit! But let's go over some information
+      value: '"That''s the spirit! Let''s go over some of the material"'
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -26166,6 +26226,14 @@ PrefabInstance:
     - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_text
       value: Why would I be excited for a test?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: e19442aac8583f142917d6d5607eedc2, type: 3}
       propertyPath: m_Name
@@ -27243,7 +27311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: I believe tomorrow will be even better
+      value: '"I believe you will perform even better tomorrow"'
       objectReference: {fileID: 0}
     - target: {fileID: 4654630718448193217, guid: f7232d8a3299b4b539ed091b8ce5451a, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -28023,13 +28091,21 @@ PrefabInstance:
       propertyPath: m_text
       value: Cow
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: The correct answer is Sow, actually
+      value: '"The correct answer is actually Sow"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -28050,6 +28126,14 @@ PrefabInstance:
     - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: Mare
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3238530020753012732, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: DialogueOptionA
@@ -28073,11 +28157,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is correct!
+      value: '"That is correct!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: Queen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Name
@@ -28086,6 +28178,14 @@ PrefabInstance:
     - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: Sow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6846411022039680536, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
@@ -28133,6 +28233,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
@@ -36070,13 +36174,21 @@ PrefabInstance:
       propertyPath: m_text
       value: White patch on the chest
       objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 269047118531524274, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1126649762382017551, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: That is incorrect, they have a white patch on their chest
+      value: '"That''s incorrect. They have a white patch on their chest"'
       objectReference: {fileID: 0}
     - target: {fileID: 1862020215086443056, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: ThingsToActivate.Array.size
@@ -36098,6 +36210,14 @@ PrefabInstance:
       propertyPath: m_text
       value: White tail
       objectReference: {fileID: 0}
+    - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740454461536182541, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 3238530020753012732, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: DialogueOptionA
       value: 
@@ -36116,11 +36236,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3482903838859468749, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Very well done! That is indeed correct!
+      value: '"Very well done! That is indeed correct!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: White mask
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875264793621075712, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5385044472286601487, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Name
@@ -36129,6 +36257,14 @@ PrefabInstance:
     - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_text
       value: White paws
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722014778278293823, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6846411022039680536, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_Sprite
@@ -36176,6 +36312,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819939767568265159, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961361866912099134, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9029648471644237221, guid: 06b065a7dde2d7a488e1f662126d8480, type: 3}
