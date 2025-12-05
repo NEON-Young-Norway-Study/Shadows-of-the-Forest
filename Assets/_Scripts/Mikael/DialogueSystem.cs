@@ -92,7 +92,6 @@ public class DialogueSystem : MonoBehaviour
             npc.MoveToNextCheckpoint();
         }
 
-        // ✅ Only load a scene if one was assigned
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
             SceneController.Instance.LoadScene(sceneToLoad);
