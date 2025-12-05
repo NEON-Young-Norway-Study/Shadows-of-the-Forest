@@ -8613,6 +8613,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 836987710134589707, guid: b1e09186f40fc9e47b9fe76513ce29d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 836987710134589707, guid: b1e09186f40fc9e47b9fe76513ce29d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.97
+      objectReference: {fileID: 0}
     - target: {fileID: 3111140566324469270, guid: b1e09186f40fc9e47b9fe76513ce29d4, type: 3}
       propertyPath: m_Name
       value: Snake
@@ -8620,6 +8628,10 @@ PrefabInstance:
     - target: {fileID: 3111140566324469270, guid: b1e09186f40fc9e47b9fe76513ce29d4, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3575397854562349052, guid: b1e09186f40fc9e47b9fe76513ce29d4, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8267938717498389025, guid: b1e09186f40fc9e47b9fe76513ce29d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19178,12 +19190,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 40910367}
     m_Modifications:
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
+      propertyPath: m_Size.x
+      value: 11.392648
+      objectReference: {fileID: 0}
+    - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Size.z
       value: 6.347939
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Center.x
-      value: 2.8970435
+      value: 2.242026
       objectReference: {fileID: 0}
     - target: {fileID: 5130148702026018117, guid: 0e2160fcd75d154409489dc0e6060bf0, type: 3}
       propertyPath: m_Center.z
@@ -29242,7 +29258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1680971633
 SpriteRenderer:
   m_ObjectHideFlags: 0
