@@ -959,11 +959,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Emma Vos: Team Lead, Narrative, Artist\nEinar Sterten: Lead Programmer,
     Game Designer, Vision Keeper\nInga Sigurr\xF3s \xDE\xF3risd\xF3ttir: Artist,
-    Art design, Narrative overseer\nMikael L\xE6gran: Programmer, Sound Design, UI\nAndreas
-    Karbu Wahlv\xE5g: Programmer, Artist, Miner narrative, Playtest representetive,
-    Playtest documenter, Playtest technician, Placeholder artist, Consept artist,
-    Bug tester, Design, UI\nLauren Kleinbussink: Narrative support\nAnna Leiler:
-    Mentor"
+    Art design, Narrative overseer, Character design, Placeholder Artist \nMikael
+    L\xE6gran: Programmer, Sound Design, UI\nAndreas Karbu Wahlv\xE5g: Programmer,
+    Artist, Miner narrative, Playtest representetive, Playtest documenter, Playtest
+    technician, Placeholder artist, Consept artist, Bug tester, Design, UI\nLauren
+    Kleinbussink: Narrative support\nAnna Leiler: Mentor"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -769.3468, w: -317.10098}
+  m_margin: {x: 0, y: -61.001526, z: -769.3468, w: -642.4508}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
