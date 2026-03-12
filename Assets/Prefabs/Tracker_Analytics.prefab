@@ -45,8 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce9251e9e3ed36f4eb38a5089a747a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: xasu::Xasu.XasuTracker
-  AutoStart: 1
+  AutoStart: 0
   EnableDebugLogging: 0
+  CanLoadConfigFromURL: 1
   processingLoopTime: 1
 --- !u!114 &2729195390272322553
 MonoBehaviour:

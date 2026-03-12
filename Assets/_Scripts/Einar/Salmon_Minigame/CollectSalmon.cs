@@ -18,7 +18,7 @@ public class CollectSalmon : MonoBehaviour
     private void Start()
     {
         counterText.text = "Salmon caught: " + salmonCount.ToString() + "/" + maxSalmonCount.ToString();
-        //CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
+        CompletableTracker.Instance.Initialized(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level);
 
     }
     private void OnTriggerEnter(Collider other)
@@ -44,19 +44,19 @@ public class CollectSalmon : MonoBehaviour
             PlayerPrefs.SetString(requiredKey, "true");
             PlayerPrefs.SetString(finishedSalmonKey, "true");
             PlayerPrefs.Save();
-            //CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
+            CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(true);
             SceneController.Instance.LoadScene(targetSceneName);
         }
     }
 
     public void GiveUpSalmonMinigame()
     {
-            PlayerPrefs.DeleteKey(salmonKey);
-            PlayerPrefs.SetString(requiredKey, "true");
-            PlayerPrefs.SetString(finishedSalmonKey, "true");
-            PlayerPrefs.Save();
-            SceneController.Instance.LoadScene(targetSceneName);
-
-        //CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(false);
+        PlayerPrefs.DeleteKey(salmonKey);
+        PlayerPrefs.SetString(requiredKey, "true");
+        PlayerPrefs.SetString(finishedSalmonKey, "true");
+        PlayerPrefs.Save();
+        SceneController.Instance.LoadScene(targetSceneName);
+        CompletableTracker.Instance.Completed("GiveUp", CompletableTracker.CompletableType.Race).WithContextExtension("https://salmon", true);
+        CompletableTracker.Instance.Completed(SceneManager.GetActiveScene().name, CompletableTracker.CompletableType.Level).WithSuccess(false);
     }
 }

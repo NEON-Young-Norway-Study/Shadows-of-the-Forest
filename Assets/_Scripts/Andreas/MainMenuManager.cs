@@ -20,12 +20,12 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Overworld_T1"); // replace with the acual scene whene thats added
+        SceneController.Instance.LoadScene("Graveyard"); // replace with the acual scene whene thats added
     }
 
     public void Options()
     {
-        SceneManager.LoadScene("OptionsScene"); // do we even want/need this?
+        SceneController.Instance.LoadScene("OptionsScene"); // do we even want/need this?
     }
 
     public void QuitGame()
@@ -35,22 +35,22 @@ public class MainMenuManager : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu"); // to get back to main menu
+        SceneController.Instance.LoadScene("MainMenu"); // to get back to main menu
     }
 
     public void SadSceneTest()
     {
-        SceneManager.LoadScene("Cutscene1SadBears"); 
+        SceneController.Instance.LoadScene("Cutscene1SadBears"); 
         // just to test the cutscene, but maybe we can use this script to load every scene when needed?
     }
 
     public void TheForbiddenScene()
     {
-        SceneManager.LoadScene("TestScene");
+        SceneController.Instance.LoadScene("TestScene");
     }
 
     public void T1()
     {
-        SceneManager.LoadScene("Overworld_T1");
+        SceneController.Instance.LoadScene("Overworld_T1");
     }
 }

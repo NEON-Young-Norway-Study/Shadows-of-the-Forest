@@ -1,13 +1,14 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Xasu;
 using Xasu.HighLevel;
 
 public class GameLogger : MonoBehaviour
 {
     async void Start()
     {
-        await Task.Yield();
+        await XasuTracker.Instance.Init();
         CompletableTracker.Instance.Initialized("ShadowsOfTheForest", CompletableTracker.CompletableType.Game);
         SceneManager.activeSceneChanged += SceneManager_activeSceneChanged;
     }
@@ -19,6 +20,5 @@ public class GameLogger : MonoBehaviour
 
     void OnDestroy()
     {
-        CompletableTracker.Instance.Completed("ShadowsOfTheForest", CompletableTracker.CompletableType.Game);
     }
 }
