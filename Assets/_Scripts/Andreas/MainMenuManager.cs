@@ -20,7 +20,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneController.Instance.LoadScene("Graveyard"); // replace with the acual scene whene thats added
+        SceneController.Instance.LoadScene("Overworld_T1"); // replace with the acual scene whene thats added
     }
 
     public void Options()
