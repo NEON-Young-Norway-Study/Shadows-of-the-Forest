@@ -9,11 +9,14 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    
+    <!-- Orientation Overlay -->
     <div id="orientation-overlay">
       <h2>Please rotate your device</h2>
       <p>This game only works in landscape mode.</p>
     </div>
 
+    <!-- Anti-Touch Absorb Overlay -->
     <div id="interaction-overlay">
       <h2>Adjust your screen</h2>
       <p>Swipe up to hide your browser's navigation bar.</p>
@@ -39,29 +42,21 @@
     <script>
       var canvas = document.querySelector("#unity-canvas");
 
-      // Hack para escapar del iframe de Simva y usar la pantalla completa real
-      function forceFullscreenSize() {
-        var container = document.querySelector("#unity-container");
-        if (container) {
-          container.style.position = "fixed";
-          container.style.top = "0px";
-          container.style.left = "0px";
-          container.style.width = "100vw";
-          container.style.height = "100vh";
-          container.style.zIndex = "99999";
-        }
-      }
-
       function unityShowBanner(msg, type) {
         var warningBanner = document.querySelector("#unity-warning");
-        function updateBannerVisibility() { warningBanner.style.display = warningBanner.children.length ? 'block' : 'none'; }
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
         var div = document.createElement('div');
         div.innerHTML = msg;
         warningBanner.appendChild(div);
         if (type == 'error') div.style = 'background: red; padding: 10px;';
         else {
           if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() { warningBanner.removeChild(div); updateBannerVisibility(); }, 5000);
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
         }
         updateBannerVisibility();
       }
@@ -78,24 +73,33 @@
         productName: "Shadows Of The Forest",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
-        matchWebGLToCanvasSize: false,
+        matchWebGLToCanvasSize: false, // ESTO ES VITAL
       };
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
         document.querySelector("#unity-container").className = "unity-mobile";
         canvas.className = "unity-mobile";
+
+        // Show the Interaction Overlay on Mobile
         document.getElementById("interaction-overlay").style.display = "flex";
-        window.addEventListener('load', forceFullscreenSize);
-        window.addEventListener('resize', forceFullscreenSize);
+
       } else {
+        // Desktop style:
         canvas.style.width = "1920px";
         canvas.style.height = "1080px";
       }
 
+      // Hide the Interaction Overlay when the button is clicked
       document.getElementById("btn-start-game").addEventListener("click", function() {
-        forceFullscreenSize();
         document.getElementById("interaction-overlay").style.display = "none";
       });
+
+      document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");
       script.src = loaderUrl;
@@ -104,10 +108,16 @@
           document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           document.querySelector("#unity-loading-bar").style.display = "none";
-          document.querySelector("#unity-fullscreen-button").onclick = () => { unityInstance.SetFullscreen(1); };
-        }).catch((message) => { alert(message); });
+          document.querySelector("#unity-fullscreen-button").onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
       };
+
       document.body.appendChild(script);
+
     </script>
   </body>
 </html>
