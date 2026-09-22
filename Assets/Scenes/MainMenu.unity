@@ -459,6 +459,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38213c9bd4bb4ff8a37ef5d34559c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NotDestroy
+--- !u!1 &387097548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3389363025039805319, guid: 74648e436eb2ab34ebca1a6bd1298bf1, type: 3}
+  m_PrefabInstance: {fileID: 5898999594314795572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &387097552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387097548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9682c77f1df810040ba255c7f58ba4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: xasu::Xasu.XasuTracker
+  AutoStart: 0
+  EnableDebugLogging: 1
+  CanLoadConfigFromURL: 1
+  processingLoopTime: 1
 --- !u!1 &441762591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,10 +2429,14 @@ PrefabInstance:
       propertyPath: EnableDebugLogging
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7897568878993782858, guid: 74648e436eb2ab34ebca1a6bd1298bf1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3389363025039805319, guid: 74648e436eb2ab34ebca1a6bd1298bf1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 387097552}
   m_SourcePrefab: {fileID: 100100000, guid: 74648e436eb2ab34ebca1a6bd1298bf1, type: 3}
 --- !u!1001 &7713233277333922383
 PrefabInstance:
