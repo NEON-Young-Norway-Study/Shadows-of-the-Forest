@@ -2,11 +2,11 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.AI; // Make sure to include this
+using UnityEngine.AI;
 using Xasu.HighLevel;
 
 [RequireComponent(typeof(CharacterController))]
-[RequireComponent(typeof(NavMeshAgent))] // Ensures NavMeshAgent is attached
+[RequireComponent(typeof(NavMeshAgent))]
 public class MainCharacterController : MonoBehaviour
 {
     private InputAction _moveAction, _jumpAction, _clickAction, _positionAction;
@@ -20,11 +20,18 @@ public class MainCharacterController : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float jumpForce = 1000f;
     [SerializeField] float verticalVelocity;
-    [SerializeField] float gravity = -9.81f; [Header("Point and Click Settings")]
+    [SerializeField] float gravity = -9.81f;
+
+    [Header("Point and Click Settings")]
     [Tooltip("Select the layer your ground is on so clicking ignores other objects.")]
     public LayerMask groundLayer;
 
     public bool movementLocked = false;
+
+    [Header("Diagonal Anti-Flicker Settings")]
+    [Tooltip("Buffer to prevent flickering between side and front/back when moving diagonally.")]
+    [SerializeField] private float diagonalThreshold = 0.2f;
+    private int _currentDirection = -1;
 
     [Header("Sprite References")]
     [SerializeField] GameObject front;
@@ -49,8 +56,6 @@ public class MainCharacterController : MonoBehaviour
 
         if (_agent != null)
         {
-            // IMPORTANT: We tell the NavMeshAgent to stop moving/rotating the object automatically.
-            // We will physically move the object using the CharacterController instead!
             _agent.updatePosition = false;
             _agent.updateRotation = false;
         }
@@ -60,14 +65,12 @@ public class MainCharacterController : MonoBehaviour
     {
         var actions = GetComponent<PlayerInput>().actions;
 
-        // Setup Keyboard / Gamepad Actions
         _jumpAction = actions.FindAction("Jump");
         _jumpAction.RegisterAnalytics();
 
         _moveAction = actions.FindAction("Move");
         _moveAction.RegisterAnalytics();
 
-        // Setup Point and Click Actions (Assume you named them Click and Position in Input System)
         _clickAction = actions.FindAction("Click");
         _positionAction = actions.FindAction("Position");
 
@@ -79,7 +82,6 @@ public class MainCharacterController : MonoBehaviour
 
     private void OnDisable()
     {
-
         if (_clickAction != null)
         {
             _clickAction.performed -= OnClickAction;
@@ -115,7 +117,6 @@ public class MainCharacterController : MonoBehaviour
     {
         if (movementLocked || _positionAction == null) return;
 
-        // If player clicks to move, set the NavMesh destination
         Vector2 pointerPosition = _positionAction.ReadValue<Vector2>();
         Ray ray = _mainCamera.ScreenPointToRay(pointerPosition);
 
@@ -127,9 +128,7 @@ public class MainCharacterController : MonoBehaviour
 
     private void Jump()
     {
-        // Cancel navigation when jumping manually
         if (_agent.hasPath) _agent.ResetPath();
-
         verticalVelocity = jumpForce;
     }
 
@@ -138,6 +137,7 @@ public class MainCharacterController : MonoBehaviour
         if (movementLocked)
         {
             moveInput = Vector2.zero;
+            _currentDirection = -1;
             animator.SetBool("isMoving", false);
             animator.SetInteger("Direction", -1);
 
@@ -158,21 +158,33 @@ public class MainCharacterController : MonoBehaviour
         // 1. DETERMINE MOVEMENT (Keyboard overrides NavMesh)
         if (moveInput.magnitude > 0.1f)
         {
-            // Keyboard detected! Stop NavMesh navigation immediately
             if (_agent.hasPath) _agent.ResetPath();
 
-            horizontalMove = new Vector3(moveInput.x, 0, moveInput.y) * moveSpeed;
+            Vector3 moveDir = new Vector3(moveInput.x, 0, moveInput.y).normalized;
+            Vector3 desiredOffset = moveDir * (moveSpeed * Time.deltaTime);
+
+            if (_agent.isOnNavMesh)
+            {
+                _agent.Move(desiredOffset);
+
+                Vector3 realDisplacement = _agent.nextPosition - transform.position;
+                realDisplacement.y = 0;
+
+                horizontalMove = realDisplacement / Time.deltaTime;
+            }
+            else
+            {
+                horizontalMove = moveDir * moveSpeed;
+            }
         }
         else if (_agent.hasPath)
         {
-            // Stop agent if we've basically reached the destination
             if (_agent.remainingDistance <= _agent.stoppingDistance + 0.1f && !_agent.pathPending)
             {
                 _agent.ResetPath();
             }
             else
             {
-                // Follow the NavMeshAgent's computed path but manually move via code
                 horizontalMove = _agent.desiredVelocity.normalized * moveSpeed;
             }
         }
@@ -180,7 +192,6 @@ public class MainCharacterController : MonoBehaviour
         // 2. APPLY GRAVITY
         if (_characterController.isGrounded)
         {
-            // -2 is slightly better than 0 to stop characters from bouncing down slopes
             if (verticalVelocity < 0) verticalVelocity = -2f;
         }
         else
@@ -188,7 +199,6 @@ public class MainCharacterController : MonoBehaviour
             verticalVelocity += gravity * Time.deltaTime;
         }
 
-        // Combine horizontal movement and gravity
         Vector3 finalMove = horizontalMove;
         finalMove.y = verticalVelocity;
 
@@ -196,13 +206,20 @@ public class MainCharacterController : MonoBehaviour
         _characterController.Move(finalMove * Time.deltaTime);
 
         // 4. SYNC NAVMESH AGENT TO CHARACTER CONTROLLER
-        // Because updatePosition is false, we must tether the invisible agent to our real body
-        _agent.nextPosition = transform.position;
+        if (_agent.isOnNavMesh)
+        {
+            Vector3 syncPosition = transform.position;
+            if (!_characterController.isGrounded)
+            {
+                syncPosition.y = _agent.nextPosition.y;
+            }
+            _agent.nextPosition = syncPosition;
+        }
 
         // 5. ANIMATIONS AND SOUND
-        bool isMoving = horizontalMove.magnitude > 0.1f;
+        bool isMoving = horizontalMove.magnitude > 0.1f || moveInput.magnitude > 0.1f;
 
-        if (isMoving)
+        if (horizontalMove.magnitude > 0.1f)
         {
             if (!footstepSource.isPlaying) footstepSource.Play();
         }
@@ -214,21 +231,42 @@ public class MainCharacterController : MonoBehaviour
         if (animator.GetBool("isMoving") != isMoving)
         {
             animator.SetBool("isMoving", isMoving);
-            Debug.Log("isMoving: " + isMoving);
         }
 
         if (isMoving)
         {
-            // Determine direction based on flat movement (ignoring gravity Y velocity!)
-            Vector3 direction = horizontalMove.normalized;
+            // Vector de dirección estable
+            Vector3 direction = moveInput.magnitude > 0.1f
+                ? new Vector3(moveInput.x, 0, moveInput.y).normalized
+                : horizontalMove.normalized;
 
             float absX = Mathf.Abs(direction.x);
             float absZ = Mathf.Abs(direction.z);
 
-            if (absZ > absX)
+            // Histéresis anti-parpadeo
+            bool isCurrentlyVertical = (_currentDirection == 0 || _currentDirection == 1);
+            bool isCurrentlyHorizontal = (_currentDirection == 2 || _currentDirection == 3);
+
+            bool preferVertical;
+
+            if (isCurrentlyVertical)
+            {
+                preferVertical = absZ >= (absX - diagonalThreshold);
+            }
+            else if (isCurrentlyHorizontal)
+            {
+                preferVertical = (absZ - diagonalThreshold) > absX;
+            }
+            else
+            {
+                preferVertical = absZ >= absX;
+            }
+
+            if (preferVertical)
             {
                 if (direction.z > 0)
                 {
+                    _currentDirection = 0;
                     front.SetActive(false);
                     side.SetActive(false);
                     back.SetActive(true);
@@ -238,6 +276,7 @@ public class MainCharacterController : MonoBehaviour
                 }
                 else
                 {
+                    _currentDirection = 1;
                     side.SetActive(false);
                     back.SetActive(false);
                     front.SetActive(true);
@@ -249,16 +288,19 @@ public class MainCharacterController : MonoBehaviour
             }
             else
             {
-                back.SetActive(false);
                 front.SetActive(false);
+                back.SetActive(false);
                 side.SetActive(true);
+
                 if (direction.x > 0)
                 {
+                    _currentDirection = 2;
                     side.transform.rotation = Quaternion.Euler(0, 180, 0);
                     animator.SetInteger("Direction", 2);
                 }
                 else
                 {
+                    _currentDirection = 3;
                     side.transform.rotation = Quaternion.Euler(0, 0, 0);
                     animator.SetInteger("Direction", 3);
                 }
@@ -266,6 +308,7 @@ public class MainCharacterController : MonoBehaviour
         }
         else
         {
+            _currentDirection = -1;
             back.SetActive(false);
             side.SetActive(false);
             back_left_arm.SetActive(false);

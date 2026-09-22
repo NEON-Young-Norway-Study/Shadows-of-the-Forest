@@ -1395,7 +1395,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2
+  m_Height: 1.5
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -1418,7 +1418,11 @@ MonoBehaviour:
   jumpForce: 3
   verticalVelocity: 0
   gravity: -9.81
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
   movementLocked: 0
+  diagonalThreshold: 0.2
   front: {fileID: 7275862293128069355}
   back: {fileID: 9073968337502374164}
   side: {fileID: 5075158486497055394}
